@@ -1,0 +1,707 @@
+# sent_id = 01_Umaru_Dikko_1
+# text_en = Umaru Dikko
+# text = Ùmaru Dikkò
+# text_ortho = Ùmaru Dikkò
+1	Ùmaru	Ùmaru	PROPN	_	_	0	root	_	Gloss=Ùmaru
+2	Dikkò	Dikkò	PROPN	_	_	1	flat:name	_	Gloss=Dikko
+
+# sent_id = 01_Umaru_Dikko_2
+# text_en = Umaru Dikko's case is something interesting to hear.
+# text = àlꞌamàr̃in Ùmar̃ù Dikkò àbù neː mài ban shàꞌawàr̃ jîː.
+# text_ortho = Àlꞌamàr̃in Ùmar̃ù Dikkò àbù neː mài ban shàꞌawàr̃ jîː.
+1	àlꞌamàr̃in	àlꞌamàr̃iː	NOUN	_	Definite=Cons|Gender=Masc	4	dislocated	_	Gloss=case.Masc.Cons
+2	Ùmar̃ù	Ùmar̃ù	PROPN	_	_	1	nmod	_	Gloss=Umaru
+3	Dikkò	Dikkò	PROPN	_	_	2	flat:name	_	Gloss=Dikko
+4	àbù	àbù	NOUN	_	Gender=Masc	0	root	_	Gloss=thing.Masc
+5	neː	_	AUX	neː	_	4	cop	_	Gloss=be
+6	mài	mài	PART	_	Number=Sing|PartType=Der	4	advmod	_	Gloss=owner/doer_of.Sing
+7	ban	baː	VERB	_	_	6	compound	_	Gloss=give
+8	shàꞌawàr̃	shàꞌawàː	NOUN	_	Definite=Cons|Gender=Fem	7	compound	_	Gloss=interest.Fem.Cons
+9	jîː	ji	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	nmod	_	Gloss=hear.Vnoun.Masc|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_3
+# text_en = The former minister of transport of Nigeria has escaped the country after the coup that the soldiers did in December 1983 when the civilian government of President Shehu Shagari was overturned.
+# text = tsoːhon ministàn sufùr̃in na Nàjeːr̃iyàː yaː tseːrèː neː dàgà ƙasâr̃ baːyan juːyìn mulkìn dà soːjà sukà yi à watan disambàː na shèːkararàr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà ukù, indà akà hamɓarar̃ dà gwamnatìn farar̃-hùːlaː ta Shùːgàbaː Sheːhù Shàːgàːri.
+# text_ortho = Tsoːhon Ministàn Sufùr̃in na Nàjeːr̃iyàː yaː tseːrèː neː dàgà ƙasâr̃ baːyan juːyìn mulkìn dà soːjà sukà yi à watan Disambàː na shèːkararàr̃ alìf da ɗàriː tar̃à đà tàmàːnin dà ukù, indà akà hamɓarar̃ dà gwamnatìn farar̃-hùːlaː ta Shùːgàbaː Sheːhù Shàːgàːri.
+1	tsoːhon	tsoːhoː	ADJ	_	Gender=Masc	2	amod	_	Gloss=old.Masc
+2	ministàn	ministàː	NOUN	_	Definite=Cons|Gender=Masc	7	nsubj	_	Gloss=minister.Masc.Cons
+3	sufùr̃in	sufùr̃iː	NOUN	_	Definite=Cons|Gender=Masc	2	nmod	_	Gloss=transport.Masc.Cons
+4	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	5	case	_	Gloss=Gen.Masc
+5	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	3	nmod	_	Gloss=Nigeria
+6	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	7	aux	_	Gloss=3Masc.Perf
+7	tseːrèː	tseːr-	VERB	_	_	0	root	_	Gloss=flee
+8	neː	neː	PART	_	PartType=Foc	7	discourse	_	Gloss=Emph
+9	dàgà	dàgà	ADP	_	_	10	case	_	Gloss=from
+10	ƙasâr̃	ƙasaː	NOUN	_	Definite=Def|Gender=Fem	7	obl:arg	_	Gloss=country.Fem.Def
+11	baːyan	baːyan	ADP	_	_	12	case	_	Gloss=after
+12	juːyìn	juːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	obl	_	Gloss=change.Vnoun.Masc.Cons
+13	mulkìn	mulkìː	NOUN	_	Definite=Def|Gender=Masc	12	obj	_	Gloss=rule.Masc.Def
+14	dà	dà	SCONJ	_	_	17	mark	_	Gloss=COMP
+15	soːjà	soːjà	NOUN	_	Number=Plur	17	nsubj	_	Gloss=soldiers.Plur
+16	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	17	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+17	yi	yi	VERB	_	_	12	acl:relcl	_	Gloss=do
+18	à	à	ADP	_	_	20	case	_	Gloss=at
+19	watan	wataː	NOUN	_	Definite=Cons|Gender=Masc	20	nmod	_	Gloss=month.Masc.Cons
+20	disambàː	disambàː	NOUN	_	Gender=Fem	17	obl:arg	_	Gloss=december.Fem
+21	na	na	PART	_	Case=Gen|PartType=Case	23	case	_	Gloss=Gen
+22	shèːkararàr̃	shèːkararàː	NOUN	_	Definite=Cons|Gender=Fem	23	nmod	_	Gloss=year.Fem.Cons
+23	alìf	alìf	NUM	_	_	20	nmod	_	Gloss=one_thousand
+24	dà	da	CCONJ	_	_	25	cc	_	Gloss=and|wordform=da
+25	ɗàriː	ɗàriː	NUM	_	Gender=Fem	23	conj	_	Gloss=hundred
+26	tar̃à	tar̃à	NUM	_	_	25	flat	_	Gloss=nine
+27	dà	dà	CCONJ	_	_	28	cc	_	Gloss=and
+28	tàmàːnin	tàmàːnin	NUM	_	_	26	conj	_	Gloss=eighty
+29	dà	dà	CCONJ	_	_	30	cc	_	Gloss=and
+30	ukù	ukù	NUM	_	_	26	conj	_	Gloss=three|SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	Gloss=PUNCT
+32	indà	indà	SCONJ	_	PronType=Rel	34	mark	_	Gloss=where
+33	akà	_	AUX	yaː	Aspect=Perf|Person=4	34	aux	_	Gloss=4.Perf.Rel|Relative=Rel
+34	hamɓarar̃	hamɓar-	VERB	_	Voice=Cau	20	acl:relcl	_	Gloss=overthrow.Cau
+35	dà	dà	ADP	_	_	36	case	_	Gloss=with
+36	gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	34	obl:arg	_	Gloss=government.Fem.Cons
+37	farar̃-hùːlaː	farar̃-hùːlaː	NOUN	_	Number=Plur	36	nmod	_	Gloss=civilian.Plur
+38	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	40	case	_	Gloss=Gen.Fem
+39	Shùːgàbaː	shùːgàbaː	NOUN	_	Gender=Masc	40	nmod	_	Gloss=president.Masc
+40	Sheːhù	Sheːhù	PROPN	_	_	36	nmod	_	Gloss=Sheːhù
+41	Shàːgàːri	Shàːgàːri	PROPN	_	_	40	flat:name	_	Gloss=Shàːgàːri|SpaceAfter=No
+42	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_4
+# text_en = As for Umaru Dikko, he crossed the border into Benin Republic, maybe after he changed his appearance, and entered as a priest.
+# text = shiː Ùmar̃ù Dikkò kuma ya tsallàkaː kân iyàːkaː ya shìga cikin ƙasar̃ Bìːni, ƙiːlà baːyan yaː ɓad dà kàmaː yaː yi shìgaː irìn ta fàːdaː.
+# text_ortho = Shiː Ùmar̃ù Dikkò kuma ya tsallàkaː kân iyàːkaː ya shìga cikin ƙasar̃ Bìːni, ƙiːlà baːyan yaː ɓad dà kàmaː yaː yi shìgaː irìn ta fàːdaː.
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated	_	Gloss=3Masc.Nom
+2	Ùmar̃ù	Ùmar̃ù	PROPN	_	_	1	appos	_	Gloss=Umaru
+3	Dikkò	Dikkò	PROPN	_	_	2	flat:name	_	Gloss=Dikko
+4	kuma	kuma	PART	_	PartType=Top	1	discourse	_	Gloss=also
+5	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	6	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+6	tsallàkaː	tsallak-	VERB	_	_	0	root	_	Gloss=cross_over
+7	kân	kân	ADP	_	_	8	case	_	Gloss=on
+8	iyàːkaː	iyàːkaː	NOUN	_	Gender=Fem	6	obl:arg	_	Gloss=border.Fem
+9	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	10	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+10	shìga	shig-	VERB	_	_	6	parataxis	_	Gloss=enter
+11	cikin	cikin	ADP	_	_	13	case	_	Gloss=inside
+12	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	13	nmod	_	Gloss=country.Fem.Cons
+13	Bìːni	Bìːni	PROPN	_	_	10	obl:arg	_	Gloss=Benin_Republic|SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
+15	ƙiːlà	ƙiːlà	ADV	_	_	18	advmod	_	Gloss=maybe
+16	baːyan	baːyan	SCONJ	_	_	18	mark	_	Gloss=after
+17	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	18	aux	_	Gloss=3Masc.Perf
+18	ɓad	ɓat-	ADV	_	Voice=Cau	10	advcl	_	Gloss=dispose_of.Cau
+19	dà	dà	ADP	_	_	20	case	_	Gloss=with
+20	kàmaː	kàmaː	NOUN	_	Gender=Fem	18	obl	_	Gloss=appearance.Fem
+21	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	22	aux	_	Gloss=3Masc.Perf
+22	yi	yi	VERB	_	_	18	parataxis	_	Gloss=do
+23	shìgaː	shig-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	22	xcomp	_	Gloss=enter.VNoun.Fem
+24	irìn	irìː	NOUN	_	_	26	nmod	_	Gloss=type_of
+25	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	26	case	_	Gloss=Gen.Fem
+26	fàːdaː	fàːdaː	NOUN	_	Gender=Masc	23	nmod	_	Gloss=priest.Masc|SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_5
+# text_en = After three days there, he came here to London by plane.
+# text = baːyan yaː yi kwaːnaː ukù à can nèː ya zoː nân Landàn à jirgin samà.
+# text_ortho = Baːyan yaː yi kwaːnaː ukù à can nèː ya zoː nân Landàn à jirgin samà.
+1	baːyan	baːyan	SCONJ	_	_	3	mark	_	Gloss=after
+2	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	3	aux	_	Gloss=3Masc.Perf
+3	yi	yi	VERB	_	_	0	root	_	Gloss=do
+4	kwaːnaː	kwaːnaː	NOUN	_	Gender=Masc	3	xcomp	_	Gloss=day.Masc
+5	ukù	ukù	NUM	_	_	4	nummod	_	Gloss=three
+6	à	à	ADP	_	_	7	case	_	Gloss=at
+7	can	can	ADV	_	Deixis=Remt|PronType=Dem	3	advmod	_	Gloss=Remt
+8	nèː	neː	PART	_	PartType=Foc	3	discourse	_	Gloss=Emph
+9	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	10	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+10	zoː	zoː	VERB	_	_	1	advcl:cleft	_	Gloss=go
+11	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	10	obl	_	Gloss=ProxS
+12	Landàn	Landàn	PROPN	_	Definite=Def|Gender=Masc	11	appos	_	Gloss=London
+13	à	à	ADP	_	_	14	case	_	Gloss=at
+14	jirgin	jirgiː	NOUN	_	Definite=Cons|Gender=Masc	10	obl	_	Gloss=vehicle.Masc.Cons
+15	samà	samà	ADV	_	_	14	compound	_	Gloss=above|SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_6
+# text_en = After a year, Umaru Dikko's case took a new turn after people tried to kidnap him in England.
+# text = baːyan shèːkaràː gùdaː nèː kuma àlꞌamàr̃in na Ùmar̃ù Dikkò ya kai gà wani saːbon matsayiː baːyân dà akà yi ƙòːƙarin saːcèː shi à Ingìlà.
+# text_ortho = Baːyan shèːkaràː  gùdaː nèː kuma àlꞌamàr̃in na Ùmar̃ù Dikkò ya kai gà wani saːbon matsayiː baːyân dà akà yi ƙòːƙarin saːcèː shi à Ingìlà.
+1	baːyan	baːyan	ADP	_	_	2	case	_	Gloss=after
+2	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	11	obl	_	Gloss=year.Fem
+3	gùdaː	gùdaː	NOUN	_	Gender=Masc	2	nummod	_	Gloss=unit/one.Masc
+4	nèː	neː	PART	_	PartType=Foc	2	discourse	_	Gloss=Emph
+5	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also
+6	àlꞌamàr̃in	àlꞌamàr̃iː	NOUN	_	Definite=Cons|Gender=Masc	11	nsubj	_	Gloss=case.Masc.Cons
+7	na	na	PART	_	Case=Gen|PartType=Case	8	case	_	Gloss=Gen
+8	Ùmar̃ù	Ùmar̃ù	PROPN	_	_	6	nmod	_	Gloss=Umaru
+9	Dikkò	Dikkò	PROPN	_	_	8	flat:name	_	Gloss=Dikko
+10	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	11	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+11	kai	kai	VERB	_	_	0	root	_	Gloss=reach/carry_to
+12	gà	gà	ADP	_	_	15	case	_	Gloss=to
+13	wani	wani	DET	_	Definite=Spec|Gender=Masc	15	det	_	Gloss=some.Masc.Spec
+14	saːbon	saːboː	ADJ	_	Definite=Cons|Gender=Masc	15	amod	_	Gloss=new.Masc.Cons
+15	matsayiː	matsayiː	NOUN	_	Gender=Masc	11	obl:arg	_	Gloss=situation.Masc
+16	baːyân	baːyân	SCONJ	_	ExtPos=SCONJ	19	mark	_	Gloss=after|Idiom=Yes
+17	dà	dà	SCONJ	_	_	16	fixed	_	Gloss=COMP|InIdiom=Yes
+18	akà	_	AUX	yaː	Aspect=Perf|Person=4	19	aux	_	Gloss=4.Perf.Rel|Relative=Rel
+19	yi	yi	VERB	_	_	11	advcl	_	Gloss=do
+20	ƙòːƙarin	ƙòːƙariː	NOUN	_	Definite=Cons|Gender=Masc	19	xcomp	_	Gloss=effort.Masc.Cons
+21	saːcèː	saːt-	VERB	_	Gender=Fem	20	ccomp	_	Gloss=kidnap
+22	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	21	obj	_	Gloss=3Masc.Acc
+23	à	à	ADP	_	_	24	case	_	Gloss=at
+24	Ingìlà	Ingìlà	PROPN	_	_	21	obl	_	Gloss=England|SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_7
+# text = waɗàndà sukà yi niyyàr̃ saːcèː shîn sun cafkèː shi à kân tiːtìn Landàn, sukà sâː masà ankwàː, sukà ɗuːràː masà ƙwàːyaː, sànnan sukà sâː shi à cikin wani kaːtòn àkwàːtì, sukà sâː ƙuːsàː sukà rufèː àkwàːtìn gam, sunàː shirin kai shì Nàːjeːr̃iyàː.
+# text_en = Those who tried to kidnap him seized him on the streets on London, handcuffed him, drugged him, then put him in a large box, nailed and closed tight the box, and prepared to send it to Nigeria.
+# text_ortho = Waɗàndà sukà yi niyyàr̃ saːcèː shîn sun cafkèː shi à kân tiːtìn Landàn, sukà sâː masà ankwàː, sukà ɗuːràː masà ƙwàːyaː, sànnan sukà sâː shi à cikin wani kaːtòn àkwàːtì, sukà sâː ƙuːsàː sukà rufèː àkwàːtìn gam, sunàː shirin kai shì Nàːjeːr̃iyàː.
+1	waɗàndà	wandà	PRON	_	Number=Plur|PronType=Rel	8	nsubj	_	Gloss=REL.Plur
+2	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	3	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+3	yi	yi	VERB	_	_	1	acl:relcl	_	Gloss=do
+4	niyyàr̃	niyyàː	NOUN	_	Definite=Cons|Gender=Fem	3	xcomp	_	Gloss=attempt.Fem.Cons
+5	saːcèː	saːt-	VERB	_	_	4	acl	_	Gloss=kidnap
+6	shîn	shi	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Person=3|PronType=Prs	5	obj	_	Gloss=3Sing.Acc.Def
+7	sun	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	8	aux	_	Gloss=3Plur.Perf
+8	cafkèː	cafk-	VERB	_	_	0	root	_	Gloss=seize
+9	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	8	obj	_	Gloss=3Masc.Acc
+10	à	à	ADP	_	_	12	case	_	Gloss=at
+11	kân	kân	ADP	_	_	12	case	_	Gloss=top
+12	tiːtìn	tiːtìː	NOUN	_	Definite=Cons|Gender=Masc	8	obl:arg	_	Gloss=street.Masc.Cons
+13	Landàn	Landàn	PROPN	_	_	12	nmod	_	Gloss=London|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	Gloss=PUNCT
+15	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	16	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+16	sâː	sâː	VERB	_	_	8	parataxis	_	Gloss=put
+17	masà	masà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	16	iobj	_	Gloss=3Masc.Dat
+18	ankwàː	ankwàː	NOUN	_	Gender=Fem	16	obj	_	Gloss=handcuffs.Fem|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	Gloss=PUNCT
+20	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	21	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+21	ɗuːràː	ɗuːr-	VERB	_	_	16	parataxis	_	Gloss=pour
+22	masà	masà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	21	iobj	_	Gloss=3Masc.Dat
+23	ƙwàːyaː	ƙwàːyaː	NOUN	_	Gender=Fem	21	obj	_	Gloss=drugs.Fem|SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	Gloss=PUNCT
+25	sànnan	sànnan	ADV	_	_	27	advmod	_	Gloss=then
+26	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	27	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+27	sâː	sâː	VERB	_	_	21	parataxis	_	Gloss=put
+28	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	27	obj	_	Gloss=3Masc.Acc
+29	à	à	ADP	_	_	33	case	_	Gloss=at
+30	cikin	cikin	ADP	_	_	33	case	_	Gloss=inside
+31	wani	wani	DET	_	Definite=Spec|Gender=Masc	33	det	_	Gloss=some.Masc.Spec
+32	kaːtòn	kaːtòː	ADJ	_	Definite=Cons|Gender=Masc	33	amod	_	Gloss=huge.Masc.Cons
+33	àkwàːtì	àkwàːtì	NOUN	_	Gender=Masc	27	obl:arg	_	Gloss=box.Masc|SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	Gloss=PUNCT
+35	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	36	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+36	sâː	sâː	VERB	_	_	27	parataxis	_	Gloss=put
+37	ƙuːsàː	ƙuːsàː	NOUN	_	Gender=Fem	36	obj	_	Gloss=nail.Fem
+38	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	39	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+39	rufèː	ruf-	VERB	_	_	36	parataxis	_	Gloss=close
+40	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	39	obj	_	Gloss=box.Masc.Def
+41	gam	gam	X	_	_	39	obl	_	Gloss=tight|Ideophon=Yes|SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	Gloss=PUNCT
+43	sunàː	_	AUX	nàː	Aspect=Prog|Number=Plur|Person=3	44	aux	_	Gloss=3Plur.Prog
+44	shirin	shiry-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	39	parataxis	_	Gloss=prepare.Vnoun.Masc.Cons
+45	kai	kai	VERB	_	_	44	ccomp	_	Gloss=reach/carry_to
+46	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	45	obj	_	Gloss=3Masc.Acc
+47	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	45	obl	_	Gloss=Nigeria|SpaceAfter=No
+48	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_8
+# text_en = On the box, they wrote "To the ministry of foreign affairs, government of the Nigerian Federation, Lagos", that is to say where they were going to send him.
+# text = à jìkin àkwàːtìn sai akà r̃ubùːtaː " zuwàː gà maꞌaikatar̃ har̃koːkin wàje, gwamnatìn tàːr̃ayyàr̃ Nàjeːr̃iyàː, Ìkko", wàːtòː indà zaː'à kai shì kèːnan.
+# text_ortho = À jìkin àkwàːtìn sai akà r̃ubùːtaː ‘Zuwàː gà Maꞌaikatar̃ Har̃koːkin Wàje, Gwamnatìn Tàːr̃ayyàr̃ Nàjeːr̃iyàː, Ìkko’, wàːtòː indà zaː à kai shì kèːnan.
+1	à	à	ADP	_	_	3	case	_	Gloss=at
+2	jìkin	jìkin	ADP	_	_	3	case	_	Gloss=on
+3	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	6	obl	_	Gloss=box.Masc.Def
+4	sai	sai	ADV	_	_	6	advmod	_	Gloss=then
+5	akà	_	AUX	yaː	Aspect=Perf|Person=4	6	aux	_	Gloss=4.Perf.Rel|Relative=Rel
+6	r̃ubùːtaː	r̃ubuːt-	NOUN	_	_	0	root	_	Gloss=write
+7	"	"	PUNCT	_	_	22	punct	_	Gloss=PUNCT
+8	zuwàː	zuwàː	ADP	_	_	22	case	_	Gloss=towards
+9	gà	gà	ADP	_	_	22	case	_	Gloss=to
+10	maꞌaikatar̃	maꞌaikataː	NOUN	_	Definite=Cons|Gender=Fem	22	reparandum	_	Gloss=ministry.Fem.Cons
+11	har̃koːkin	har̃kàː	NOUN	_	Definite=Cons|Number=Plur	10	nmod	_	Gloss=business.Plur.Cons
+12	wàje	wàje	ADV	_	_	11	advmod	_	Gloss=outside|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+14	gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	10	nmod	_	Gloss=government.Fem.Cons
+15	tàːr̃ayyàr̃	tàːr̃ayyàː	NOUN	_	Definite=Cons|Gender=Fem|Number=Plur	16	nmod	_	Gloss=federation.Fem.Cons
+16	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	14	nmod	_	Gloss=Nigeria|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
+18	Ìkko	Ìkko	PROPN	_	_	14	nmod	_	Gloss=Lagos|SpaceAfter=No
+19	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|SpaceAfter=No
+20	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+21	wàːtòː	wàːtòː	CCONJ	_	_	22	cc	_	Gloss=i.e.
+22	indà	indà	ADV	_	PronType=Rel	6	dep	_	Gloss=where
+23	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	24	aux	_	Gloss=4.Fut|wordform=à
+24	kai	kai	VERB	_	_	22	acl:relcl	_	Gloss=reach/carry_to
+25	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	24	obj	_	Gloss=3Masc.Acc
+26	kèːnan	neː	PART	_	PartType=Foc	22	discourse	_	Gloss=Emph|SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_9
+# text_en = Where one should write who was sending the box, they had written office of the Nigerian ambassador, "London".
+# text = à wajen indà ya kàmaːtà à r̃ubùːtà wandà ya aikàː dà àkwàːtìn kuma, sai akà r̃ubùːtà oːfishin jàkaːdàn Nàjeːr̃iyàː, " Landàn".
+# text_ortho = À wajen indà ya kàmaːtà à r̃ubùːtà wandà ya aikàː dà àkwàːtìn kuma, sai akà r̃ubùːtà ꞌOːfishin Jàkaːdàn Nàjeːr̃iyàː, Landàn’.
+1	à	à	ADP	_	_	2	case	_	Gloss=at
+2	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	17	dislocated	_	Gloss=place.Masc.Cons
+3	indà	indà	ADV	_	PronType=Rel	2	advmod	_	Gloss=where
+4	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	5	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+5	kàmaːtà	kamaːt-	VERB	_	_	3	acl:relcl	_	Gloss=be_appropriate
+6	à	_	AUX	yà	Mood=Sub|Person=4	7	aux	_	Gloss=4.Sub
+7	r̃ubùːtà	r̃ubuːt-	NOUN	_	_	5	csubj	_	Gloss=write
+8	wandà	wandà	PRON	_	Gender=Masc|PronType=Rel	7	obj	_	Gloss=REL.Masc
+9	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	10	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+10	aikàː	aik-	VERB	_	_	8	acl:relcl	_	Gloss=send
+11	dà	dà	ADP	_	_	12	case	_	Gloss=with
+12	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	10	obl:arg	_	Gloss=box.Masc.Def
+13	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also|SpaceAfter=No
+14	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+15	sai	sai	ADV	_	_	17	advmod	_	Gloss=then
+16	akà	_	AUX	yaː	Aspect=Perf|Person=4	17	aux	_	Gloss=4.Perf.Rel|Relative=Rel
+17	r̃ubùːtà	r̃ubuːt-	VERB	_	_	0	root	_	Gloss=write
+18	oːfishin	oːfishiː	NOUN	_	Definite=Cons|Gender=Masc	17	obj	_	Gloss=office.Masc.Cons
+19	jàkaːdàn	jàkaːdàː	NOUN	_	Definite=Cons|Gender=Masc	18	nmod	_	Gloss=ambassador.Masc.Cons
+20	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	Number=Plur	19	nmod	_	Gloss=Nigeria|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+22	"	"	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+23	Landàn	Landàn	PROPN	_	_	18	nmod	_	Gloss=London|SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	Gloss=PUNCT|SpaceAfter=No|wordform='
+25	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_10
+# text = indà Allàh ya ɗigàː wà gàːrin Ùmar̃ù Dikkò noːnòː shiː nèː wannàn àkwàːtì dai bài sàːmi taːshìː samà à cikin jirgiː ba.
+# text_en = Where Allah was kind to Umaru Dikko is that the box did not take off in the plane.
+# text_ortho = Indà Allàh ya ɗigàː wà gàːrin Ùmar̃ù Dikkò noːnòː shiː nèː wannàn àkwàːtì dai bài sàːmi taːshìː samà à cikin jirgiː ba.
+1	indà	indà	ADV	_	PronType=Rel	10	nsubj	_	Gloss=where
+2	Allàh	Allàh	PROPN	_	_	4	nsubj	_	Gloss=Allàh
+3	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	4	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+4	ɗigàː	ɗig-	VERB	_	_	1	acl:relcl	_	Gloss=pour
+5	wà	wà	ADP	_	Case=Dat	6	case	_	Gloss=Dat
+6	gàːrin	gàːriː	NOUN	_	Definite=Cons|Gender=Masc	4	obl:arg	_	Gloss=cassava_flour.Masc.Cons
+7	Ùmar̃ù	Ùmar̃ù	PROPN	_	_	6	nmod	_	Gloss=Umaru
+8	Dikkò	Dikkò	PROPN	_	_	7	flat:name	_	Gloss=Dikko
+9	noːnòː	noːnòː	NOUN	_	Gender=Masc	4	obj	_	Gloss=milk.Masc
+10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
+11	nèː	_	AUX	neː	PartType=Foc	10	cop	_	Gloss=be
+12	wannàn	wannàn	DET	_	Deixis=ProxS|Gender=Masc|PronType=Dem	13	det	_	Gloss=ProxS.Masc
+13	àkwàːtì	àkwàːtì	NOUN	_	Gender=Masc	16	nsubj	_	Gloss=box.Masc
+14	dai	dai	PART	_	PartType=Top	13	discourse	_	Gloss=anyway
+15	bài	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	16	aux	_	Gloss=3Masc.Perf.Neg
+16	sàːmi	saːm-	VERB	_	_	10	dislocated	_	Gloss=get
+17	taːshìː	taːs-	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	16	obj	_	Gloss=rise.Vnoun.Masc
+18	samà	samà	ADV	_	_	17	advmod	_	Gloss=above
+19	à	à	ADP	_	_	21	case	_	Gloss=at
+20	cikin	cikin	ADP	_	_	21	case	_	Gloss=inside
+21	jirgiː	jirgiː	NOUN	_	Gender=Masc	17	obl:arg	_	Gloss=vehicle.Masc
+22	ba	ba	PART	_	PartType=Neg|Polarity=Neg	16	advmod	_	Gloss=Neg|SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_11
+# text_en = In nineteen eighty-five, some Israeli, three in number, and a Nigerian spy, answered to the crime of trying to kidnap Umaru Dikko.
+# text = à shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː kuma wasu ꞌyan ƙasar̃ Ìsr̃aːꞌiːlà suː ukù, dà wani ɗan lèːƙen àsiːr̃ì mùtumìn Nàjeːr̃iyàː, sukà amsà lâifin ƙòːƙarin saːcè Ùːmar̃ù Dikkò.
+# text_ortho = À shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː kuma wasu ꞌyan ƙasar̃ Ìsr̃aːꞌiːlà suː ukù, dà wani ɗan lèːƙen àsiːr̃ì mùtumìn Nàjeːr̃iyàː, sukà amsà lâifin ƙòːƙarin saːcè Ùːmar̃ù Dikkò.
+1	à	à	ADP	_	_	3	case	_	Gloss=at
+2	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	3	nmod	_	Gloss=year.Fem.Cons
+3	alìf	alìf	NUM	_	_	29	obl	_	Gloss=one_thousand
+4	dà	dà	CCONJ	_	_	5	cc	_	Gloss=and
+5	ɗàriː	ɗàriː	NUM	_	Gender=Fem	3	conj	_	Gloss=hundred
+6	tar̃à	tar̃à	NUM	_	_	5	flat	_	Gloss=nine
+7	dà	dà	CCONJ	_	_	8	cc	_	Gloss=and
+8	tàmàːnin	tàmàːnin	NUM	_	_	3	conj	_	Gloss=eighty
+9	dà	dà	CCONJ	_	_	10	cc	_	Gloss=and
+10	bìyar̃	bìyar̃	NUM	_	_	3	conj	_	Gloss=five
+11	nèː	neː	PART	_	PartType=Foc	3	discourse	_	Gloss=Emph
+12	kuma	kuma	PART	_	PartType=Top	3	discourse	_	Gloss=also
+13	wasu	wani	DET	_	Definite=Spec|Number=Plur	14	det	_	Gloss=some.Plur.Spec
+14	ꞌyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	29	nsubj	_	Gloss=child.Plur.Cons
+15	ƙasar̃	ƙasaː	VERB	_	Definite=Cons|Gender=Fem	16	acl:desc	_	Gloss=country.Fem.Cons
+16	Ìsr̃aːꞌiːlà	Ìsr̃aːꞌiːlà	PROPN	_	_	14	compound	_	Gloss=Israel
+17	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	appos	_	Gloss=3Plur.Nom
+18	ukù	ukù	NUM	_	_	17	nummod	_	Gloss=three|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
+20	dà	dà	CCONJ	_	_	22	cc	_	Gloss=and
+21	wani	wani	DET	_	Definite=Spec|Gender=Masc	22	det	_	Gloss=some.Masc.Spec
+22	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	14	conj	_	Gloss=child.Masc.Cons
+23	lèːƙen	leːƙ-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	22	compound	_	Gloss=peep.Vnoun.Masc.Cons
+24	àsiːr̃ì	àsiːr̃ì	NOUN	_	Gender=Masc	23	compound	_	Gloss=secret.Masc
+25	mùtumìn	mùtûm	NOUN	_	Definite=Cons|Gender=Masc	22	appos	_	Gloss=person.Masc.Cons
+26	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	25	nmod	_	Gloss=Nigeria|SpaceAfter=No
+27	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
+28	sukà	_	AUX	yaː	Aspect=Perf|Number=Plur|Person=3	29	aux	_	Gloss=3Plur.Perf.Rel|Relative=Rel
+29	amsà	ams-	VERB	_	_	0	root	_	Gloss=answer
+30	lâifin	lâifiː	NOUN	_	Definite=Cons|Gender=Masc	29	obj	_	Gloss=crime.Masc.Cons
+31	ƙòːƙarin	ƙòːƙariː	NOUN	_	Definite=Cons|Gender=Masc	30	nmod	_	Gloss=effort.Masc.Cons
+32	saːcè	saːt-	VERB	_	_	31	ccomp	_	Gloss=kidnap
+33	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	32	obj	_	Gloss=Umaru
+34	Dikkò	Dikkò	PROPN	_	_	33	flat:name	_	Gloss=Dikko|SpaceAfter=No
+35	.	.	PUNCT	_	_	29	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_12
+# text_en = Long ago, they were sentenced to a long imprisonment.
+# text = tùni akà yankèː musù hukuncìn daurìː mài tsawoː à kûr̃kukùː.
+# text_ortho = Tùni akà yankèː musù hukuncìn daurìː mài tsawoː à kûr̃kukùː.
+1	tùni	tùni	ADV	_	_	3	advmod	_	Gloss=long_ago
+2	akà	_	AUX	yaː	Aspect=Perf|Person=4	3	aux	_	Gloss=4.Perf.Rel|Relative=Rel
+3	yankèː	yank-	VERB	_	_	0	root	_	Gloss=cut
+4	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	iobj	_	Gloss=3Plur.Dat
+5	hukuncìn	hukuncìː	NOUN	_	Definite=Cons|Gender=Masc	3	obj	_	Gloss=sentence.Masc.Cons
+6	daurìː	daurìː	NOUN	_	Gender=Masc	5	nmod	_	Gloss=imprisonment.Masc
+7	mài	mài	PART	_	Number=Sing|PartType=Der	5	advmod	_	Gloss=owner/doer_of.Sing
+8	tsawoː	tsawoː	NOUN	_	Gender=Masc	7	compound	_	Gloss=length.Masc
+9	à	à	ADP	_	_	10	case	_	Gloss=at
+10	kûr̃kukùː	kûr̃kukùː	NOUN	_	Gender=Masc	3	obl	_	Gloss=prison.Masc|SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_13a
+# text_en = A the time of the trial, the judge said Umaru Dikko was described as " a huge thief whom nobody had ever seen the like in the world."
+# text = à loːkàcin shàr̃iꞌàr̃, mài shàr̃iꞌàː yaː cêː an bayyànà Ùːmar̃ù Dikkò dà cêːwaː: “ wani ƙàːsur̃gumin ɓàraːwòː neː dà bà'à taɓà yîn irìn-sà ba à duːniyàː. ".
+# text_ortho = À loːkàcin shàr̃iꞌàr̃, Mài Shàr̃iꞌàː yaː cêː an bayyànà Ùːmar̃ù Dikkò dà cêwaː: “Wani ƙàːsur̃gumin ɓàraːwòː neː dà bà à taɓà yîn irìnsà ba à duːniyàː.” Sai à watàn Jànair̃u na shekaràr̃ alif dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː Gwamnatìn Nàjeːr̃iyàː ta bùkàːci Bìr̃taːniyà tà miːƙàː matà shiː don à gur̃faːnar̃ dà shiː à gàban shàr̃iꞌàː kân lâifin cîn hancìː dà kàrɓar̃ r̃ashawaː ta fâm miliyàn bàr̃kàtài.
+1	à	à	ADP	_	_	2	case	_	Gloss=at
+2	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	obl	_	Gloss=time.Masc.Cons
+3	shàr̃iꞌàr̃	shàr̃iꞌàː	NOUN	_	Definite=Def|Gender=Fem	2	nmod	_	Gloss=court.Fem.Def|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+5	mài	mài	PART	_	Number=Sing|PartType=Der	8	dep	_	Gloss=owner/doer_of.Sing
+6	shàr̃iꞌàː	shàr̃iꞌàː	NOUN	_	Gender=Masc	5	compound	_	Gloss=justice.Fem
+7	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	8	aux	_	Gloss=3Masc.Perf
+8	cêː	cêː	VERB	_	_	0	root	_	Gloss=say
+9	an	_	AUX	yaː	Aspect=Perf|Person=4	10	aux	_	Gloss=4.Perf
+10	bayyànà	bayyan-	VERB	_	_	8	ccomp	_	Gloss=describe
+11	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	10	obj	_	Gloss=Umaru
+12	Dikkò	Dikkò	PROPN	_	_	11	flat:name	_	Gloss=Dikko
+13	dà	dà	ADP	_	_	19	mark	_	Gloss=with
+14	cêːwaː	cêːwaː	SCONJ	_	_	19	mark	_	Gloss=COMP|SpaceAfter=No|wordform=cêwaː
+15	:	:	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+16	“	“	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+17	wani	wani	DET	_	Definite=Spec|Gender=Masc	19	det	_	Gloss=some.Masc.Spec
+18	ƙàːsur̃gumin	ƙàːsur̃gumiː	ADJ	_	Definite=Cons|Gender=Masc	19	amod	_	Gloss=huge.Masc.Cons
+19	ɓàraːwòː	ɓàraːwòː	NOUN	_	Gender=Masc	10	ccomp	_	Gloss=thief.Masc
+20	neː	_	AUX	neː	_	19	cop	_	Gloss=be
+21	dà	dà	SCONJ	_	_	23	mark	_	Gloss=COMP
+22	bà'à	_	AUX	yaː	Aspect=Perf|Person=4|Polarity=Neg	23	aux	_	Gloss=4.Perf.Neg
+23	taɓà	taɓ-	VERB	_	_	19	acl:relcl	_	Gloss=have_already
+24	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	23	obj	_	Gloss=do.Vnoun.Masc.Cons
+25	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	24	xcomp	_	Gloss=kind.Masc.Cons|SpaceAfter=No|wordform=irìnsà
+26	-sà	-sà	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	25	nmod/m	_	Gloss=-3Masc.Gen|wordform=sà
+27	ba	ba	PART	_	PartType=Neg|Polarity=Neg	23	advmod	_	Gloss=Neg
+28	à	à	ADP	_	_	29	case	_	Gloss=at
+29	duːniyàː	duːniyàː	NOUN	_	Gender=Fem	23	obl	_	Gloss=world.Fem|SpaceAfter=No
+30	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+31	"	"	PUNCT	_	_	19	punct	_	Gloss=PUNCT|SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_13b
+# text_en = Then in January of the year nineteen eighty-five, the Nigerian government requested Great-Britain to hand him over to be prosecuted for corruption and taking bribes for millions of pounds.
+# text = sai à watàn Jànair̃u na shèːkaràr̃ alif dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː gwamnatìn Nàjeːr̃iyàː ta bùkàːci Bìr̃taːniyà tà miːƙàː matà shiː don à gur̃faːnar̃ dà shiː à gàban shàr̃iꞌàː kân lâifin cîn hancìː dà kàrɓar̃ r̃ashawaː ta fâm miliyàn bàr̃kàtài.
+# text_ortho = Sai à watàn Jànair̃u na shekaràr̃ alif dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː Gwamnatìn Nàjeːr̃iyàː ta bùkàːci Bìr̃taːniyà tà miːƙàː matà shiː don à gur̃faːnar̃ dà shiː à gàban shàr̃iꞌàː kân lâifin cîn hancìː dà kàrɓar̃ r̃ashawaː ta fâm miliyàn bàr̃kàtài.
+1	sai	sai	ADV	_	_	19	advmod	_	Gloss=then
+2	à	à	ADP	_	_	4	case	_	Gloss=at
+3	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	4	nmod	_	Gloss=month.Masc.Cons
+4	Jànair̃u	Jànair̃u	NOUN	_	Gender=Masc	19	obl	_	Gloss=january.Masc
+5	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	7	case	_	Gloss=Gen.Masc
+6	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	7	nmod	_	Gloss=year.Fem.Cons
+7	alif	àlif	NUM	_	_	4	nmod	_	Gloss=one_thousand
+8	dà	dà	CCONJ	_	_	9	cc	_	Gloss=and
+9	ɗàriː	ɗàriː	NUM	_	Gender=Fem	7	conj	_	Gloss=hundred
+10	tar̃à	tar̃à	NUM	_	_	9	flat	_	Gloss=nine
+11	dà	dà	CCONJ	_	_	12	cc	_	Gloss=and
+12	tàmàːnin	tàmàːnin	NUM	_	_	10	conj	_	Gloss=eighty
+13	dà	dà	CCONJ	_	_	14	cc	_	Gloss=and
+14	bìyar̃	bìyar̃	NUM	_	_	10	conj	_	Gloss=five
+15	nèː	neː	PART	_	PartType=Foc	4	discourse	_	Gloss=Emph
+16	gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	19	nsubj	_	Gloss=government.Fem.Cons
+17	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	16	nmod	_	Gloss=Nigeria
+18	ta	_	AUX	yaː	Aspect=Perf|Gender=Fem|Person=3	19	aux	_	Gloss=3Fem.Perf.Rel|Relative=Rel
+19	bùkàːci	bukaːt-	VERB	_	_	0	root	_	Gloss=require
+20	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	22	nsubj	_	Gloss=Great_Britain
+21	tà	_	AUX	yà	Gender=Fem|Mood=Sub|Person=3	22	aux	_	Gloss=3Fem.Sub
+22	miːƙàː	miːƙ-	VERB	_	_	19	ccomp	_	Gloss=hand_over
+23	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	22	iobj	_	Gloss=3Fem.Dat
+24	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	22	obj	_	Gloss=3Masc.Nom
+25	don	don	SCONJ	_	_	27	mark	_	Gloss=in_order_to
+26	à	à	ADP	_	_	27	mark	_	Gloss=at
+27	gur̃faːnar̃	gur̃faːn-	VERB	_	Voice=Cau	22	advcl	_	Gloss=take_to_court.Cau
+28	dà	dà	ADP	_	_	29	case	_	Gloss=with
+29	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	27	obl:arg	_	Gloss=3Masc.Nom
+30	à	à	ADP	_	_	32	case	_	Gloss=at
+31	gàban	gàban	ADP	_	_	32	case	_	Gloss=front
+32	shàr̃iꞌàː	shàr̃iꞌàː	NOUN	_	Gender=Fem	27	obl:arg	_	Gloss=justice.Fem
+33	kân	kân	ADP	_	_	34	case	_	Gloss=on
+34	lâifin	lâifiː	NOUN	_	Definite=Cons|Gender=Masc	27	obl:arg	_	Gloss=crime.Fem.Cons
+35	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	34	nmod	_	Gloss=consume.Vnoun.Masc.Cons
+36	hancìː	hancìː	NOUN	_	Gender=Masc	35	compound	_	Gloss=bribe.Masc
+37	dà	dà	CCONJ	_	_	38	cc	_	Gloss=and
+38	kàrɓar̃	karɓ-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	35	conj	_	Gloss=take.Vnoun.Fem.Cons
+39	r̃ashawaː	r̃ashawaː	NOUN	_	Gender=Fem	38	obj	_	Gloss=corruption.Fem
+40	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	41	case	_	Gloss=Gen.Fem
+41	fâm	fâm	NOUN	_	Gender=Fem	39	nmod	_	Gloss=pound.Fem
+42	miliyàn	miliyàn	NUM	_	Gender=Fem	41	nummod	_	Gloss=million.Fem
+43	bàr̃kàtài	bàr̃kàtài	ADV	_	_	35	advmod	_	Gloss=all_over|SpaceAfter=No
+44	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_14
+# text_en = Well, during his whole stay here in Great-Britain, Umaru Dikko kept repeating that he did not steal millions of naira beyond reckoning by traficking rice, or all the other crimes that he was accused of having done.
+# text = tôː à duk loːkàcin zaman-sà à nân Bìr̃taːniyà dai, Ùːmar̃ù Dikkò yaː shaː naːnàːtà cêːwaː shiː bài sàːci kuɗiː nair̃àː miliyàn bìlaː adàdin ba ta hanyàr̃ gàdàː-gadar̃ shìnkaːfaː dà kuma duk sauran laifuffukàn dà akèː zàrgin yaː aikàtaː.
+# text_ortho = Tôː à duk loːkàcin zamansà à nân Bìr̃taːniyà dai, Ùːmar̃ù Dikkò yaː shaː naːnàːtà cêwaː shiː bài sàːci kuɗiː nair̃àː miliyàn bìlaː adàdin ba ta hanyàr̃ gàdàː-gadar̃ shìnkaːfaː dà kuma duk sauran laifuffukàn dà akèː zàrgin yaː aikàtaː.
+1	tôː	tòː	INTJ	_	_	15	discourse	_	Gloss=well
+2	à	à	ADP	_	_	4	case	_	Gloss=at
+3	duk	dukà	DET	_	_	4	det	_	Gloss=all
+4	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	15	obl	_	Gloss=time.Masc.Cons
+5	zaman	zama	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	nmod	_	Gloss=stay.Vnoun.Masc.Cons|SpaceAfter=No|wordform=zamansà
+6	-sà	-sà	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	5	nmod/m	_	Gloss=-3Masc.Gen|wordform=sà
+7	à	à	ADP	_	_	8	case	_	Gloss=at
+8	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	5	advmod	_	Gloss=ProxS
+9	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	8	appos	_	Gloss=Great_Britain
+10	dai	dai	PART	_	PartType=Top	8	discourse	_	Gloss=anyway|SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	Gloss=PUNCT
+12	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	15	nsubj	_	Gloss=Umaru
+13	Dikkò	Dikkò	PROPN	_	_	12	flat:name	_	Gloss=Dikko
+14	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	15	aux	_	Gloss=3Masc.Perf
+15	shaː	shaː	VERB	_	_	0	root	_	Gloss=keep_doing
+16	naːnàːtà	naːnaːt-	VERB	_	_	15	ccomp	_	Gloss=repeat
+17	cêːwaː	cêːwaː	SCONJ	_	_	20	mark	_	Gloss=COMP|wordform=cêwaː
+18	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	20	nsubj	_	Gloss=3Masc.Nom
+19	bài	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3|Polarity=Neg	20	aux	_	Gloss=3Masc.Perf.Neg
+20	sàːci	saːt-	VERB	_	_	16	ccomp	_	Gloss=steal
+21	kuɗiː	kuɗiː	NOUN	_	Gender=Masc	20	obj	_	Gloss=money.Masc
+22	nair̃àː	nair̃àː	NOUN	_	Gender=Fem	21	nmod	_	Gloss=naira.Fem
+23	miliyàn	miliyàn	NOUN	_	Gender=Fem	22	nummod	_	Gloss=million.Fem
+24	bìlaː	X	X	_	_	23	nmod	_	Gloss=beyond
+25	adàdin	X	X	_	_	24	dep	_	Gloss=number
+26	ba	ba	PART	_	PartType=Neg|Polarity=Neg	20	advmod	_	Gloss=Neg
+27	ta	ta	ADP	_	_	28	case	_	Gloss=via
+28	hanyàr̃	hanyàː	NOUN	_	Definite=Cons|Gender=Fem	20	obl	_	Gloss=way.Fem.Cons
+29	gàdàː-gadar̃	gàdàː-gadaː	NOUN	_	Definite=Cons|Gender=Fem	28	nmod	_	Gloss=traficking.Fem.Cons
+30	shìnkaːfaː	shìnkaːfaː	NOUN	_	Gender=Fem	29	nmod	_	Gloss=rice.Fem
+31	dà	dà	CCONJ	_	_	34	cc	_	Gloss=and
+32	kuma	kuma	PART	_	PartType=Top	34	discourse	_	Gloss=also
+33	duk	dukà	DET	_	_	34	det	_	Gloss=all
+34	sauran	sauraː	NOUN	_	Definite=Cons|Gender=Masc	20	conj	_	Gloss=rest.Masc.Cons
+35	laifuffukàn	lâifiː	NOUN	_	Definite=Def|Number=Plur	34	nmod	_	Gloss=crime.Plur.Def
+36	dà	dà	SCONJ	_	_	38	mark	_	Gloss=COMP
+37	akèː	_	AUX	nàː	Aspect=Prog|Person=4	38	aux	_	Gloss=4.Prog.Rel|Relative=Rel
+38	zàrgin	zarg-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	35	acl:relcl	_	Gloss=accuse.Vnoun.Masc.Cons
+39	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	40	aux	_	Gloss=3Masc.Perf
+40	aikàtaː	aikat-	VERB	_	_	38	ccomp	_	Gloss=do|SpaceAfter=No
+41	.	.	PUNCT	_	_	15	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_15a
+# text_en = He said that he should be given the status of refugee here in Great-Britain.
+# text = ya cèː shiː yaː càncànci à ɗàukeː shì à matsayin ɗan gudùn hijir̃aː à nân Bìr̃taːniyà,
+# text_ortho = Ya cèː shiː yaː càncànci à ɗàukeː shì à matsayin ɗan gudùn hijir̃aː à nân Bìr̃taːniyà, yanà mài cêwaː zâi kasànceː cikin wani mùmmuːnan haɗàr̃iː ìdan ya koːmàː gidaː Nàjeːr̃iyàː.
+1	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	2	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+2	cèː	cêː	VERB	_	Gender=Fem	0	root	_	Gloss=be.Fem
+3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	dislocated	_	Gloss=3Masc.Nom
+4	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	5	aux	_	Gloss=3Masc.Perf
+5	càncànci	cancant-	VERB	_	_	2	ccomp	_	Gloss=be_appropriate
+6	à	_	AUX	yà	Mood=Sub|Person=4	7	aux	_	Gloss=4.Sub
+7	ɗàukeː	ɗauk-	VERB	_	_	5	csubj	_	Gloss=take
+8	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	7	obj	_	Gloss=3Masc.Acc
+9	à	à	ADP	_	_	10	case	_	Gloss=at
+10	matsayin	matsayiː	NOUN	_	Gender=Masc	7	obl:arg	_	Gloss=position.Masc
+11	ɗan	ɗaː	NOUN	_	Definite=Cons|Gender=Masc	10	obj	_	Gloss=child.Masc.Cons
+12	gudùn	gudùː	NOUN	_	Definite=Cons|Gender=Masc	11	compound	_	Gloss=running.Masc.Cons
+13	hijir̃aː	hijir̃aː	NOUN	_	Gender=Fem	12	nmod	_	Gloss=refuge.Fem
+14	à	à	ADP	_	_	15	case	_	Gloss=at
+15	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	7	advmod	_	Gloss=ProxS
+16	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	15	appos	_	Gloss=Great_Britain|SpaceAfter=No
+17	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_15b
+# text_en = He said that he would face a serious danger if he went back to Nigeria.
+# text = yanàː mài cêːwaː zâi kasànceː cikin wani mùmmuːnan haɗàr̃iː ìdan ya koːmàː gidaː Nàjeːr̃iyàː.
+# text_ortho = Ya cèː shiː yaː càncànci à ɗàukeː shì à matsayin ɗan gudùn hijir̃aː à nân Bìr̃taːniyà, yanà mài cêwaː zâi kasànceː cikin wani mùmmuːnan haɗàr̃iː ìdan ya koːmàː gidaː Nàjeːr̃iyàː.
+1	yanàː	_	AUX	nàː	Aspect=Prog|Gender=Masc|Person=3	2	cop	_	Gloss=3Masc.Prog
+2	mài	mài	PART	_	Number=Sing|PartType=Der	0	root	_	Gloss=owner/doer_of.Sing
+3	cêːwaː	cê	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	2	compound	_	Gloss=say.Vnoun.Fem|wordform=cêwaː
+4	zâi	_	AUX	zâi	Gender=Masc|Person=3|Tense=Fut	5	aux	_	Gloss=3Masc.Fut
+5	kasànceː	kasant-	VERB	_	_	3	ccomp	_	Gloss=happen
+6	cikin	cikin	ADP	_	_	9	case	_	Gloss=inside
+7	wani	wani	DET	_	Definite=Spec|Gender=Masc	9	det	_	Gloss=some.Masc.Spec
+8	mùmmuːnan	mùmmuːnaː	ADJ	_	Definite=Cons|Gender=Masc	9	amod	_	Gloss=ugly.Masc.Cons
+9	haɗàr̃iː	haɗàr̃iː	NOUN	_	Gender=Masc	5	obl:arg	_	Gloss=danger.Masc
+10	ìdan	ìdan	SCONJ	_	_	12	mark	_	Gloss=if
+11	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	12	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+12	koːmàː	koːm-	VERB	_	_	5	advcl	_	Gloss=go_(back)_to
+13	gidaː	gidaː	NOUN	_	Gender=Masc	12	obl	_	Gloss=home.Masc
+14	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	13	nmod	_	Gloss=Nigeria|SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_16
+# text_en = At the time when he requested to be given asylum here in Great-Britain, Umaru Dikko declared "if I go back to Nigeria, people will gather to watch when they bring soldiers to shoot me."
+# text = à wàncan loːkàcîn dà ya kai ƙaːrar̃ neːman à baː shì mafakaː à nân Bìr̃tàniyà, Ùːmar̃ù Dikkò cêːwaː ya yi, " in dàː zân koːmàː Nàjeːr̃iyàː, jàmaꞌàː zaː'à taːràː sù yi kallon loːkàcîn dà zaː'à sâː soːjà sù bindìgeː ni. ".
+# text_ortho = À wàncan loːkàcîn dà ya kai ƙaːrar̃ neːman à baː shì mafakaː à nân Bìr̃tàniyà, Ùːmar̃ù Dikkò cêwaː ya yi, ‘In dàː zân koːmàː Nàjeːr̃iyàː, jàmaꞌàː zaː à taːràː sù yi kallon loːkàcîn dà zaː à sâː soːjà sù bindìgeː ni.’
+1	à	à	ADP	_	_	3	case	_	Gloss=at
+2	wàncan	wàncan	DET	_	Deixis=Remt|Gender=Masc|PronType=Dem	3	det	_	Gloss=Remt.Masc
+3	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	19	nmod	_	Gloss=time.Masc.Def
+4	dà	dà	SCONJ	_	_	6	mark	_	Gloss=COMP
+5	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	6	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+6	kai	kai	VERB	_	_	3	acl:relcl	_	Gloss=reach/carry_to
+7	ƙaːrar̃	ƙaːraː	NOUN	_	Definite=Cons|Gender=Fem	6	obj	_	Gloss=complaint.Fem.Cons
+8	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	nmod	_	Gloss=look_for.Vnoun.Masc.Cons
+9	à	_	AUX	yà	Mood=Sub|Person=4	10	aux	_	Gloss=4.Sub
+10	baː	baː	VERB	_	_	8	ccomp	_	Gloss=give
+11	shì	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	10	iobj	_	Gloss=3Masc.Acc
+12	mafakaː	mafakaː	NOUN	_	Gender=Fem	10	obj	_	Gloss=shelter.Fem
+13	à	à	ADP	_	_	14	case	_	Gloss=at
+14	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	10	advmod	_	Gloss=ProxS
+15	Bìr̃tàniyà	Bìr̃tàniyà	PROPN	_	_	14	appos	_	Gloss=Great-Britain|SpaceAfter=No
+16	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+17	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	19	dislocated	_	Gloss=Umaru
+18	Dikkò	Dikkò	PROPN	_	_	17	flat:name	_	Gloss=Dikko
+19	cêːwaː	cêː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	0	root	_	Gloss=say.Vnoun.Fem|wordform=cêwaː
+20	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	21	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+21	yi	yi	VERB	_	_	19	advcl:cleft	_	Gloss=do|SpaceAfter=No
+22	,	,	PUNCT	_	_	30	punct	_	Gloss=PUNCT
+23	"	"	PUNCT	_	_	30	punct	_	Gloss=PUNCT
+24	in	in	SCONJ	_	_	27	mark	_	Gloss=if
+25	dàː	dàː	SCONJ	_	_	27	mark	_	Gloss=Counterfact
+26	zân	_	AUX	zâi	Number=Sing|Person=1|Tense=Fut	27	aux	_	Gloss=1Sing.Fut
+27	koːmàː	koːm-	VERB	_	_	30	acl	_	Gloss=go_(back)_to
+28	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	27	obj	_	Gloss=Nigeria|SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	Gloss=PUNCT
+30	jàmaꞌàː	jàmaꞌàː	NOUN	_	Gender=Fem	21	obj	_	Gloss=public.Fem
+31	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	32	aux	_	Gloss=4.Fut
+32	taːràː	taːr-	VERB	_	_	30	advcl:cleft	_	Gloss=gather
+33	sù	_	AUX	yà	Mood=Sub|Number=Plur|Person=3	34	aux	_	Gloss=3Plur.Sub
+34	yi	yi	VERB	_	_	32	advcl	_	Gloss=do
+35	kallon	kalloː	NOUN	_	Definite=Cons|Gender=Masc	34	xcomp	_	Gloss=watching.Masc.Cons
+36	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	35	nmod	_	Gloss=time.Masc.Def
+37	dà	dà	SCONJ	_	_	39	mark	_	Gloss=COMP
+38	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	39	aux	_	Gloss=4.Fut
+39	sâː	sâː	VERB	_	_	36	acl:relcl	_	Gloss=cause
+40	soːjà	soːjà	NOUN	_	Number=Plur	42	nsubj	_	Gloss=soldiers.Plur
+41	sù	_	AUX	yà	Mood=Sub|Number=Plur|Person=3	42	aux	_	Gloss=3Plur.Sub
+42	bindìgeː	bindig-	VERB	_	_	39	ccomp	_	Gloss=shoot
+43	ni	ni	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	42	obj	_	Gloss=1Sing.Acc|SpaceAfter=No
+44	.	.	PUNCT	_	_	30	punct	_	Gloss=PUNCT
+45	"	"	PUNCT	_	_	30	punct	_	Gloss=PUNCT|SpaceAfter=No
+46	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_17
+# text_en = Well, but despite all this, this is not the reason why he wants to stay here in Great-Britain.
+# text = tòː àmmaː duk dà hakà, àkwai waɗàndà kèː ganin cêːwaː bàː wannàn dàliːlìː neː ya sâː yakèː sôn yà yi zaman-sà à nân Bìr̃taːniyà ba.
+# text_ortho = Tòː àmmaː duk dà hakà, àkwai waɗàndà kèː ganin cêwaː bàː wannàn dàliː lìː neː ya sâː yakèː sôn yà yi zamansà à nân Bìr̃taːniyà ba.
+1	tòː	tòː	INTJ	_	PartType=Disc	7	discourse	_	Gloss=well
+2	àmmaː	àmmaː	CCONJ	_	_	7	discourse	_	Gloss=but
+3	duk	dukà	DET	_	ExtPos=ADV	7	advmod	_	Gloss=all|Idiom=Yes
+4	dà	dà	ADP	_	_	3	fixed	_	Gloss=with|InIdiom=Yes
+5	hakà	hakà	ADV	_	_	3	fixed	_	Gloss=thus|InIdiom=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+7	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	Gloss=there_is
+8	waɗàndà	wandà	PRON	_	Number=Plur|PronType=Rel	7	nsubj	_	Gloss=REL.Plur
+9	kèː	_	AUX	nàː	Aspect=Prog	10	aux	_	Gloss=Prog.Rel|Relative=Rel
+10	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	acl:relcl	_	Gloss=seen.Vnoun.Masc.Cons
+11	cêːwaː	cêːwaː	SCONJ	_	_	14	dep	_	Gloss=COMP|wordform=cêwaː
+12	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	14	advmod	_	Gloss=Neg
+13	wannàn	wannàn	DET	_	Deixis=ProxS|Gender=Masc|PronType=Dem	14	det	_	Gloss=ProxS.Masc
+14	dàliːlìː	dàliːlìː	NOUN	_	Gender=Masc	10	obj	_	Gloss=reason.Masc
+15	neː	neː	PART	_	PartType=Foc	14	discourse	_	Gloss=Emph
+16	ya	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	17	aux	_	Gloss=3Masc.Perf.Rel|Relative=Rel
+17	sâː	sâː	VERB	_	_	14	advcl:cleft	_	Gloss=cause
+18	yakèː	_	AUX	nàː	Aspect=Prog|Gender=Masc|Person=3	19	aux	_	Gloss=3Fem.Prog.Rel|Relative=Rel
+19	sôn	soː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	17	ccomp	_	Gloss=want.Vnoun.Masc.Cons
+20	yà	_	AUX	yà	Gender=Masc|Mood=Sub|Person=3	21	aux	_	Gloss=3Masc.Sub
+21	yi	yi	VERB	_	_	19	ccomp	_	Gloss=do
+22	zaman	zama	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	21	xcomp	_	Gloss=stay.Vnoun.Masc.Cons|SpaceAfter=No|wordform=zamansà
+23	-sà	-sà	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	22	nmod/m	_	Gloss=-3Masc.Gen|wordform=sà
+24	à	à	ADP	_	_	25	case	_	Gloss=at
+25	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	21	advmod	_	Gloss=ProxS
+26	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	25	appos	_	Gloss=Great_Britain
+27	ba	ba	PART	_	PartType=Neg|Polarity=Neg	14	advmod	_	Gloss=Neg|SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_18
+# text_en = The Nigerian Ambassador here in London, Mr George Dove-Edwin said last year that the reason that Umaru Dikko was giving was a blatant lie, that if he went back to Nigeria, he would be killed.
+# text = jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďaː à bàːra cêːwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêːwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː'à yi.
+# text_ortho = Jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďa à bàːra cêwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː à yi.# text = Jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďa à bàːra cêwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː à yi.
+1	jàkaːdàn	jàkaːdàː	NOUN	_	Definite=Cons|Gender=Masc	12	obl	_	Gloss=ambassador.Masc.Cons
+2	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	1	appos	_	Gloss=Nigeria
+3	à	à	ADP	_	_	4	case	_	Gloss=at
+4	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	1	advmod	_	Gloss=ProxS
+5	Landàn	Landàn	PROPN	_	_	4	appos	_	Gloss=London|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
+7	Mr	Mr	PROPN	_	Definite=Cons|Gender=Fem	8	nmod	_	Gloss=Mr
+8	George	George	PROPN	_	_	12	nsubj	_	Gloss=George
+9	Dove-Edwin	Dove-Edwin	PROPN	_	_	8	flat:name	_	Gloss=Dove-Edwin|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
+11	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	12	aux	_	Gloss=3Masc.Perf
+12	fàďaː	faɗ-	VERB	_	_	0	root	_	Gloss=say
+13	à	à	ADP	_	_	14	case	_	Gloss=at
+14	bàːra	bàːra	ADV	_	_	12	advmod	_	Gloss=last_year
+15	cêːwaː	cêwaː	SCONJ	_	_	16	mark	_	Gloss=COMP|wordform=cêwaː
+16	zuːƙì-ta-Màlle	zuːƙì-ta-màlle	NOUN	_	Gender=Fem	12	ccomp	_	Gloss=blatant_lie.Fem
+17	cèː	_	AUX	neː	Gender=Fem	16	cop	_	Gloss=be.Fem
+18	kawài	kawài	ADV	_	_	16	advmod	_	Gloss=merely
+19	dàliːlìn	dàliːlìː	NOUN	_	Definite=Def|Gender=Masc	16	dislocated	_	Gloss=reason.Masc.Def
+20	dà	dà	SCONJ	_	_	24	mark	_	Gloss=COMP
+21	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	24	nsubj	_	Gloss=Umaru
+22	Dikkò	Dikkò	PROPN	_	_	21	flat:name	_	Gloss=Dikko
+23	kèː	_	AUX	nàː	Aspect=Prog	24	aux	_	Gloss=Prog.Rel|Relative=Rel
+24	baːyâr̃waː	baː	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	19	acl:relcl	_	Gloss=give.Cau.Vnoun.Fem
+25	cêːwaː	cêːwaː	SCONJ	_	_	30	mark	_	Gloss=COMP|wordform=cêwaː
+26	ìdan	ìdan	SCONJ	_	_	28	mark	_	Gloss=if
+27	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	28	aux	_	Gloss=3Masc.Perf
+28	koːmàː	koːm-	VERB	_	_	30	advcl	_	Gloss=go_(back)_to
+29	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	28	obl	_	Gloss=Nigeria
+30	kashèː	kas-	VERB	_	_	24	ccomp	_	Gloss=kill
+31	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	30	obj	_	Gloss=3Masc.Acc
+32	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	33	aux	_	Gloss=4.Fut
+33	yi	yi	VERB	_	_	30	advcl:cleft	_	Gloss=do|SpaceAfter=No
+34	.	.	PUNCT	_	_	12	punct	_	Gloss=PUNCT
+
+# sent_id = 01_Umaru_Dikko_19
+# text_en = Likewise, this very last year, a lawyer of the British interior ministry told Umaru Dikko that "I think indeed that why you ran away from Nigeria is not because you fear that you will be persecuted, but merely because you fear that they will take you to court."
+# text = hakà nan à bàːr̃a ɗîn wani lauyàː na maꞌaikatar̃ har̃koːkin cikin gidan Bìr̃taːniyà yaː gayàː wà Ùːmar̃ù Dikkò cêːwaː, " inàː jîn dai kaː tseːroː dàgà Nàjeːr̃iyàː neː bàː wai don kanàː tsòːron zaː'à ƙuntàtaː makà ba, sai don kanàː tsòːron zaː'à gur̃faːnar̃ dà kai à gàban shàr̃iꞌàː kawài. ".
+# text_ortho = Hakà nan à bàːr̃a ɗîn wani lauyàː na Maꞌaikatar̃ Har̃koːkin Cikin Gidan Bìr̃taːniyà yaː gayàː wà Ùːmar̃ù Dikkò cêwaː, ‘Inàː jîn dai kaː tseːroː dàgà Nàjeːr̃iyàː neː bà wai don kanàː tsòːron zaː à ƙuntàtaː makà ba, sai don kanàː tsòːron zaː à gur̃faːnar̃ dà kai à gàban shàr̃iꞌàː kawài.’
+1	hakà	hakà	ADV	_	_	15	obl	_	Gloss=thus
+2	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	1	det	_	Gloss=ProxH
+3	à	à	ADP	_	_	4	case	_	Gloss=at
+4	bàːr̃a	bàːr̃a	ADV	_	_	15	obl	_	Gloss=last_year
+5	ɗîn	ɗin	DET	_	Definite=Def|PronType=Dem	4	det	_	Gloss=Def
+6	wani	wani	DET	_	Definite=Spec|Gender=Masc	7	det	_	Gloss=some.Masc.Spec
+7	lauyàː	lauyàː	NOUN	_	Gender=Masc	15	obj	_	Gloss=lawyer.Masc
+8	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	9	case	_	Gloss=Gen.Masc
+9	maꞌaikatar̃	maꞌaikataː	NOUN	_	Definite=Cons|Gender=Fem	7	nmod	_	Gloss=ministry.Fem.Cons
+10	har̃koːkin	har̃kàː	NOUN	_	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	Gloss=affairs.Plur.Cons
+11	cikin	cikin	ADP	_	_	12	case	_	Gloss=inside
+12	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	10	nmod	_	Gloss=house.Masc.Cons
+13	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	12	nmod	_	Gloss=Great_Britain
+14	yaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=3	15	aux	_	Gloss=3Masc.Perf
+15	gayàː	gay-	VERB	_	_	0	root	_	Gloss=tell
+16	wà	wà	ADP	_	Case=Dat	17	case	_	Gloss=Dat
+17	Ùːmar̃ù	Ùːmar̃ù	PROPN	_	_	15	obl:arg	_	Gloss=Umaru
+18	Dikkò	Dikkò	PROPN	_	_	17	flat:name	_	Gloss=Dikko
+19	cêːwaː	cêːwaː	SCONJ	_	_	23	mark	_	Gloss=COMP|SpaceAfter=No|wordform=cêwaː
+20	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+21	"	"	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+22	inàː	_	AUX	nàː	Aspect=Prog|Number=Sing|Person=1	23	aux	_	Gloss=1Sing.Prog
+23	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	15	ccomp	_	Gloss=hear.Vnoun.Masc.Cons
+24	dai	dai	PART	_	PartType=Top	23	discourse	_	Gloss=anyway
+25	kaː	_	AUX	yaː	Aspect=Perf|Gender=Masc|Person=2	26	aux	_	Gloss=2Masc.Perf
+26	tseːroː	tseːr-	VERB	_	_	23	ccomp	_	Gloss=flee
+27	dàgà	dàgà	ADP	_	_	28	case	_	Gloss=from
+28	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	26	obl:arg	_	Gloss=Nigeria
+29	neː	neː	PART	_	PartType=Foc	26	discourse	_	Gloss=Emph
+30	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	34	advmod	_	Gloss=Neg
+31	wai	wai	PART	_	Evident=Nfh|PartType=Assert	34	discourse	_	Gloss=alledgedly
+32	don	don	SCONJ	_	_	34	mark	_	Gloss=because
+33	kanàː	_	AUX	nàː	Aspect=Prog|Gender=Masc|Person=2	34	aux	_	Gloss=2Masc.Prog
+34	tsòːron	tsòːroː	NOUN	_	Definite=Cons|Gender=Masc	26	advcl	_	Gloss=fear.Masc.Cons
+35	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	34	ccomp	_	Gloss=4.Fut
+36	ƙuntàtaː	ƙuntat-	VERB	_	_	35	ccomp	_	Gloss=persecute
+37	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=2|PronType=Prs	36	iobj	_	Gloss=2Masc.Dat
+38	ba	ba	PART	_	PartType=Neg|Polarity=Neg	34	advmod	_	Gloss=Neg|SpaceAfter=No
+39	,	,	PUNCT	_	_	43	punct	_	Gloss=PUNCT
+40	sai	sai	CCONJ	_	_	43	cc	_	Gloss=but_only
+41	don	don	SCONJ	_	_	43	mark	_	Gloss=because
+42	kanàː	_	AUX	nàː	Aspect=Prog|Gender=Masc|Person=2	43	aux	_	Gloss=2Masc.Prog
+43	tsòːron	tsòːroː	NOUN	_	Definite=Cons|Gender=Masc	34	conj	_	Gloss=fear.Masc.Cons
+44	zaː'à	_	AUX	zâi	Person=4|Tense=Fut	43	acl	_	Gloss=4.Fut
+45	gur̃faːnar̃	gur̃faːn-	VERB	_	Voice=Cau	44	ccomp	_	Gloss=take_to_court.Cau
+46	dà	dà	ADP	_	_	47	case	_	Gloss=with
+47	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	45	obl:arg	_	Gloss=2Masc.Nom
+48	à	à	ADP	_	_	50	case	_	Gloss=at
+49	gàban	gàban	ADP	_	_	50	case	_	Gloss=front
+50	shàr̃iꞌàː	shàr̃iꞌàː	NOUN	_	Gender=Fem	45	obl:arg	_	Gloss=justice.Fem
+51	kawài	kawài	ADV	_	_	45	advmod	_	Gloss=merely|SpaceAfter=No
+52	.	.	PUNCT	_	_	23	punct	_	Gloss=PUNCT
+53	"	"	PUNCT	_	_	23	punct	_	Gloss=PUNCT|SpaceAfter=No
+54	.	.	PUNCT	_	_	15	punct	_	Gloss=PUNCT
+
