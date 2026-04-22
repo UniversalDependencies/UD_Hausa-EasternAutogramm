@@ -19,9 +19,9 @@
 1	kullum	kullum	ADV	_	_	16	advmod	_	Gloss=always
 2	ìdan	ìdan	SCONJ	_	_	9	mark	_	Gloss=if
 3	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	9	nsubj	_	Gloss=house.Masc.Cons
-4	r̃eːdiyòn	r̃eːdiyòː	NOUN	_	Definite=Cons|Gender=Masc	3	nmod	_	Gloss=radio.Masc.Cons
+4	r̃eːdiyòn	r̃eːdiyòː	NOUN	_	Definite=Cons|Gender=Masc	3	nmod:appos	_	Gloss=radio.Masc.Cons
 5	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
-6	BBC	BBC	PROPN	_	Definite=Cons|Number=Plur	3	nmod	_	Gloss=BBC|wordform='BBC
+6	BBC	BBC	PROPN	_	Definite=Cons|Number=Plur	3	nmod:appos	_	Gloss=BBC|wordform='BBC
 7	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT|wordform='
 8	zâi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	9	aux	_	Gloss=3Masc.Fut
 9	gabaːtar̃	gabaːt-	VERB	_	_	16	advcl	_	Gloss=present
@@ -45,7 +45,7 @@
 # text = wani loːkàciː àbîn yanàː dà ban haushiː, sabòːdà irìn wàhalàr̃ dà akàn saːmùː kàːfìn à bugà wayàː zuwàː ƙasàːshen Afìr̃kà, mùsammàn maː ƙasàːsheː kàmar̃ Zàyâr̃ dà Sudân.
 # text_ortho = Wani loːkàciː àbîn yanàː dà ban haushiː, sabòːdà irìn wàhalàr̃ dà akàn saːmùː kàːfìn à bugà wayàː zuwàː ƙasàːshen Afìr̃kà, mùsammàn maː ƙasàːsheː kàmar̃ Zàyâr dà Sudân.
 1	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	2	det	_	Gloss=some.Masc.Spec
-2	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	obl	_	Gloss=time.Masc
+2	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	obl:mod	_	Gloss=time.Masc
 3	àbîn	àbù	NOUN	_	Definite=Def|Gender=Masc	6	nsubj	_	Gloss=thing.Masc.Def
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	6	aux	_	Copula=Yes|Gloss=3Masc.Prog
 5	dà	dà	ADP	_	_	6	case	_	Gloss=with
@@ -64,7 +64,7 @@
 18	wayàː	wayàː	NOUN	_	Gender=Masc	17	obj	_	Gloss=wire.Fem
 19	zuwàː	zuwàː	ADP	_	_	20	case	_	Gloss=towards
 20	ƙasàːshen	ƙasaː	ADJ	_	Definite=Cons|Number=Plur	17	obl:arg	_	Gloss=country.Plur.Cons
-21	Afìr̃kà	Afìr̃kà	PROPN	_	_	20	obl	_	Gloss=Africa|SpaceAfter=No
+21	Afìr̃kà	Afìr̃kà	PROPN	_	_	20	obl:mod	_	Gloss=Africa|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
 23	mùsammàn	mùsammàn	CCONJ	_	_	25	cc	_	Gloss=especially
 24	maː	maː	PART	_	PartType=Top	25	discourse	_	Gloss=even
@@ -80,7 +80,7 @@
 # text = wani loːkàciː kuma koː kaː sàːmi laːyìː sai kà ga bâː shi dà kyâu sòːsai, har̃ baːkàː iyà jîn àbîn dà akèː fàɗaː.
 # text_ortho = Wani loːkàciː kuma koː kaː sàːmi laːyìː sai kà ga bâː shi dà kyâu sòːsai, har̃ baː kàː iyà jîn àbîn dà akèː fàɗaː.
 1	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	2	det	_	Gloss=some.Masc.Spec
-2	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	10	obl	_	Gloss=time.Masc
+2	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	10	obl:mod	_	Gloss=time.Masc
 3	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also
 4	koː	koː	SCONJ	_	_	6	mark	_	Gloss=even_if
 5	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	aux	_	Gloss=2Masc.Perf
@@ -123,7 +123,7 @@
 # text = kàmar̃ shèːkaràː bìyar̃ dà sukà wucèː, ìdan kanàː sôn kà bugà wayàː zuwàː Bùr̃kiːnà Faːsò dàgà " Vancouver ", can cikin ƙasar̃ Kyanadà, àbîn bà zâi yìwu ba -
 # text_ortho = Kàmar̃ shèːkaràː bìyar̃ dà sukà wucèː, ìdan kanàː sôn kà bugà wayàː zuwàː Bùr̃kiːnà Faːsò dàgà 'Vancouver', can cikin ƙasar̃ Kyanadà, àbîn bà zâi yìwu ba -
 1	kàmar̃	kàmar̃	ADP	_	_	2	case	_	Gloss=like
-2	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	30	obl	_	Gloss=year.Fem
+2	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	30	obl:mod	_	Gloss=year.Fem
 3	bìyar̃	bìyar̃	NUM	_	_	2	nummod	_	Gloss=five
 4	dà	dà	SCONJ	_	_	6	mark	_	Gloss=COMP
 5	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -145,8 +145,8 @@
 21	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
 22	can	can	ADV	_	Deixis=Remt|PronType=Dem	19	advmod	_	Gloss=Remt
 23	cikin	cikin	ADP	_	_	24	case	_	Gloss=inside
-24	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	22	obl	_	Gloss=country.Fem.Cons
-25	Kyanadà	Kyanadà	PROPN	_	_	24	nmod	_	Gloss=Kyanadà|SpaceAfter=No
+24	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	22	obl:mod	_	Gloss=country.Fem.Cons
+25	Kyanadà	Kyanadà	PROPN	_	_	24	nmod:appos	_	Gloss=Kyanadà|SpaceAfter=No
 26	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 27	àbîn	àbù	NOUN	_	Definite=Def|Gender=Masc	30	dislocated	_	Gloss=thing.Masc.Def
 28	bà	bà	PART	_	PartType=Neg|Polarity=Neg	30	advmod	_	Gloss=Neg
@@ -201,7 +201,7 @@
 # text_en = The message will start from a telephone wire in the west part of Canada, then if will go to 'Montreal', in the east part of Canada.
 # text = sàːƙôn yakàn soːmàː neː dàgà wata wayàr̃ tàr̃hôː à yammacin Kyanadà, sànnan yà tàfi zuwàː Montreal " à gabashin Kyanadàn.
 # text_ortho = Sàːƙôn yakàn soːmàː neː dàgà wata wayàr̃ tàr̃hôː à yammacin Kyanadà, sànnan yà tàfi zuwàː 'Montreal' à gabashin Kyanadàn.
-1	sàːƙôn	sàːƙoː	NOUN	_	Definite=Def|Gender=Masc	3	obl	_	Gloss=message.Masc.Det
+1	sàːƙôn	sàːƙoː	NOUN	_	Definite=Def|Gender=Masc	3	obl:mod	_	Gloss=message.Masc.Det
 2	yakàn	kàn	AUX	_	Aspect=Hab|Gender=Masc|Person=3	3	aux	_	Gloss=3Masc.Hab
 3	soːmàː	soːm-	VERB	_	_	0	root	_	Gloss=start
 4	neː	neː	PART	_	PartType=Foc	3	discourse	_	Gloss=Emph
@@ -247,7 +247,7 @@
 17	"	"	PUNCT	_	_	16	punct	_	Gloss=PUNCT|wordform='
 18	à	à	ADP	_	_	19	case	_	Gloss=at
 19	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	16	nmod	_	Gloss=country.Fem.Cons
-20	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	19	nmod	_	Gloss=Great-Britain
+20	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	19	nmod:appos	_	Gloss=Great-Britain
 21	ta	ta	ADP	_	_	23	case	_	Gloss=via
 22	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	23	det	_	Gloss=some.Plur.Spec
 23	wayoːyin	wayàː	NOUN	_	Definite=Cons|Number=Plur	9	conj	_	Gloss=wire.Plur.Cons
@@ -260,7 +260,7 @@
 # text = dàgà Bìr̃taːniyà kuma sai sàːƙôn yà tàfi zuwàː kudancin Fàr̃ansà.
 # text_ortho = Dàgà Bìr̃taːniyà kuma sai sàːƙôn yà tàfi zuwàː kudancin Fàr̃ansà.
 1	dàgà	dàgà	ADP	_	_	2	case	_	Gloss=from
-2	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	7	obl	_	Gloss=Great_Britain
+2	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	7	obl:mod	_	Gloss=Great_Britain
 3	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also
 4	sai	sai	ADV	_	_	7	advmod	_	Gloss=then
 5	sàːƙôn	sàːƙoː	NOUN	_	Definite=Def|Gender=Masc	7	nsubj	_	Gloss=message.Masc.Det
@@ -276,7 +276,7 @@
 # text = dàgà ƙàrsheː sai sàːƙôn yà ìsa bir̃nin Wàgadugù.
 # text_ortho = Dàgà ƙàrsheː sai sàːƙôn yà ìsa bir̃nin Wàgadugù.
 1	dàgà	dàgà	ADP	_	_	2	case	_	Gloss=from
-2	ƙàrsheː	ƙàrsheː	NOUN	_	Gender=Masc	6	obl	_	Gloss=end.Masc
+2	ƙàrsheː	ƙàrsheː	NOUN	_	Gender=Masc	6	obl:mod	_	Gloss=end.Masc
 3	sai	sai	ADV	_	_	6	advmod	_	Gloss=then
 4	sàːƙôn	sàːƙoː	NOUN	_	Definite=Def|Gender=Masc	6	nsubj	_	Gloss=message.Masc.Det
 5	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	6	aux	_	Gloss=3Masc.Sub
@@ -374,7 +374,7 @@
 18	wayàː	wayàː	NOUN	_	Gender=Masc	17	xcomp	_	Gloss=wire.Fem
 19	zuwàː	zuwàː	ADP	_	_	20	case	_	Gloss=towards
 20	ƙasàːshen	ƙasaː	ADJ	_	Definite=Cons|Number=Plur	18	obl:arg	_	Gloss=country.Plur.Cons
-21	Tūr̃ai	Tūr̃ai	PROPN	_	_	20	obl	_	Gloss=Europe
+21	Tūr̃ai	Tūr̃ai	PROPN	_	_	20	obl:mod	_	Gloss=Europe
 22	màimakon	màimakon	CCONJ	_	_	24	cc	_	Gloss=instead_of
 23	kà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=2	24	aux	_	Gloss=2Masc.Sub
 24	bugà	bug-	VERB	_	_	17	conj	_	Gloss=beat
@@ -403,7 +403,7 @@
 14	dà	dà	ADP	_	_	15	case	_	Gloss=with
 15	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	13	obl:arg	_	Gloss=3Fem.Nom
 16	ta	ta	ADP	_	_	17	case	_	Gloss=via
-17	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	13	obl	_	Gloss=Great_Britain|SpaceAfter=No
+17	Bìr̃taːniyà	Bìr̃taːniyà	PROPN	_	_	13	obl:mod	_	Gloss=Great_Britain|SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = 06_Wayoyin_Tarho_17
@@ -467,7 +467,7 @@
 # text_en = Last week, a new telephone line was installed between Togo and Ghana.
 # text = maːkòn jiyà akà shiryà wani laːyìn wayàr̃ tàr̃hôː tsàkaːnin Toːgò dà Gaːnà.
 # text_ortho = Maːkòn jiyà akà shiryà wani laːyìn wayàr̃ tàr̃hôː tsàkaːnin Toːgò da Gaːnà.
-1	maːkòn	maːkòː	NOUN	_	Definite=Cons|Gender=Masc	4	obl	_	Gloss=week.Masc.Cons
+1	maːkòn	maːkòː	NOUN	_	Definite=Cons|Gender=Masc	4	obl:mod	_	Gloss=week.Masc.Cons
 2	jiyà	jiyà	ADV	_	_	1	compound	_	Gloss=yesterday
 3	akà	yaː	AUX	_	Aspect=Perf|Person=4	4	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 4	shiryà	shir-	VERB	_	_	0	root	_	Gloss=prepare

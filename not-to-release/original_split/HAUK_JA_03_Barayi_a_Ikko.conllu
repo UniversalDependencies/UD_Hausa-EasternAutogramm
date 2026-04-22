@@ -9,7 +9,7 @@
 6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
 7	ɓàràːyiː	ɓàraːwòː	NOUN	_	Number=Plur	4	conj	_	Gloss=thief.Plur
 8	à	à	ADP	_	_	9	case	_	Gloss=at
-9	Ìkko	Ìkko	PROPN	_	_	2	obl	_	Gloss=Lagos
+9	Ìkko	Ìkko	PROPN	_	_	2	obl:mod	_	Gloss=Lagos
 
 # sent_id = 03_Barayi_a_Ikko_2a
 # text_en = Yesterday night, in Lagos, armed policemen found some robbers trying to break the door of the "First Bank" in an attempt to penetrate inside.
@@ -18,8 +18,8 @@
 2	dà	dà	ADP	_	_	3	case	_	Gloss=with
 3	dare	dare	ADV	_	_	1	advmod	_	Gloss=night
 4	à	à	ADP	_	_	5	case	_	Gloss=at
-5	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	15	obl	_	Gloss=city.Masc.Cons
-6	Ìkko	Ìkko	PROPN	_	_	5	nmod	_	Gloss=Lagos
+5	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	15	obl:mod	_	Gloss=city.Masc.Cons
+6	Ìkko	Ìkko	PROPN	_	_	5	nmod:appos	_	Gloss=Lagos
 7	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	8	det	_	Gloss=some.Plur.Spec
 8	ꞌyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	15	nsubj	_	Gloss=child.Plur.Cons
 9	sàndaː	sàndaː	NOUN	_	Gender=Masc	8	compound	_	Gloss=baton.Masc
@@ -38,7 +38,7 @@
 22	ƙoːfàr̃	ƙoːfàː	NOUN	_	Definite=Cons|Gender=Fem	21	obj	_	Gloss=door.Fem.Cons
 23	bankìn	bankìː	NOUN	_	Definite=Cons|Gender=Masc	22	nmod	_	Gloss=bank.Masc.Cons
 24	"	"	PUNCT	_	_	25	punct	_	Gloss=PUNCT|wordform=‘
-25	First	First	PROPN	_	_	23	nmod	_	Gloss=First
+25	First	First	PROPN	_	_	23	nmod:appos	_	Gloss=First
 26	Bank	Bank	PROPN	_	_	25	flat:name	_	Gloss=Bank|SpaceAfter=No
 27	"	"	PUNCT	_	_	25	punct	_	Gloss=PUNCT|wordform=’
 28	don	don	SCONJ	_	_	30	mark	_	Gloss=in_order_to
@@ -52,7 +52,7 @@
 # text = bankìn " First Bank" shiː nèː kuma bankìː mafìː girmaː à cikin ƙasar̃ Nàːjeːr̃iyàː.
 1	bankìn	bankìː	NOUN	_	Definite=Cons|Gender=Masc	6	nsubj	_	Gloss=bank.Masc.Cons
 2	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=‘
-3	First	First	PROPN	_	_	1	nmod	_	Gloss=First
+3	First	First	PROPN	_	_	1	nmod:appos	_	Gloss=First
 4	Bank	Bank	PROPN	_	_	3	flat:name	_	Gloss=Bank|SpaceAfter=No
 5	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform=’
 6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
@@ -63,8 +63,8 @@
 11	girmaː	girmaː	NOUN	_	Gender=Masc	10	compound	_	Gloss=size.Masc
 12	à	à	ADP	_	_	14	case	_	Gloss=at
 13	cikin	cikin	ADP	_	_	14	case	_	Gloss=inside
-14	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	10	obl	_	Gloss=country.Fem.Cons
-15	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	14	nmod	_	Gloss=Nigeria|SpaceAfter=No
+14	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	10	obl:mod	_	Gloss=country.Fem.Cons
+15	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	14	nmod:appos	_	Gloss=Nigeria|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
 # sent_id = 03_Barayi_a_Ikko_3
@@ -83,7 +83,7 @@
 11	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	12	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 12	tsayàː	tsay-	VERB	_	_	0	root	_	Gloss=stop
 13	dòːmin	dòːmin	SCONJ	_	_	14	case	_	Gloss=in_order_to
-14	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	12	obl	_	Gloss=seen.Vnoun.Masc.Cons
+14	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	12	obl:mod	_	Gloss=seen.Vnoun.Masc.Cons
 15	àbîn	àbù	NOUN	_	Definite=Def|Gender=Masc	14	obj	_	Gloss=thing.Masc.Def
 16	dà	dà	SCONJ	_	_	18	mark	_	Gloss=COMP
 17	kèː	nàː	AUX	_	Aspect=Prog	18	aux	_	Gloss=Prog.Rel|Relative=Yes
@@ -93,20 +93,20 @@
 # sent_id = 03_Barayi_a_Ikko_4
 # text_en = When they came out of their car, then the people who were in front of the bank started showering them with bullets.
 # text = loːkàcîn dà sukà fitoː dàgà cikin moːtàr̃sù, sai mutàːnên dà kèː gàban bankìn sukà faːrà yi musù ruwan hàr̃saːshìː.
-1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	16	obl	_	Gloss=time.Masc.Def
+1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	16	obl:mod	_	Gloss=time.Masc.Def
 2	dà	dà	SCONJ	_	_	4	mark	_	Gloss=COMP
 3	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	4	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 4	fitoː	fit-	VERB	_	_	1	acl:relcl	_	Gloss=come_out
 5	dàgà	dàgà	ADP	_	_	4	obl:arg	_	Gloss=from
 6	cikin	cikin	ADP	_	_	7	case	_	Gloss=inside
-7	moːtàr̃sù	moːtàː	NOUN	_	Definite=Cons|Gender=Fem	5	obl	_	CaseAf=Gen|Gloss=car.Fem.Cons-3PlurGen|MSeg=moːtàr̃-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|SpaceAfter=No
+7	moːtàr̃sù	moːtàː	NOUN	_	Definite=Cons|Gender=Fem	5	obl:mod	_	CaseAf=Gen|Gloss=car.Fem.Cons-3PlurGen|MSeg=moːtàr̃-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 9	sai	sai	ADV	_	_	16	advmod	_	Gloss=then
 10	mutàːnên	mùtûm	NOUN	_	Definite=Def|Number=Plur	16	nsubj	_	Gloss=people.Plur.Def
 11	dà	dà	SCONJ	_	_	13	mark	_	Gloss=COMP
 12	kèː	nàː	AUX	_	Aspect=Prog	13	aux	_	Copula=Yes|Gloss=Prog.Rel|Relative=Yes
 13	gàban	gàban	ADP	_	_	10	acl:relcl	_	Gloss=in_font_of
-14	bankìn	bankiː	NOUN	_	Definite=Cons|Gender=Masc	13	obl	_	Gloss=bank.Masc.Cons
+14	bankìn	bankiː	NOUN	_	Definite=Cons|Gender=Masc	13	obl:mod	_	Gloss=bank.Masc.Cons
 15	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	16	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 16	faːrà	faːr-	VERB	_	_	0	root	_	Gloss=begin
 17	yi	yi	VERB	_	_	16	ccomp	_	Gloss=do
@@ -137,7 +137,7 @@
 # sent_id = 03_Barayi_a_Ikko_6
 # text_en = When the dust stettled down, then the policemen discoverd seven human corpses.
 # text = loːkàcîn dà ƙùːraː ta lafàː, sai ꞌyan sàndân sukà gaːnoː gàːwàwwakin mutàːneː bakwài.
-1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	11	obl	_	Gloss=time.Masc.Def
+1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	11	obl:mod	_	Gloss=time.Masc.Def
 2	dà	dà	SCONJ	_	_	5	mark	_	Gloss=COMP
 3	ƙùːraː	ƙùːraː	NOUN	_	Gender=Fem	5	nsubj	_	Gloss=dust.Fem
 4	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	5	aux	_	Gloss=3Fem.Perf.Rel|Relative=Yes
@@ -183,7 +183,7 @@
 25	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	26	aux	_	Gloss=3Masc.Perf
 26	tabbàtaː	tabbàtaː	VERB	_	_	15	conj	_	Gloss=be_certain
 27	sauraː	sauraː	ADP	_	_	28	case	_	Gloss=except_for
-28	gùdaː	gùdaː	NOUN	_	Gender=Masc	35	obl	_	Gloss=unit.Masc
+28	gùdaː	gùdaː	NOUN	_	Gender=Masc	35	obl:mod	_	Gloss=unit.Masc
 29	shidàn	shidà	NUM	_	Definite=Def	28	nummod	_	Gloss=six.Def
 30	dà	dà	SCONJ	_	_	32	mark	_	Gloss=COMP
 31	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	32	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -215,7 +215,7 @@
 16	jeː	jeː	VERB	_	_	13	acl:relcl	_	Gloss=go
 17	wurinsù	wuriː	NOUN	_	Definite=Cons|Gender=Masc	16	obl:arg	_	CaseAf=Gen|Gloss=place.Masc.Cons-3PlurGen|MSeg=wurin-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|SpaceAfter=No
 18	dòːmin	dòːmin	SCONJ	_	_	19	case	_	Gloss=in_order_to
-19	saːmùn	saːmùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	16	obl	_	Gloss=get.Vnoun.Masc.Cons
+19	saːmùn	saːmùː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	16	obl:mod	_	Gloss=get.Vnoun.Masc.Cons
 20	maːgàniː	maːgàniː	NOUN	_	Gender=Masc	19	obj	_	Gloss=medicine.Masc
 21	danganèː	danganèː	NOUN	_	ExtPos=ADP|Gender=Masc	23	case	_	Gloss=relation.Masc|Idiom=Yes
 22	dà	dà	ADP	_	_	21	fixed	_	Gloss=with|InIdiom=Yes
@@ -230,7 +230,7 @@
 # sent_id = 03_Barayi_a_Ikko_9
 # text_en = While that was happening, the headquarters of Lagos police explained that the number of burglaries and thefts that were committed in Nigeria exceeds what was done in the last five years.
 # text = yàːyîn dà hakàn kèː fàːruwaː, hêdkwatàr̃ ꞌyan sàndân à bir̃nin Ìkko taː bayyànà cêːwaː yawàn fàshe-fàshe dà sàːce-sàːcên dà akèː yîː à cikin Nàːjeːr̃iyàr̃ yaː fi irìn waɗàndà akà yi cikin shèːkàruː biyûn dà sukà wucèː.
-1	yàːyîn	yàːyîː	PRON	_	PronType=Rel	14	obl	_	Gloss=when
+1	yàːyîn	yàːyîː	PRON	_	PronType=Rel	14	obl:mod	_	Gloss=when
 2	dà	dà	SCONJ	_	_	5	mark	_	Gloss=COMP
 3	hakàn	hakàn	PRON	_	_	5	nsubj	_	Gloss=this
 4	kèː	nàː	AUX	_	Aspect=Prog	5	aux	_	Gloss=Prog.Rel|Relative=Yes
@@ -241,7 +241,7 @@
 9	sàndân	sàndaː	NOUN	_	Definite=Def|Gender=Masc	8	compound	_	Gloss=baton.Masc.Def
 10	à	à	ADP	_	_	11	case	_	Gloss=at
 11	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	7	nmod	_	Gloss=city.Masc.Cons
-12	Ìkko	Ìkko	PROPN	_	_	11	nmod	_	Gloss=Lagos
+12	Ìkko	Ìkko	PROPN	_	_	11	nmod:appos	_	Gloss=Lagos
 13	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	14	aux	_	Gloss=3Fem.Perf
 14	bayyànà	bayyan-	VERB	_	Number=Plur	0	root	_	Gloss=explain
 15	cêːwaː	cêːwaː	SCONJ	_	_	27	mark	_	Gloss=COMP
@@ -262,7 +262,7 @@
 30	akà	yaː	AUX	_	Aspect=Perf|Person=4	31	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 31	yi	yi	VERB	_	_	29	acl:relcl	_	Gloss=do
 32	cikin	cikin	ADP	_	_	33	case	_	Gloss=inside
-33	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	31	obl	_	Gloss=year.Plur
+33	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	31	obl:mod	_	Gloss=year.Plur
 34	biyûn	biyu	NOUN	_	Definite=Def	33	nummod	_	Gloss=two.Def
 35	dà	dà	SCONJ	_	_	37	mark	_	Gloss=COMP
 36	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	37	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -291,7 +291,7 @@
 17	yi	yi	VERB	_	_	4	advcl:cleft	_	Gloss=do
 18	saːtàː	saːtàː	VERB	_	Gender=Fem	17	ccomp	_	Gloss=theft.Fem
 19	à	à	ADP	_	_	20	case	_	Gloss=at
-20	bir̃nîn	bir̃niː	NOUN	_	Definite=Def|Gender=Masc	17	obl	_	Gloss=city.Masc.Def
+20	bir̃nîn	bir̃niː	NOUN	_	Definite=Def|Gender=Masc	17	obl:mod	_	Gloss=city.Masc.Def
 21	à	à	ADP	_	_	22	case	_	Gloss=at
 22	bàːra	bàːra	ADV	_	_	17	advmod	_	Gloss=last_year|SpaceAfter=No
 23	,	,	PUNCT	_	_	30	punct	_	Gloss=PUNCT
@@ -308,8 +308,8 @@
 34	akà	yaː	AUX	_	Aspect=Perf|Person=4	35	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 35	yi	yi	VERB	_	_	32	acl:relcl	_	Gloss=do
 36	à	à	ADP	_	_	37	case	_	Gloss=at
-37	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	35	obl	_	Gloss=year.Fem.Cons
-38	alìf	alìf	NUM	_	_	37	nmod	_	Gloss=one_thousand
+37	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	35	obl:mod	_	Gloss=year.Fem.Cons
+38	alìf	alìf	NUM	_	_	37	nmod:appos	_	Gloss=one_thousand
 39	dà	dà	CCONJ	_	_	40	cc	_	Gloss=and
 40	ɗàriː	ɗàriː	NUM	_	Gender=Fem	38	conj	_	Gloss=hundred
 41	tar̃à	tar̃à	NUM	_	_	40	nummod	_	Gloss=nine
@@ -351,7 +351,7 @@
 26	wargàzà	wargaz-	VERB	_	_	17	conj	_	Gloss=rout
 27	ƙungiỳar̃	ƙungiỳaː	VERB	_	Definite=Cons|Gender=Fem	26	ccomp	_	Gloss=gang.Fem.Cons
 28	bàbban	bàbba	ADJ	_	Definite=Cons|Gender=Masc|Number=Plur	29	amod	_	Gloss=big.Masc.Cons
-29	ɓàraːwòn	ɓàraːwòː	NOUN	_	Definite=Cons|Gender=Masc	27	obl	_	Gloss=thief.Masc.Cons
+29	ɓàraːwòn	ɓàraːwòː	NOUN	_	Definite=Cons|Gender=Masc	27	obl:mod	_	Gloss=thief.Masc.Cons
 30	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	29	det	_	Gloss=ProxH
 31	mài	mài	PART	_	Number=Sing|PartType=Der	29	advmod	_	Gloss=owner_of.Sing
 32	suːnaː	suːnaː	NOUN	_	Gender=Masc	31	compound	_	Gloss=name.Masc
@@ -365,11 +365,11 @@
 40	yâraː	yaːròː	NOUN	_	Number=Plur	37	ccomp	_	Gloss=boy.Plur
 41	ɓàràːyiː	ɓàraːwòː	NOUN	_	Number=Plur	40	nmod	_	Gloss=thief.Plur
 42	à	à	ADP	_	_	43	case	_	Gloss=at
-43	sâssaː	saːshèː	NOUN	_	Number=Plur	40	obl	_	Gloss=part.Plur
+43	sâssaː	saːshèː	NOUN	_	Number=Plur	40	obl:mod	_	Gloss=part.Plur
 44	dàbam	dàbam	ADJ	_	_	43	amod	_	Gloss=different
 45	dàbam	dàbam	ADJ	_	_	44	conj	_	Gloss=different
 46	à	à	ADP	_	_	47	case	_	Gloss=at
-47	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	40	obl	_	Gloss=Nigeria|SpaceAfter=No
+47	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	40	obl:mod	_	Gloss=Nigeria|SpaceAfter=No
 48	.	.	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 
 # sent_id = 03_Barayi_a_Ikko_12

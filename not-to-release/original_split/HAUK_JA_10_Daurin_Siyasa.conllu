@@ -85,7 +85,7 @@
 20	mulkìn	mulkìː	NOUN	_	Definite=Cons|Gender=Masc	19	obj	_	Gloss=rule.Masc.Cons
 21	soːjà	soːjà	NOUN	_	Number=Plur	20	nmod	_	Gloss=soldiers.Plur
 22	à	à	ADP	_	_	23	case	_	Gloss=at
-23	ƙasâr̃	ƙasaː	NOUN	_	Definite=Def|Gender=Fem	19	obl	_	Gloss=country.Fem.Def|SpaceAfter=No
+23	ƙasâr̃	ƙasaː	NOUN	_	Definite=Def|Gender=Fem	19	obl:mod	_	Gloss=country.Fem.Def|SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 
 # sent_id = 10_Daurin_Siyasa_5
@@ -103,13 +103,13 @@
 9	tsarèː	tsar-	VERB	_	_	8	ccomp	_	Gloss=imprison
 10	mùtûm	mùtûm	NOUN	_	Gender=Masc	9	obj	_	Gloss=man.Masc
 11	har̃	har̃	ADP	_	_	12	case	_	Gloss=up_to
-12	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	9	obl	_	Gloss=length.Masc.Cons
+12	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	9	obl:mod	_	Gloss=length.Masc.Cons
 13	wàtànniː	watàː	NOUN	_	Number=Plur	12	nmod	_	Gloss=month.Plur
 14	shidà	shidà	NUM	_	_	13	nummod	_	Gloss=six
 15	bà	bà	PART	_	PartType=Neg|Polarity=Neg	18	advmod	_	Gloss=Neg
 16	tàːre	tàːre	ADV	_	_	18	advmod	_	Gloss=together
 17	dà	dà	ADP	_	_	18	case	_	Gloss=with
-18	tùhumàr̃sà	tuhum-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	9	obl	_	CaseAf=Gen|GenderAf=Masc|Gloss=charge.Vnoun.Fem.Cons-3MascGen|MSeg=tùhumàr̃-sà|PersonAf=3|Poss=Yes|wordform=tùhumàr̃
+18	tùhumàr̃sà	tuhum-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	9	obl:mod	_	CaseAf=Gen|GenderAf=Masc|Gloss=charge.Vnoun.Fem.Cons-3MascGen|MSeg=tùhumàr̃-sà|PersonAf=3|Poss=Yes|wordform=tùhumàr̃
 19	ba	ba	PART	_	PartType=Neg|Polarity=Neg	18	advmod	_	Gloss=Neg|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	Gloss=PUNCT
 21	in	in	SCONJ	_	_	23	mark	_	Gloss=if
@@ -220,7 +220,7 @@
 32	tsarèː	tsar-	VERB	_	_	15	ccomp	_	Gloss=imprison
 33	mutàneː	mùtûm	NOUN	_	Number=Plur	32	obj	_	Gloss=man.Plur
 34	sabòːdà	sabòːdà	ADP	_	_	35	case	_	Gloss=because_of
-35	laifuffukàː	lâifiː	NOUN	_	Number=Plur	32	obl	_	Gloss=crime.Plur
+35	laifuffukàː	lâifiː	NOUN	_	Number=Plur	32	obl:mod	_	Gloss=crime.Plur
 36	na	na	PART	_	Case=Gen|Number=Plur|PartType=Case	37	case	_	Gloss=Gen
 37	yâu	yâu	ADV	_	_	35	nmod	_	Gloss=today
 38	dà	dà	CCONJ	_	_	39	cc	_	Gloss=and
@@ -297,13 +297,13 @@
 18	kaːmà	kaːm-	VERB	_	_	16	ccomp	_	Gloss=catch
 19	àboːkin	àboːkiː	NOUN	_	Definite=Cons|Gender=Masc	18	obj	_	Gloss=friend.Masc.Cons
 20	kaːsuwancìn	kaːsuwancìː	NOUN	_	Definite=Cons|Gender=Masc	19	compound	_	Gloss=business.Masc.Cons|SpaceAfter=No
-21	-sà	-sà	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	19	nmod	_	Gloss=-3MascGen|wordform=sà
+21	-sà	-sà	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	19	nmod:poss	_	Gloss=-3MascGen|wordform=sà
 22	an	yaː	AUX	_	Aspect=Perf|Person=4	24	aux	_	Gloss=4.Perf
 23	kuma	kuma	PART	_	PartType=Top	24	discourse	_	Gloss=also
 24	tsarèː	tsar-	VERB	_	_	18	parataxis	_	Gloss=imprison
 25	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	24	obj	_	Gloss=3Masc.Acc
 26	har̃	har̃	ADP	_	_	27	case	_	Gloss=up_to
-27	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	24	obl	_	Gloss=length.Masc.Cons
+27	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	24	obl:mod	_	Gloss=length.Masc.Cons
 28	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	27	nmod	_	Gloss=year.Fem
 29	biyu	biyu	NUM	_	_	28	nummod	_	Gloss=two|SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	Gloss=PUNCT
@@ -362,8 +362,8 @@
 20	dà	dà	ADP	_	_	21	case	_	Gloss=with
 21	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	obl:arg	_	Gloss=3Plur.Nom
 22	à	à	ADP	_	_	23	case	_	Gloss=at
-23	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	19	obl	_	Gloss=city.Masc.Cons
-24	Ìkko	Ìkko	PROPN	_	_	23	nmod	_	Gloss=Lagos
+23	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	19	obl:mod	_	Gloss=city.Masc.Cons
+24	Ìkko	Ìkko	PROPN	_	_	23	nmod:appos	_	Gloss=Lagos
 25	kawai	kawai	ADV	_	_	11	advmod	_	Gloss=merely|SpaceAfter=No
 26	;	;	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -381,7 +381,7 @@
 8	akà	yaː	AUX	_	Aspect=Perf|Person=4	9	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 9	ɗaurèː	ɗaur-	VERB	_	_	7	acl:relcl	_	Gloss=tie
 10	cikin	cikin	ADP	_	_	11	case	_	Gloss=inside
-11	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	9	obl	_	Gloss=year.Plur
+11	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	9	obl:mod	_	Gloss=year.Plur
 12	ukùn	ukùn	NUM	_	Definite=Def	11	nummod	_	Gloss=three.Def
 13	dà	dà	SCONJ	_	_	15	mark	_	Gloss=COMP
 14	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	15	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -394,7 +394,7 @@
 21	à	à	ADP	_	ExtPos=ADP	24	case	_	Gloss=at
 22	ƙàrƙashin	ƙàrƙashin	ADP	_	_	24	case	_	Gloss=under
 23	wannàn	nân	DET	_	Deixis=ProxS|Gender=Fem|PronType=Dem	24	det	_	Gloss=ProxS.Fem
-24	Dòːkaː	dòːkaː	NOUN	_	Gender=Fem	17	obl	_	Gloss=law.Fem
+24	Dòːkaː	dòːkaː	NOUN	_	Gender=Fem	17	obl:mod	_	Gloss=law.Fem
 25	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	26	case	_	Gloss=Gen.Fem
 26	Biyu	biyu	NUM	_	_	24	nmod	_	Gloss=two|SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	Gloss=PUNCT

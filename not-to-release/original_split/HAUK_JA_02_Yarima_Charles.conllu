@@ -3,7 +3,7 @@
 # text = Yàr̃iːmà Charles yaː kai zìyaːr̃àː zuwàː Afìr̃kà ta Yâmma
 # text_ortho = Yàr̃iːmà Charles yaː kai zìyaːr̃àː zuwàː Afìr̃kà ta Yâmma
 1	Yàr̃iːmà	yàr̃iːmà	NOUN	_	Gender=Masc	4	nsubj	_	Gloss=prince.Masc
-2	Charles	Charles	PROPN	_	_	1	nmod	_	Gloss=Charles
+2	Charles	Charles	PROPN	_	_	1	nmod:appos	_	Gloss=Charles
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	aux	_	Gloss=3Masc.Perf
 4	kai	kai	VERB	_	_	0	root	_	Gloss=reach/carry_to
 5	zìyaːr̃àː	zìyaːr̃àː	NOUN	_	Gender=Fem	4	obj	_	Gloss=visit.Fem
@@ -80,7 +80,7 @@
 18	dà	dà	CCONJ	_	_	19	cc	_	Gloss=and
 19	agoːgunàn	àgoːgo	NOUN	_	Definite=Cons|Number=Plur	12	conj	_	Gloss=watch.Plur.Cons
 20	"	"	PUNCT	_	_	21	punct	_	Gloss=PUNCT|wordform=‘
-21	Rolex	Rolex	PROPN	_	_	19	nmod	_	Gloss=Rolex|SpaceAfter=No
+21	Rolex	Rolex	PROPN	_	_	19	nmod:appos	_	Gloss=Rolex|SpaceAfter=No
 22	"	"	PUNCT	_	_	21	punct	_	Gloss=PUNCT|wordform=’
 23	na	na	PART	_	Case=Gen|PartType=Case	24	case	_	Gloss=Gen
 24	jàbu	jàbu	NOUN	_	Gender=Masc	19	nmod	_	Gloss=counterfeit.Masc
@@ -112,7 +112,7 @@
 # text = bìsàː àlꞌaːdàː bàːƙin Gwamnatìn Nàːjeːr̃iyàː sukàn sàuka nèː à tsoːhon gidan gwamnatì dà kèː Ìkko, wandà à dâː shiː nèː gidan gwamnà à loːkàcin mulkìn màllakàr̃ Bìrtaːniyà.
 # text_ortho = Bìsàː àlꞌaːdàː bàːƙin Gwamnatin Nàːjeːr̃iyàː sukàn sàuka nèː à tsoːhon gidan Gwamnatì dà kèː l̀kko, wandà à dâː shiː nèː gidan Gwamnà à loːkàcin mulkìn màllakàr̃ Bìrtaːniyàː.
 1	bìsàː	bìsàː	ADP	_	_	2	case	_	Gloss=according_to
-2	àlꞌaːdàː	àlꞌaːdàː	NOUN	_	Gender=Fem	7	obl	_	Gloss=custom.Fem
+2	àlꞌaːdàː	àlꞌaːdàː	NOUN	_	Gender=Fem	7	obl:mod	_	Gloss=custom.Fem
 3	bàːƙin	bàːƙoː	NOUN	_	Definite=Cons|Number=Plur	7	nsubj	_	Gloss=guest.Plur.Cons
 4	Gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	3	nmod	_	Gloss=government.Fem.Cons
 5	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	Number=Plur	4	nmod	_	Gloss=Nigeria
@@ -135,7 +135,7 @@
 22	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	20	dislocated	_	Gloss=house.Masc.Cons
 23	gwamnà	gwamnà	NOUN	_	Gender=Masc	22	nmod	_	Gloss=governor.Masc
 24	à	à	ADP	_	_	25	case	_	Gloss=at
-25	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	20	obl	_	Gloss=time.Masc.Cons
+25	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	20	obl:mod	_	Gloss=time.Masc.Cons
 26	mulkìn	mulkìː	NOUN	_	Definite=Cons|Gender=Masc	25	nmod	_	Gloss=rule.Masc.Cons
 27	màllakàr̃	màllakàː	NOUN	_	Definite=Cons|Gender=Fem	26	nmod	_	Gloss=rule.Fem.Cons
 28	Bìrtaːniyà	Bìrtaːniyà	PROPN	_	_	27	nmod	_	Gloss=Great-Britain|SpaceAfter=No
@@ -162,13 +162,13 @@
 15	haskàkâːwaː	haskàk-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	13	conj	_	Gloss=brighten_up.Vnoun.Fem
 16	duk	dukà	ADV	_	ExtPos=ADP|PronType=Tot	18	case	_	Gloss=all|Idiom=Yes
 17	dà	dà	ADP	_	_	16	fixed	_	Gloss=with|InIdiom=Yes
-18	gyàːre-gyàːren	gyaːraː	NOUN	_	Definite=Cons|Number=Plur	12	obl	_	Gloss=repair.Plur
+18	gyàːre-gyàːren	gyaːraː	NOUN	_	Definite=Cons|Number=Plur	12	obl:mod	_	Gloss=repair.Plur
 19	zaːmàniː	zaːmàniː	NOUN	_	Gender=Masc	18	nmod	_	Gloss=modern_time.Masc
 20	dà	dà	SCONJ	_	_	22	mark	_	Gloss=COMP
 21	akà	yaː	AUX	_	Aspect=Perf|Person=4	22	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 22	yi	yi	VERB	_	_	18	acl:relcl	_	Gloss=do
 23	masà	masà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	22	iobj	_	Gloss=3Masc.Dat
-24	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	22	obl	_	Gloss=time.Masc.Def
+24	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	22	obl:mod	_	Gloss=time.Masc.Def
 25	dà	dà	SCONJ	_	_	28	mark	_	Gloss=COMP
 26	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	28	nsubj	_	Gloss=Nigeria
 27	takèː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	28	aux	_	Gloss=3Fem.Prog.Rel|Relative=Yes
@@ -215,7 +215,7 @@
 5	Fir̃aːyìm	Fir̃aːyìm	PROPN	_	_	12	nsubj	_	Gloss=Prime
 6	Ministàː	Ministàː	PROPN	_	_	5	flat:name	_	Gloss=Minister
 7	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform=‘
-8	Margaret	Margaret	PROPN	_	_	5	nmod	_	Gloss=Margaret
+8	Margaret	Margaret	PROPN	_	_	5	nmod:appos	_	Gloss=Margaret
 9	Thatcher	Thatcher	PROPN	_	_	8	flat:name	_	Gloss=Thatcher|SpaceAfter=No
 10	"	"	PUNCT	_	_	8	punct	_	Gloss=PUNCT|wordform=’
 11	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	12	aux	_	Gloss=3Fem.Perf.Rel|Relative=Yes
@@ -254,7 +254,7 @@
 10	nèː	neː	AUX	_	_	9	cop	_	Copula=Yes|Gloss=be
 11	don	don	SCONJ	_	_	17	mark	_	Gloss=in_order_to
 12	Yàr̃iːmà	yàr̃iːmà	NOUN	_	Gender=Masc	17	nsubj	_	Gloss=prince.Masc
-13	Charles	Charles	PROPN	_	_	12	nmod	_	Gloss=Charles
+13	Charles	Charles	PROPN	_	_	12	nmod:appos	_	Gloss=Charles
 14	dà	dà	CCONJ	_	_	15	cc	_	Gloss=and
 15	Gimbìyaː	gimbìyaː	NOUN	_	Gender=Fem	13	conj	_	Gloss=princess.Fem
 16	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	17	aux	_	Gloss=3Plur.Sub
@@ -289,7 +289,7 @@
 2	kuma	kuma	PART	_	PartType=Top	1	discourse	_	Gloss=also
 3	Gwamnàn	gwamnàn	PROPN	_	Definite=Cons|Gender=Masc	9	nsubj	_	Gloss=governor.Masc.Cons
 4	Jihàr̃	jihàː	NOUN	_	Definite=Cons|Gender=Fem	3	nmod	_	Gloss=state.Fem.Cons
-5	Ànambar̃à	Ànambar̃à	PROPN	_	_	4	nmod	_	Gloss=Anambra
+5	Ànambar̃à	Ànambar̃à	PROPN	_	_	4	nmod:appos	_	Gloss=Anambra
 6	dà	da	CCONJ	_	_	7	cc	_	Gloss=and|wordform=da
 7	uwar̃gidansà	uwar̃gidaː	NOUN	_	Definite=Cons|Gender=Fem	3	conj	_	CaseAf=Gen|GenderAf=Masc|Gloss=wife.Fem.Cons-3MascGen|MSeg=uwar̃gidan-sà|PersonAf=3|Poss=Yes|SpaceAfter=No
 8	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	9	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -324,7 +324,7 @@
 13	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	14	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 14	zar̃cèː	zar̃t-	VERB	_	_	0	root	_	Gloss=move_on
 15	zuwàː	zuwàː	ADP	_	_	14	obl:arg	_	Gloss=towards
-16	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	15	obl	_	Gloss=house.Masc.Cons
+16	gidan	gidaː	NOUN	_	Definite=Cons|Gender=Masc	15	obl:mod	_	Gloss=house.Masc.Cons
 17	Gwamnàn	gwamnàː	PROPN	_	Gender=Masc	16	nmod	_	Gloss=governor.Masc
 18	indà	indà	PRON	_	PronType=Rel	16	acl:relcl	_	Gloss=where
 19	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	20	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
@@ -383,7 +383,7 @@
 8	kàmar̃	kàmar̃	ADP	_	_	11	case	_	Gloss=like
 9	wata	wani	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	11	det	_	Gloss=some.Fem.Spec
 10	shirgeːgìyar̃	shirgeːgèː	ADJ	_	Definite=Cons|Gender=Fem	11	amod	_	Gloss=huge.Fem.Cons
-11	tar̃waɗaː	tar̃waɗaː	NOUN	_	Gender=Fem	5	obl	_	Gloss=mudfish.Fem
+11	tar̃waɗaː	tar̃waɗaː	NOUN	_	Gender=Fem	5	obl:mod	_	Gloss=mudfish.Fem
 12	dà	dà	SCONJ	_	_	14	mark	_	Gloss=COMP
 13	akà	yaː	AUX	_	Aspect=Perf|Person=4	14	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 14	ci	ci	VERB	_	_	11	acl:relcl	_	Gloss=eat|SpaceAfter=No
@@ -404,7 +404,7 @@
 9	taːshì	taːs-	VERB	_	_	0	root	_	Gloss=set_off
 10	zuwàː	zuwàː	ADP	_	_	11	case	_	Gloss=towards
 11	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	9	obl:arg	_	Gloss=country.Fem.Cons
-12	Kàmàr̃u	Kàmàr̃u	PROPN	_	_	11	nmod	_	Gloss=Cameroon|SpaceAfter=No
+12	Kàmàr̃u	Kàmàr̃u	PROPN	_	_	11	nmod:appos	_	Gloss=Cameroon|SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	Gloss=PUNCT
 
 # sent_id = 02_Yarima_Charles_14
@@ -433,7 +433,7 @@
 20	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	21	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 21	fi	fi	VERB	_	_	17	acl:relcl	_	Gloss=exceed
 22	koːwànneː	koːwànneː	PRON	_	Gender=Masc|PronType=Ind	21	obj	_	Gloss=each_one.Masc
-23	girmaː	girmaː	NOUN	_	Gender=Masc	21	obl	_	Gloss=size.Masc|SpaceAfter=No
+23	girmaː	girmaː	NOUN	_	Gender=Masc	21	obl:mod	_	Gloss=size.Masc|SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	Gloss=PUNCT
 25	sànnan	sànnan	ADV	_	_	28	advmod	_	Gloss=then
 26	kuma	kuma	PART	_	PartType=Top	25	discourse	_	Gloss=also
@@ -441,11 +441,11 @@
 28	fi	fi	VERB	_	_	21	conj	_	Gloss=exceed
 29	koːwànneː	koːwànneː	PRON	_	Gender=Masc|PronType=Ind	28	obj	_	Gloss=each_one.Masc
 30	yawàn	yawàn	ADJ	_	Definite=Cons|Gender=Masc	28	advcl	_	Gloss=quantity.Masc.Cons
-31	itaːtuwàː	itàːceː	NOUN	_	Number=Plur	30	obl	_	Gloss=tree.Plur
+31	itaːtuwàː	itàːceː	NOUN	_	Number=Plur	30	obl:mod	_	Gloss=tree.Plur
 32	irìː-irìː	irìː-irìː	ADJ	_	Gender=Masc	31	amod	_	Gloss=various
 33	à	à	ADP	_	_	35	case	_	Gloss=at
 34	duk	dukà	DET	_	PronType=Tot	35	det	_	Gloss=all
-35	faːɗin	faːɗiː	NOUN	_	Definite=Cons|Gender=Masc	28	obl	_	Gloss=area.Masc.Cons
+35	faːɗin	faːɗiː	NOUN	_	Definite=Cons|Gender=Masc	28	obl:mod	_	Gloss=area.Masc.Cons
 36	duːniyàː	duːniyàː	NOUN	_	Gender=Fem	35	nmod	_	Gloss=world.Fem|SpaceAfter=No
 37	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 
@@ -480,7 +480,7 @@
 6	ɗàriː	ɗàriː	NUM	_	Gender=Fem	1	nmod	_	Gloss=hundred
 7	na	na	PART	_	Case=Gen|Definite=Cons|Gender=Masc|PartType=Case	1	advmod	_	Gloss=Gen
 8	duk	dukà	DET	_	PronType=Tot	9	det	_	Gloss=all
-9	yawàn	yawàn	ADJ	_	Definite=Cons|Gender=Masc	7	obl	_	Gloss=quantity.Masc.Cons
+9	yawàn	yawàn	ADJ	_	Definite=Cons|Gender=Masc	7	obl:mod	_	Gloss=quantity.Masc.Cons
 10	jinsunàn	jinsìː	NOUN	_	Definite=Def|Number=Plur	9	nmod	_	Gloss=species.Plur.Def
 11	birân	birìː	NOUN	_	Definite=Def|Number=Plur	10	nmod	_	Gloss=monkey.Plur.Def
 12	dà	dà	SCONJ	_	_	15	mark	_	Gloss=COMP
@@ -488,14 +488,14 @@
 14	dà	dà	ADP	_	_	15	case	_	Gloss=with
 15	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	acl:relcl	_	Gloss=3Plur.Nom
 16	à	à	ADP	_	_	17	case	_	Gloss=at
-17	Afìr̃kà	Afìr̃kà	PROPN	_	_	15	obl	_	Gloss=Africa
+17	Afìr̃kà	Afìr̃kà	PROPN	_	_	15	obl:mod	_	Gloss=Africa
 18	zaː'à	zâi	AUX	_	Person=4|Tense=Fut	19	aux	_	Gloss=4.Fut
 19	iskèː	isk-	VERB	_	_	0	root	_	Gloss=find
 20	su	su	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	Gloss=3Plur.Acc
 21	à	à	ADP	_	_	22	case	_	Gloss=at
 22	gandun	ganduː	NOUN	_	Definite=Cons|Gender=Masc	19	obl:arg	_	Gloss=ranch.Masc.Cons
-23	daːjìn	daːjìː	NOUN	_	Definite=Cons|Gender=Masc	22	nmod	_	Gloss=bush.Masc.Cons
-24	Korup	Korup	PROPN	_	_	23	nmod	_	Gloss=Korup|SpaceAfter=No
+23	daːjìn	daːjìː	NOUN	_	Definite=Cons|Gender=Masc	22	nmod:appos	_	Gloss=bush.Masc.Cons
+24	Korup	Korup	PROPN	_	_	23	nmod:appos	_	Gloss=Korup|SpaceAfter=No
 25	;	;	PUNCT	_	_	28	punct	_	Gloss=PUNCT
 26	hakà	hakà	ADV	_	_	28	advmod	_	Gloss=thus
 27	maː	maː	PART	_	PartType=Top	26	discourse	_	Gloss=even
@@ -535,7 +535,7 @@
 17	ba	ba	PART	_	PartType=Neg|Polarity=Neg	9	advmod	_	Gloss=Neg|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	Gloss=PUNCT
 19	sabòːdà	sabòːdà	ADP	_	_	20	case	_	Gloss=because_of
-20	zùmuːɗìn	zùmuːɗìː	NOUN	_	Definite=Def|Gender=Masc	9	obl	_	Gloss=eagerness.Masc.Def
+20	zùmuːɗìn	zùmuːɗìː	NOUN	_	Definite=Def|Gender=Masc	9	obl:mod	_	Gloss=eagerness.Masc.Def
 21	dà	dà	SCONJ	_	_	26	mark	_	Gloss=COMP
 22	jàːmìꞌan	jàːmì'iː	NOUN	_	Definite=Cons|Number=Plur	26	nsubj	_	Gloss=official.Plur.Cons
 23	gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	22	nmod	_	Gloss=government.Fem.Cons

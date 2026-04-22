@@ -11,7 +11,7 @@
 7	r̃aꞌàyin	r̃aꞌàyiː	NOUN	_	Definite=Cons|Gender=Masc	6	compound	_	Gloss=opinion.Masc.Cons
 8	canjìː	canjìː	NOUN	_	Gender=Masc	7	nmod	_	Gloss=change.Masc
 9	à	à	ADP	_	_	10	case	_	Gloss=at
-10	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	2	obl	_	Gloss=Nigeria
+10	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	2	obl:mod	_	Gloss=Nigeria
 
 # sent_id = 05_Gurfanarwa_da_lauya_2
 # text_en = The military government of Nigeria differs from other military governments in Africa.
@@ -97,13 +97,13 @@
 25	tsarè	tsar-	VERB	_	_	24	ccomp	_	Gloss=imprison
 26	mùtûm	mùtûm	NOUN	_	Gender=Masc	25	obj	_	Gloss=man.Masc
 27	har̃	har̃	ADP	_	_	28	case	_	Gloss=up_to
-28	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	25	obl	_	Gloss=length.Masc.Cons
+28	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	25	obl:mod	_	Gloss=length.Masc.Cons
 29	wàtànniː	watàː	NOUN	_	Number=Plur	28	nmod	_	Gloss=month.Plur
 30	shidà	shidà	NUM	_	_	29	nummod	_	Gloss=six
 31	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	34	advmod	_	Gloss=Neg
 32	tàːre	tàːre	ADV	_	_	34	advmod	_	Gloss=together
 33	dà	dà	ADP	_	_	34	case	_	Gloss=with
-34	tùhumàr̃sà	tuhum-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	25	obl	_	CaseAf=Gen|GenderAf=Masc|Gloss=charge.Vnoun.Fem.Cons-3MascGen|MSeg=tùhumàr̃-sà|PersonAf=3|Poss=Yes|wordform=tùhumàr̃
+34	tùhumàr̃sà	tuhum-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	25	obl:mod	_	CaseAf=Gen|GenderAf=Masc|Gloss=charge.Vnoun.Fem.Cons-3MascGen|MSeg=tùhumàr̃-sà|PersonAf=3|Poss=Yes|wordform=tùhumàr̃
 35	ba	ba	PART	_	PartType=Neg|Polarity=Neg	34	advmod	_	Gloss=Neg|SpaceAfter=No
 36	,	,	PUNCT	_	_	39	punct	_	Gloss=PUNCT
 37	in	in	SCONJ	_	_	39	mark	_	Gloss=if
@@ -142,7 +142,7 @@
 9	mùtumìn	mùtûm	NOUN	_	Definite=Def|Gender=Masc	8	obj	_	Gloss=person.Masc.Def
 10	har̃	har̃	ADP	_	_	12	case	_	Gloss=up_to
 11	sai	sai	ADP	_	_	12	case	_	Gloss=until
-12	illaː	illaː	X	_	_	8	obl	_	Gloss=X
+12	illaː	illaː	X	_	_	8	obl:mod	_	Gloss=X
 13	maː	maː	X	_	_	12	flat:foreign	_	Gloss=X
 14	shaː	shaː	X	_	_	12	flat:foreign	_	Gloss=X
 15	Àllaːhù	Àllaːhù	X	_	_	12	flat:foreign	_	Gloss=Àllaːhù|SpaceAfter=No
@@ -185,7 +185,7 @@
 4	–	–	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 5	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 6	Chief	Chief	PROPN	_	_	3	appos	_	Gloss=Chief
-7	Gani	Gani	PROPN	_	_	6	nmod	_	Gloss=Gani
+7	Gani	Gani	PROPN	_	_	6	nmod:appos	_	Gloss=Gani
 8	Fawehinmi	Fawehinmi	PROPN	_	_	7	flat:name	_	Gloss=Fawehinmi|SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 10	–	–	PUNCT	_	_	6	punct	_	Gloss=PUNCT
@@ -195,12 +195,12 @@
 14	à	à	ADP	_	_	15	case	_	Gloss=at
 15	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	12	obl:arg	_	Gloss=Nigeria
 16	har̃	har̃	ADP	_	_	17	case	_	Gloss=up_to
-17	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	12	obl	_	Gloss=length.Masc.Cons
+17	tsawon	tsawoː	NOUN	_	Definite=Cons|Gender=Masc	12	obl:mod	_	Gloss=length.Masc.Cons
 18	wàtànniː	watàː	NOUN	_	Number=Plur	17	nmod	_	Gloss=month.Plur
 19	ukù	ukù	NUM	_	_	18	nummod	_	Gloss=three
 20	ƙàr̃ƙashin	ƙàr̃ƙashin	ADP	_	_	22	case	_	Gloss=under
 21	wannàn	nân	DET	_	Deixis=ProxS|Gender=Fem|PronType=Dem	22	det	_	Gloss=ProxS.Fem
-22	dòːkaː	dòːkaː	NOUN	_	Gender=Fem	12	obl	_	Gloss=law.Fem
+22	dòːkaː	dòːkaː	NOUN	_	Gender=Fem	12	obl:mod	_	Gloss=law.Fem
 23	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	24	case	_	Gloss=Gen.Fem
 24	tsàron	tsar-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	22	nmod	_	Gloss=imprison
 25	laːfiyar̃	laːfiyaː	NOUN	_	Definite=Cons|Gender=Fem	24	obj	_	Gloss=health.Fem.Cons
@@ -211,7 +211,7 @@
 30	tàːre	tàːre	ADV	_	_	33	advmod	_	Gloss=together
 31	dà	dà	ADP	_	_	33	case	_	Gloss=with
 32	wata	wani	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	33	det	_	Gloss=some.Fem.Spec
-33	àlaːmàː	àlaːmàː	NOUN	_	Gender=Fem	12	obl	_	Gloss=sign.Fem
+33	àlaːmàː	àlaːmàː	NOUN	_	Gender=Fem	12	obl:mod	_	Gloss=sign.Fem
 34	zaː'à	zâi	AUX	_	Person=4|Tense=Fut	35	aux	_	Gloss=4.Fut
 35	gur̃faːnar̃	gur̃faːn-	VERB	_	Voice=Cau	33	acl:relcl	_	Gloss=take_to_court.Cau
 36	dà	dà	ADP	_	_	37	case	_	Gloss=with
@@ -227,7 +227,7 @@
 # text_ortho = Chief Gani Fawehinmi ( G.F. ) yaː faɗìː yâu cêːwaː yànzu hukuːmoːmin ƙasâr̃ sunàː shirìn gur̃faːnar̃ dà shiː à gàban wata koːtù ta mùsammàn tàːre dà zàrginsà dà lâifin yîn ƙafàr̃ àngùlu à shirìn miːƙà mulkìː gà farar̃-hùːlaː dàgà hannun soːjoːjiː.
 # text = Chief Gani Fawehinmi ( G.F. ) yaː faɗìː yâu cêːwaː yànzu hukuːmoːmin ƙasâr̃ sunàː shirìn gur̃faːnar̃ dà shiː à gàban wata koːtù ta mùsammàn tàːre dà zàrginsàdà lâifin yîn ƙafàr̃ àngùlu à shirìn miːƙà mulkìː gà farar̃-hùːlaː dàgà hannun soːjoːjiː.
 1	Chief	Chief	PROPN	_	_	8	nsubj	_	Gloss=Chief
-2	Gani	Gani	PROPN	_	_	1	nmod	_	Gloss=Gani
+2	Gani	Gani	PROPN	_	_	1	nmod:appos	_	Gloss=Gani
 3	Fawehinmi	Fawehinmi	PROPN	_	_	2	flat:name	_	Gloss=Fawehinmi
 4	(	(	PUNCT	_	_	5	punct	_	Gloss=PUNCT
 5	G.F.	G.F.	PROPN	_	_	2	appos	_	Gloss=G.F.
@@ -279,14 +279,14 @@
 4	akèː	nàː	AUX	_	Aspect=Prog|Person=4	5	aux	_	Gloss=4.Prog.Rel|Relative=Yes
 5	zàrgin	zarg-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	acl:relcl	_	Gloss=accuse.Vnoun.Masc.Cons
 6	Chief	Chief	PROPN	_	_	5	obj	_	Gloss=Chief
-7	G.F.	G.F.	PROPN	_	_	6	nmod	_	Gloss=G.F.
+7	G.F.	G.F.	PROPN	_	_	6	nmod:appos	_	Gloss=G.F.
 8	dà	dà	ADP	_	_	9	case	_	Gloss=with
 9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	obl:arg	_	Gloss=3Masc.Nom|SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 11	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	12	aux	_	Gloss=1Sing.Sub
 12	ji	ji	VERB	_	_	17	discourse	_	Gloss=hear
 13	lauyàn	lauyàː	NOUN	_	Definite=Def|Gender=Masc	12	obj	_	Gloss=lawyer.Masc.Def
-14	naːsà	naːsà	PRON	_	Case=Gen|Gender=Masc|PronType=Prs	13	nmod	_	CaseAf=Gen|GenderAf=Masc|Gloss=Gen.Masc-3MascGen|MSeg=naː-sà|PersonAf=3|Poss=Yes|SpaceAfter=No|wordform=naː
+14	naːsà	naːsà	PRON	_	Case=Gen|Gender=Masc|PronType=Prs	13	nmod:poss	_	CaseAf=Gen|GenderAf=Masc|Gloss=Gen.Masc-3MascGen|MSeg=naː-sà|PersonAf=3|Poss=Yes|SpaceAfter=No|wordform=naː
 15	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 16	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	17	aux	_	Gloss=3Masc.Perf
 17	shàːfi	shaf-	VERB	_	_	0	root	_	Gloss=concern
@@ -296,7 +296,7 @@
 21	waddà	wandà	PRON	_	Gender=Fem|PronType=Rel	19	acl:relcl	_	Gloss=REL.Fem
 22	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	26	nsubj	_	Gloss=3Masc.Nom
 23	Chief	Chief	PROPN	_	_	22	appos	_	Gloss=Chief
-24	G.F.	G.F.	PROPN	_	_	23	nmod	_	Gloss=G.F.
+24	G.F.	G.F.	PROPN	_	_	23	nmod:appos	_	Gloss=G.F.
 25	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	26	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 26	r̃ubùːtaː	r̃ubuːt-	VERB	_	_	21	ccomp	_	Gloss=write
 27	à	à	ADP	_	_	28	dep	_	Gloss=at
@@ -309,8 +309,8 @@
 34	canjìː	canjìː	NOUN	_	Gender=Masc	33	nmod	_	Gloss=change.Masc
 35	à	à	ADP	_	_	37	case	_	Gloss=at
 36	cikin	cikin	ADP	_	_	37	case	_	Gloss=inside
-37	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	26	obl	_	Gloss=month.Masc.Cons
-38	Maːyù	Maːyù	NOUN	_	Gender=Masc	37	nmod	_	Gloss=may.Masc|SpaceAfter=No
+37	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	26	obl:mod	_	Gloss=month.Masc.Cons
+38	Maːyù	Maːyù	NOUN	_	Gender=Masc	37	nmod:appos	_	Gloss=may.Masc|SpaceAfter=No
 39	.	.	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 
 # sent_id = 05_Gurfanarwa_da_lauya_13
@@ -352,7 +352,7 @@
 8	akà	yaː	AUX	_	Aspect=Perf|Person=4	9	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 9	sàːmi	saːm-	VERB	_	_	18	advcl	_	Gloss=get
 10	Chief	Chief	PROPN	_	_	9	obj	_	Gloss=Chief
-11	G.F.	G.F.	PROPN	_	_	10	nmod	_	Gloss=G.F.
+11	G.F.	G.F.	PROPN	_	_	10	nmod:appos	_	Gloss=G.F.
 12	dà	dà	CCONJ	_	_	14	case	_	Gloss=and
 13	wannàn	nân	DET	_	Deixis=ProxS|Gender=Masc|PronType=Dem	14	det	_	Gloss=ProxS.Masc
 14	lâifiː	lâifiː	NOUN	_	Gender=Masc	9	obl:arg	_	Gloss=crime.Masc|SpaceAfter=No
@@ -379,7 +379,7 @@
 3	daɗèːwaː	daɗ-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	1	dep	_	Gloss=last.Vnoun.Fem
 4	nèː	neː	PART	_	PartType=Foc	1	discourse	_	Gloss=Emph
 5	Chief	Chief	PROPN	_	_	8	nsubj	_	Gloss=Chief
-6	G.F.	G.F.	PROPN	_	_	5	nmod	_	Gloss=G.F.
+6	G.F.	G.F.	PROPN	_	_	5	nmod:appos	_	Gloss=G.F.
 7	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 8	zama	zama	VERB	_	_	0	root	_	Gloss=become
 9	ƙayàː	ƙayàː	NOUN	_	Gender=Fem	8	xcomp	_	Gloss=thorn.Fem
@@ -399,8 +399,8 @@
 5	làːbàːr̃ai	làːbaːr̃ìː	NOUN	_	Number=Plur	2	obl:arg	_	Gloss=news.Plur
 6	nèː	neː	PART	_	PartType=Foc	5	discourse	_	Gloss=Emph
 7	à	à	ADP	_	_	8	case	_	Gloss=at
-8	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	2	obl	_	Gloss=year.Fem.Cons
-9	alìf	alìf	NUM	_	_	8	nmod	_	Gloss=one_thousand
+8	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	2	obl:mod	_	Gloss=year.Fem.Cons
+9	alìf	alìf	NUM	_	_	8	nmod:appos	_	Gloss=one_thousand
 10	dà	dà	CCONJ	_	_	11	cc	_	Gloss=and
 11	ɗàːriː	ɗàːriː	NOUN	_	Number=Plur	9	conj	_	Gloss=hundred
 12	tar̃à	tar̃à	NUM	_	_	11	nummod	_	Gloss=nine
@@ -408,7 +408,7 @@
 14	sìttin	sìttin	NUM	_	_	9	conj	_	Gloss=sixty
 15	dà	dà	CCONJ	_	_	16	cc	_	Gloss=and
 16	tar̃à	tar̃à	NUM	_	_	9	conj	_	Gloss=nine
-17	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	2	obl	_	Gloss=time.Masc.Def
+17	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	2	obl:mod	_	Gloss=time.Masc.Def
 18	dà	dà	SCONJ	_	_	20	mark	_	Gloss=COMP
 19	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	20	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 20	kaːrè	kaːr-	VERB	_	_	17	acl:relcl	_	Gloss=protect
@@ -435,7 +435,7 @@
 # text = Dàgà wannàn loːkàciː kùwa ya cèː yaː yi niyyàr̃ cîː gàba dà tabbatar̃ dà ꞌyancìn ɗan Adàm gà jàmaꞌàr̃ Nàːjeːr̃iyàː maràsaː ƙarfiː.
 1	Dàgà	dàgà	ADP	_	_	3	case	_	Gloss=from
 2	wannàn	nân	DET	_	Deixis=ProxS|Gender=Masc|PronType=Dem	3	det	_	Gloss=ProxS.Masc
-3	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	obl	_	Gloss=time.Masc
+3	loːkàciː	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	6	obl:mod	_	Gloss=time.Masc
 4	kùwa	kùwa	PART	_	PartType=Top	3	discourse	_	Gloss=in_fact
 5	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 6	cèː	cêː	VERB	_	Gender=Fem	0	root	_	Gloss=be.Fem
@@ -465,7 +465,7 @@
 2	yaːƙìn	yaːƙìː	NOUN	_	Definite=Def|Gender=Masc	11	nsubj	_	Gloss=fight.Masc.Def
 3	dà	dà	SCONJ	_	_	7	mark	_	Gloss=COMP
 4	Chief	Chief	PROPN	_	_	7	nsubj	_	Gloss=Chief
-5	G.F.	G.F.	PROPN	_	_	4	nmod	_	Gloss=G.F.
+5	G.F.	G.F.	PROPN	_	_	4	nmod:appos	_	Gloss=G.F.
 6	kèː	nàː	AUX	_	Aspect=Prog	7	aux	_	Gloss=Prog.Rel|Relative=Yes
 7	yîː	yi	VERB	_	ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	acl:relcl	_	Gloss=do.Vnoun.Masc
 8	dà	dà	ADP	_	_	9	case	_	Gloss=with
@@ -493,7 +493,7 @@
 4	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 5	fi	fi	VERB	_	_	1	acl:relcl	_	Gloss=exceed
 6	koːwànneː	koːwànneː	PRON	_	Gender=Masc|PronType=Int	5	obj	_	Gloss=each_one.Masc
-7	muhimmancìː	muhimmancìː	NOUN	_	Gender=Masc	5	obl	_	Gloss=importance.Masc
+7	muhimmancìː	muhimmancìː	NOUN	_	Gender=Masc	5	obl:mod	_	Gloss=importance.Masc
 8	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
 9	nèː	neː	AUX	_	_	8	cop	_	Copula=Yes|Gloss=be
 10	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	8	dislocated	_	Gloss=look_for.Vnoun.Masc.Cons
@@ -505,7 +505,7 @@
 16	jàːmìꞌan	jàːmì'iː	NOUN	_	Definite=Cons|Number=Plur	14	obj	_	Gloss=leader.Plur.Cons
 17	tsàron	tsàron	NOUN	_	Definite=Cons|Gender=Masc	16	nmod	_	Gloss=security.Masc.Cons
 18	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	17	nmod	_	Gloss=country.Fem.Cons
-19	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	18	nmod	_	Gloss=Nigeria
+19	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	18	nmod:appos	_	Gloss=Nigeria
 20	biyu	biyu	NUM	_	_	16	nummod	_	Gloss=two
 21	waɗàndà	wandà	PRON	_	Number=Plur|PronType=Rel	16	acl:relcl	_	Gloss=REL.Plur
 22	akà	yaː	AUX	_	Aspect=Perf|Person=4	23	aux	_	Gloss=4.Perf.Rel|Relative=Yes
@@ -526,17 +526,17 @@
 37	rânsà	râi	NOUN	_	Definite=Cons|Gender=Masc	36	obj	_	CaseAf=Gen|GenderAf=Masc|Gloss=life.Masc.Cons-3MascGen|MSeg=rân-sà|PersonAf=3|Poss=Yes|SpaceAfter=No
 38	dàliːlìn	dàliːlìn	ADP	_	_	40	case	_	Gloss=because_of
 39	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	40	det	_	Gloss=some.Masc.Spec
-40	bâm	bâm	NOUN	_	Gender=Masc	36	obl	_	Gloss=bomb.Masc
+40	bâm	bâm	NOUN	_	Gender=Masc	36	obl:mod	_	Gloss=bomb.Masc
 41	dà	dà	SCONJ	_	_	43	mark	_	Gloss=COMP
 42	akà	yaː	AUX	_	Aspect=Perf|Person=4	43	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 43	aikoː	aik-	VERB	_	_	40	acl:relcl	_	Gloss=send
 44	masà	masà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	43	iobj	_	Gloss=3Masc.Dat
 45	ta	ta	ADP	_	_	47	case	_	Gloss=via
 46	cikin	cikin	ADP	_	_	47	case	_	Gloss=inside
-47	wàsiːƙàː	wàsiːƙàː	NOUN	_	Gender=Fem	43	obl	_	Gloss=letter.Fem
+47	wàsiːƙàː	wàsiːƙàː	NOUN	_	Gender=Fem	43	obl:mod	_	Gloss=letter.Fem
 48	tun	tun	ADP	_	_	49	case	_	Gloss=since
-49	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	43	obl	_	Gloss=year.Fem.Cons
-50	alìf	alìf	NUM	_	_	49	nmod	_	Gloss=one_thousand
+49	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	43	obl:mod	_	Gloss=year.Fem.Cons
+50	alìf	alìf	NUM	_	_	49	nmod:appos	_	Gloss=one_thousand
 51	dà	dà	CCONJ	_	_	52	cc	_	Gloss=and
 52	ɗàriː	ɗàriː	NUM	_	Gender=Fem	50	conj	_	Gloss=hundred
 53	tar̃à	tar̃à	NUM	_	_	52	nummod	_	Gloss=nine
@@ -553,14 +553,14 @@
 1	an	yaː	AUX	_	Aspect=Perf|Person=4	2	aux	_	Gloss=4.Perf
 2	kaːmè	kaːm-	VERB	_	_	0	root	_	Gloss=catch
 3	Chief	Chief	PROPN	_	_	2	obj	_	Gloss=Chief
-4	G.F.	G.F.	PROPN	_	_	3	nmod	_	Gloss=G.F.
+4	G.F.	G.F.	PROPN	_	_	3	nmod:appos	_	Gloss=G.F.
 5	neː	neː	PART	_	PartType=Foc	3	discourse	_	Gloss=Emph
 6	à	à	ADP	_	_	7	case	_	Gloss=at
 7	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	11	reparandum	_	Gloss=month.Masc.Cons
-8	Yuːnì	Yuːnì	NOUN	_	Gender=Masc	7	nmod	_	Gloss=June.Masc|SpaceAfter=No
+8	Yuːnì	Yuːnì	NOUN	_	Gender=Masc	7	nmod:appos	_	Gloss=June.Masc|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 10	wàːtòː	wàːtòː	CCONJ	_	_	11	cc	_	Gloss=i.e.
-11	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	2	obl	_	Gloss=time.Masc.Def
+11	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	2	obl:mod	_	Gloss=time.Masc.Def
 12	dà	dà	SCONJ	_	_	15	mark	_	Gloss=COMP
 13	yakè	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	15	aux	_	Copula=Yes|Gloss=3Fem.Prog.Rel|Relative=Yes
 14	cikin	cikin	ADP	_	_	15	case	_	Gloss=inside
@@ -575,7 +575,7 @@
 23	tattalin	tattaliː	NOUN	_	Definite=Cons|Gender=Masc	22	nmod	_	Gloss=planning.Masc.Cons
 24	ar̃zìkin	ar̃zìkiː	NOUN	_	Definite=Cons|Gender=Masc	23	nmod	_	Gloss=wealth.Masc.Cons
 25	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	24	nmod	_	Gloss=country.Fem.Cons
-26	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	25	nmod	_	Gloss=Nigeria
+26	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	25	nmod:appos	_	Gloss=Nigeria
 27	tatas	tatas	X	_	_	20	xcomp	_	Gloss=condemnation|Ideophon=Yes|SpaceAfter=No
 28	.	.	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 
@@ -626,7 +626,7 @@
 12	gur̃fanar̃	gur̃faːn-	VERB	_	Voice=Cau	6	conj	_	Gloss=take_to_court.Cau
 13	dà	dà	ADP	_	_	14	case	_	Gloss=with
 14	Chief	Chief	PROPN	_	_	12	obl:arg	_	Gloss=Chief
-15	G.F.	G.F.	PROPN	_	_	14	nmod	_	Gloss=G.F.
+15	G.F.	G.F.	PROPN	_	_	14	nmod:appos	_	Gloss=G.F.
 16	à	à	ADP	_	_	18	case	_	Gloss=at
 17	gàban	gàban	ADP	_	_	18	case	_	Gloss=front
 18	shàr̃iꞌàː	shàr̃iꞌàː	NOUN	_	Gender=Fem	12	obl:arg	_	Gloss=justice.Fem|SpaceAfter=No

@@ -6,7 +6,7 @@
 2	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 3	kaːwoː	kai	VERB	_	_	1	advcl:cleft	_	Gloss=carry/take_to
 4	bàlaː'ìn	bàlaː'ìː	NOUN	_	Definite=Cons|Gender=Masc	3	obj	_	Gloss=disaster.Masc.Cons
-5	Tafkìn	tafkìː	NOUN	_	Definite=Cons|Gender=Masc	7	nmod	_	Gloss=river.Masc.Cons
+5	Tafkìn	tafkìː	NOUN	_	Definite=Cons|Gender=Masc	7	nmod:appos	_	Gloss=river.Masc.Cons
 6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|SpaceAfter=No
 7	Nyos	Nyos	PROPN	_	_	4	nmod	_	Gloss=Nyos|SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|SpaceAfter=No
@@ -17,11 +17,11 @@
 # text_ortho = À watàn Àgustàː na shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà shidà neː wata irìn iskàː mài gubàː, wàːtòː " carbon dioxide" , ta riƙà fìtaː dàgà Tafkìn Nyos ƙasar̃ Kàmàr̃u har̃ ta yi sànàdiyyàr̃ mutuwàr̃ mutàːneː kàmar̃ dubuː dà ɗàriː bakwài.
 # text = à watàn Àgustàː na shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà shidà neː wata irìn iskàː mài gubàː, wàːtòː " carbon dioxide" , ta riƙà fìtaː dàgà Tafkìn Nyos ƙasar̃ Kàmàr̃u har̃ ta yi sànàdiyyàr̃ mutuwàr̃ mutàːneː kàmar̃ dubuː dà ɗàriː bakwài.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	28	obl	_	Gloss=month.Masc.Cons
-3	Àgustàː	Àgustàː	PROPN	_	Gender=Masc	2	nmod	_	Gloss=august.Masc
+2	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	28	obl:mod	_	Gloss=month.Masc.Cons
+3	Àgustàː	Àgustàː	PROPN	_	Gender=Masc	2	nmod:appos	_	Gloss=august.Masc
 4	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	5	case	_	Gloss=Gen
 5	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	2	nmod	_	Gloss=year.Fem.Cons
-6	alìf	alìf	NUM	_	_	5	nmod	_	Gloss=one_thousand
+6	alìf	alìf	NUM	_	_	5	nmod:appos	_	Gloss=one_thousand
 7	dà	dà	CCONJ	_	_	8	cc	_	Gloss=and
 8	ɗàriː	ɗàriː	NUM	_	Gender=Fem	6	conj	_	Gloss=hundred
 9	tar̃à	tar̃à	NUM	_	_	8	flat	_	Gloss=nine
@@ -49,7 +49,7 @@
 31	Tafkìn	tafkìː	NOUN	_	Definite=Cons|Gender=Masc	29	obl:arg	_	Gloss=river.Masc.Cons|wordform=Tar̃kin
 32	Nyos	Nyos	PROPN	_	_	31	nmod	_	Gloss=Nyos
 33	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	31	nmod	_	Gloss=country.Fem.Cons
-34	Kàmàr̃u	Kàmàr̃u	PROPN	_	_	33	nmod	_	Gloss=Cameroon
+34	Kàmàr̃u	Kàmàr̃u	PROPN	_	_	33	nmod:appos	_	Gloss=Cameroon
 35	har̃	har̃	SCONJ	_	_	37	mark	_	Gloss=so_that
 36	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	37	aux	_	Gloss=3Fem.Perf.Rel|Relative=Yes
 37	yi	yi	VERB	_	_	28	advcl	_	Gloss=do
@@ -142,12 +142,12 @@
 # text = à wani ƙauyèː dà kèː kusa dà tafkìn kuma, sai duk mutàːnen cikinsàsukà mutù, in bandà mùtûm bìyar̃ kawài.
 1	à	à	ADP	_	_	3	case	_	Gloss=at|wordform=A
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	Gloss=some.Masc.Spec
-3	ƙauyèː	ƙauyèː	NOUN	_	Gender=Masc	16	obl	_	Gloss=village.Masc
+3	ƙauyèː	ƙauyèː	NOUN	_	Gender=Masc	16	obl:mod	_	Gloss=village.Masc
 4	dà	dà	SCONJ	_	_	6	mark	_	Gloss=COMP
 5	kèː	nàː	AUX	_	Aspect=Prog|Person=2	6	aux	_	Copula=Yes|Gloss=Prog.Rel|Relative=Yes
 6	kusa	kusa	ADV	_	_	3	acl:relcl	_	Gloss=close
 7	dà	dà	ADP	_	_	8	case	_	Gloss=with
-8	tafkìn	tafkìː	NOUN	_	Definite=Def|Gender=Masc	6	obl	_	Gloss=river.Masc.Def
+8	tafkìn	tafkìː	NOUN	_	Definite=Def|Gender=Masc	6	obl:mod	_	Gloss=river.Masc.Def
 9	kuma	kuma	PART	_	PartType=Top	3	discourse	_	Gloss=also|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 11	sai	sai	ADV	_	_	16	advmod	_	Gloss=then
@@ -227,7 +227,7 @@
 11	àbîn	àbù	NOUN	_	Definite=Def|Gender=Masc	8	nmod	_	Gloss=thing.Masc.Def
 12	dà	dà	SCONJ	_	_	16	mark	_	Gloss=COMP
 13	bìncìkên	bìncìkeː	NOUN	_	Definite=Def|Gender=Masc	16	nsubj	_	Gloss=investigation.Masc.Def
-14	naːsù	naːsù	PRON	_	Case=Gen|Gender=Masc|PronType=Prs	13	nmod	_	CaseAf=Gen|Gloss=Gen.Masc-3PlurGen|MSeg=naː-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|wordform=naː
+14	naːsù	naːsù	PRON	_	Case=Gen|Gender=Masc|PronType=Prs	13	nmod:poss	_	CaseAf=Gen|Gloss=Gen.Masc-3PlurGen|MSeg=naː-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|wordform=naː
 15	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	16	aux	_	Gloss=3Masc.Perf.Rel|Relative=Yes
 16	gaːnoː	gaːn-	VERB	_	_	11	acl:relcl	_	Gloss=discover|SpaceAfter=No
 17	,	,	PUNCT	_	_	25	punct	_	Gloss=PUNCT
@@ -270,10 +270,10 @@
 20	gubàː	gubàː	NOUN	_	Gender=Fem	19	compound	_	Gloss=poison.Fem
 21	à	à	ADP	_	_	23	case	_	Gloss=at
 22	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	23	det	_	Gloss=some.Masc.Spec
-23	tafkìn	tafkìː	NOUN	_	Definite=Cons|Gender=Masc	14	obl	_	Gloss=lake.Masc.Cons
+23	tafkìn	tafkìː	NOUN	_	Definite=Cons|Gender=Masc	14	obl:mod	_	Gloss=lake.Masc.Cons
 24	à	à	ADP	_	_	25	case	_	Gloss=at
-25	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	14	obl	_	Gloss=year.Fem.Cons
-26	alìf	alìf	NUM	_	_	25	nmod	_	Gloss=one_thousand
+25	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	14	obl:mod	_	Gloss=year.Fem.Cons
+26	alìf	alìf	NUM	_	_	25	nmod:appos	_	Gloss=one_thousand
 27	dà	dà	CCONJ	_	_	28	cc	_	Gloss=and|wordform=da
 28	ɗàriː	ɗàriː	NUM	_	_	26	conj	_	Gloss=hundred
 29	tar̃à	tar̃à	NUM	_	_	28	flat	_	Gloss=nine
@@ -289,7 +289,7 @@
 # text = à wànnan loːkàciː mutàːneː tàlàːtin dà bakwài neː sukà mutù .
 1	à	à	ADP	_	_	3	case	_	Gloss=at|wordform=A
 2	wànnan	nan	DET	_	Deixis=ProxH|Gender=Masc|PronType=Dem	3	det	_	Gloss=ProxH.Masc
-3	loːkàciː	loːkàciː	NOUN	_	Gender=Masc	10	obl	_	Gloss=time.Masc
+3	loːkàciː	loːkàciː	NOUN	_	Gender=Masc	10	obl:mod	_	Gloss=time.Masc
 4	mutàːneː	mùtûm	NOUN	_	Number=Plur	10	nsubj	_	Gloss=people.Plur
 5	tàlàːtin	tàlàːtin	NUM	_	_	4	nummod	_	Gloss=thirty
 6	dà	dà	CCONJ	_	_	7	cc	_	Gloss=and
@@ -303,7 +303,7 @@
 # text_en = He discovered too that there existed up to sixty lakes like this in an area between Cameroon and Nigeria, where, because of the nature of stones there, this type gas leaking could happen at any time.
 # text_ortho = Hakà nan kuma yaː gaːnoː cêːwaː àkwai irìn waɗànnân tafkunàː har̃ sìttin à wannàn yankìː à cikin Kàmàr̃u dà Nàːjeːr̃iyàː, indà sabòːdà yanàyin duwàːtsun wurîn anàː iyà saːmùn irìn wannàn aman gâs à koːwànè loːkàciː .
 # text = hakà nan kuma yaː gaːnoː cêːwaː àkwai irìn waɗànnân tafkunàː har̃ sìttin à wannàn yankìː à cikin Kàmàr̃u dà Nàːjeːr̃iyàː, indà sabòːdà yanàyin duwàːtsun wurîn anàː iyà saːmùn irìn wannàn aman gâs à koːwànè loːkàciː .
-1	hakà	hakà	ADV	_	_	5	obl	_	Gloss=thus
+1	hakà	hakà	ADV	_	_	5	obl:mod	_	Gloss=thus
 2	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	1	det	_	Gloss=ProxH
 3	kuma	kuma	PART	_	PartType=Top	1	discourse	_	Gloss=also
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	aux	_	Gloss=3Masc.Perf
@@ -326,7 +326,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
 22	indà	indà	PRON	_	PronType=Rel	20	acl:relcl	_	Gloss=where
 23	sabòːdà	sabòːdà	ADP	_	_	24	case	_	Gloss=because_of
-24	yanàyin	yanàyiː	NOUN	_	Definite=Cons|Gender=Masc	28	obl	_	Gloss=nature.Masc.Cons
+24	yanàyin	yanàyiː	NOUN	_	Definite=Cons|Gender=Masc	28	obl:mod	_	Gloss=nature.Masc.Cons
 25	duwàːtsun	duːtsèː	NOUN	_	Definite=Cons|Number=Plur	24	nmod	_	Gloss=stone.Plur.Cons
 26	wurîn	wuriː	NOUN	_	Definite=Def|Gender=Masc	25	nmod	_	Gloss=place.Masc.Def
 27	anàː	nàː	AUX	_	Aspect=Prog|Person=4	28	aux	_	Gloss=4.Prog
@@ -370,7 +370,7 @@
 23	fid	fit-	VERB	_	Voice=Cau	10	parataxis	_	Gloss=go_out.Cau
 24	dà	dà	ADP	_	_	25	case	_	Gloss=with
 25	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	23	obl:arg	_	Gloss=3Masc.Nom
-26	gàbaː	gàbaː	NOUN	_	Gender=Masc	23	obl	_	Gloss=front.Masc
+26	gàbaː	gàbaː	NOUN	_	Gender=Masc	23	obl:mod	_	Gloss=front.Masc
 27	ɗayansà	ɗaya	NUM	_	Definite=Cons	26	nummod	_	CaseAf=Gen|GenderAf=Masc|Gloss=one.Cons-3MascGen|MSeg=ɗayan-sà|PersonAf=3|Poss=Yes|SpaceAfter=No
 28	.	.	PUNCT	_	_	10	punct	_	Gloss=PUNCT
 
@@ -548,8 +548,8 @@
 # text_ortho = À shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà shidà dai mutàneː fìye dà dubuː dà ɗàriː bakwài neː sukà mutù, kuma Allàh neː kawài ya san yawàn waɗàndà zaːsù mutù ìdan tafkìn ya saːkè yîn wani aman gâs ɗîn.
 # text = à shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà shidà dai mutàneː fìye dà dubuː dà ɗàriː bakwài neː sukà mutù, kuma Allàh neː kawài ya san yawàn waɗàndà zaːsù mutù ìdan tafkìn ya saːkè yîn wani aman gâs ɗîn.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	21	obl	_	Gloss=year.Fem.Cons
-3	alìf	alìf	NUM	_	_	2	nmod	_	Gloss=one_thousand
+2	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	21	obl:mod	_	Gloss=year.Fem.Cons
+3	alìf	alìf	NUM	_	_	2	nmod:appos	_	Gloss=one_thousand
 4	dà	dà	CCONJ	_	_	5	cc	_	Gloss=and
 5	ɗàriː	ɗàriː	NUM	_	Gender=Fem	3	conj	_	Gloss=hundred
 6	tar̃à	tar̃à	NUM	_	_	5	flat	_	Gloss=nine

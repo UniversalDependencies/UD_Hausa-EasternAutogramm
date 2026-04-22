@@ -14,14 +14,14 @@
 # text_ortho = À gàrin " Gboko " dà kèː jihàr̃ Binuwài can areːwacin Nàːjeːr̃iyàː an kai wasu mutàneː gùdaː takwàs asìbitì baːyân dà sukà cikà cikìnsù dà àbincîn dà sukà yi miyàr̃sà dà naːmàn wani shirgeːgèn macìːjiː.
 # text = à gàrin " Gboko " dà kèː jihàr̃ Binuwài can areːwacin Nàːjeːr̃iyàː an kai wasu mutàneː gùdaː takwàs asìbitì baːyân dà sukà cikà cikìnsùdà àbincîn dà sukà yi miyàr̃sà dà naːmàn wani shirgeːgèn macìːjiː.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	gàrin	gàriː	NOUN	_	Definite=Cons|Gender=Masc	14	obl	_	Gloss=city.Masc.Cons
+2	gàrin	gàriː	NOUN	_	Definite=Cons|Gender=Masc	14	obl:mod	_	Gloss=city.Masc.Cons
 3	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
-4	Gboko	Gboko	PROPN	_	_	2	nmod	_	Gloss=Gboko
+4	Gboko	Gboko	PROPN	_	_	2	nmod:appos	_	Gloss=Gboko
 5	"	"	PUNCT	_	_	4	punct	_	Gloss=PUNCT
 6	dà	dà	SCONJ	_	_	8	mark	_	Gloss=COMP
 7	kèː	nàː	AUX	_	Aspect=Prog	8	aux	_	Copula=Yes|Gloss=Prog.Rel|Relative=Yes
 8	jihàr̃	jihàr̃	ADP	_	Gender=Fem	2	acl:relcl	_	Gloss=state.Fem.Cons
-9	Binuwài	Binuwài	PROPN	_	_	8	obl	_	Gloss=Benue
+9	Binuwài	Binuwài	PROPN	_	_	8	obl:mod	_	Gloss=Benue
 10	can	can	ADV	_	Deixis=Remt|PronType=Dem	8	advmod	_	Gloss=Remt
 11	areːwacin	areːwacin	ADP	_	_	12	case	_	Gloss=north_of
 12	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	10	appos	_	Gloss=Nigeria
@@ -79,7 +79,7 @@
 23	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	22	obj	_	Gloss=3Masc.Acc
 24	à	à	ADP	_	_	26	case	_	Gloss=at
 25	bisà	bisà	ADP	_	_	26	case	_	Gloss=on_top
-26	hanyàː	hanyàː	NOUN	_	Gender=Fem	22	obl	_	Gloss=way.Fem
+26	hanyàː	hanyàː	NOUN	_	Gender=Fem	22	obl:mod	_	Gloss=way.Fem
 27	dà	dà	ADP	_	_	28	case	_	Gloss=with
 28	dàddare	dàddare	ADV	_	_	22	advmod	_	Gloss=at_night|SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	Gloss=PUNCT
@@ -152,7 +152,7 @@
 30	mur̃ɗàː	mur̃ɗ-	VERB	_	_	26	ccomp	_	Gloss=twist
 31	musù	musù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	30	iobj	_	Gloss=3Plur.Dat
 32	cikin	cikin	ADP	_	_	33	case	_	Gloss=inside
-33	cikkunànsù	cikìː	NOUN	_	Definite=Cons|Number=Plur	30	obl	_	CaseAf=Gen|Gloss=belly.Plur.Cons-3PlurGen|MSeg=cikkunàn-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|SpaceAfter=No
+33	cikkunànsù	cikìː	NOUN	_	Definite=Cons|Number=Plur	30	obl:mod	_	CaseAf=Gen|Gloss=belly.Plur.Cons-3PlurGen|MSeg=cikkunàn-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|SpaceAfter=No
 34	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
 # sent_id = 08_Maciji_5
@@ -213,7 +213,7 @@
 # text_en = When that happened, some hospital officials said that the snake meat that these people had eaten, and wich almost cost them their lifes, is one among the snakes that are really poisonous.
 # text_ortho = Loːkàcîn dà hakàn kèː fàːruwaː, wasu jàːmi'an asìbitìn sukà cêː wai naːmàn macijîn dà waɗànnân mutàːnên sukà cînyeː wandà kuma ya kusa zamaː sanàdin ajàlinsù - yanàː ɗaya dàgà cikin irìn màcìːzân nan nèː màːsu dafìn gàske.
 # text = loːkàcîn dà hakàn kèː fàːruwaː, wasu jàːmi'an asìbitìn sukà cêː wai naːmàn macijîn dà waɗànnân mutàːnên sukà cînyeː wandà kuma ya kusa zamaː sanàdin ajàlinsù- yanàː ɗaya dàgà cikin irìn màcìːzân nan nèː màːsu dafìn gàske.
-1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	11	obl	_	Gloss=time.Masc.Def
+1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def|Gender=Masc	11	obl:mod	_	Gloss=time.Masc.Def
 2	dà	dà	SCONJ	_	_	5	mark	_	Gloss=COMP
 3	hakàn	hakàn	PRON	_	_	5	nsubj	_	Gloss=this
 4	kèː	nàː	AUX	_	Aspect=Prog	5	aux	_	Gloss=Prog.Rel|Relative=Yes
@@ -279,7 +279,7 @@
 20	kàːfin	kàːfin	SCONJ	_	_	22	mark	_	Gloss=before
 21	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	22	aux	_	Gloss=3Masc.Sub
 22	dàfu	daf-	VERB	_	_	18	advcl	_	Gloss=cook
-23	luɓus	luɓus	X	_	_	22	obl	_	Gloss=soft|Ideophon=Yes|SpaceAfter=No
+23	luɓus	luɓus	X	_	_	22	obl:mod	_	Gloss=soft|Ideophon=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = 08_Maciji_9

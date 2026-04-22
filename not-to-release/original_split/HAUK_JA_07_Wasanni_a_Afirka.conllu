@@ -81,7 +81,7 @@
 43	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	44	aux	_	Gloss=3Fem.Perf.Rel|Relative=Yes
 44	shiryàː	shir-	VERB	_	_	38	ccomp	_	Gloss=prepare
 45	don	don	SCONJ	_	_	46	case	_	Gloss=in_order_to
-46	neːmoː	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	44	obl	_	Gloss=look_for.Vnoun.Masc.Cons
+46	neːmoː	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	44	obl:mod	_	Gloss=look_for.Vnoun.Masc.Cons
 47	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	46	obj	_	Gloss=some.Masc.Spec
 48	wàndà	wandà	PRON	_	Gender=Masc|PronType=Rel	47	acl:relcl	_	Gloss=REL.Masc
 49	zâi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	50	aux	_	Gloss=3Masc.Fut
@@ -126,10 +126,10 @@
 26	"	"	PUNCT	_	_	24	punct	_	Gloss=PUNCT
 27	à	à	ADP	_	_	29	case	_	Gloss=at
 28	"	"	PROPN	_	_	29	obj	_	Gloss="
-29	North	North	PROPN	_	_	16	obl	_	Gloss=North
+29	North	North	PROPN	_	_	16	obl:mod	_	Gloss=North
 30	Dakota	Dakota	PROPN	_	_	29	flat:name	_	Gloss=Dakota
 31	"	"	PUNCT	_	_	29	punct	_	Gloss=PUNCT
-32	raːnar̃	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	16	obl	_	Gloss=day.Fem.Cons
+32	raːnar̃	raːnaː	NOUN	_	Definite=Cons|Gender=Fem	16	obl:mod	_	Gloss=day.Fem.Cons
 33	àshìr̃in	àshìr̃in	NUM	_	_	32	nummod	_	Gloss=twenty
 34	dà	dà	CCONJ	_	_	35	cc	_	Gloss=and
 35	bakwài	bakwài	NUM	_	_	33	conj	_	Gloss=seven
@@ -142,7 +142,7 @@
 # text_en = The boxing association of Nigeria did not want to let Lasisi take part in the fight because the World Boxing Association befriends South Africa, whose government is practicing apartheid, and is collaborating with it.
 # text = hùkuːmàr̃ dambe ta Nàːjeːr̃iyàː baːtàː sôː tà ƙyaːlè Lasisi yà yi wàːsân sabòːdà ita ƙungìyar̃ dambe ta duːniyàː taː amìnceː dà ƙasar̃ Afir̃kà ta Kudù, wàːtòː indà gwamnatìn kèː nuːnà waːriyar̃ launìn faːtàː, kuma tanàː hulɗàː dà ita.
 # text_ortho = Hùkuːmàr̃ Dambe ta Nàːjeːr̃iyàː baː tàː sôː tà ƙyaːlè Lasisi yà yi wàːsân sabòːdà ita Ƙungìyar̃ Dambe ta Duːniyàː taː amìnceː dà ƙasar̃ Afir̃kà ta Kudù, wàːtòː indà gwamnatìn kèː nũnà waːriyar̃ launìn faːtàː, kuma tanàː hulɗàː dà ita.
-1	hùkuːmàr̃	hùkuːmàː	NOUN	_	Definite=Cons|Gender=Fem	6	obl	_	Gloss=authority.Fem.Cons
+1	hùkuːmàr̃	hùkuːmàː	NOUN	_	Definite=Cons|Gender=Fem	6	obl:mod	_	Gloss=authority.Fem.Cons
 2	dambe	dambe	NOUN	_	Gender=Masc	1	nmod	_	Gloss=boxing.Masc
 3	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	4	case	_	Gloss=Gen.Fem
 4	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	_	1	nmod	_	Gloss=Nigeria
@@ -164,7 +164,7 @@
 20	amìnceː	amint-	VERB	_	_	11	advcl	_	Gloss=agree
 21	dà	dà	ADP	_	_	28	case	_	Gloss=with
 22	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	28	reparandum	_	Gloss=country.Fem.Cons
-23	Afir̃kà	Afir̃kà	PROPN	_	_	22	nmod	_	Gloss=Africa
+23	Afir̃kà	Afir̃kà	PROPN	_	_	22	nmod:appos	_	Gloss=Africa
 24	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	25	case	_	Gloss=Gen.Fem
 25	Kudù	Kudù	PROPN	_	_	23	nmod	_	Gloss=Kudù|SpaceAfter=No
 26	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
@@ -236,7 +236,7 @@
 15	,	,	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 16	"	"	PUNCT	_	_	17	punct	_	Gloss=PUNCT
 17	Chief	Chief	PROPN	_	_	10	appos	_	Gloss=Chief
-18	Ralph	Ralph	PROPN	_	_	17	nmod	_	Gloss=Ralph
+18	Ralph	Ralph	PROPN	_	_	17	nmod:appos	_	Gloss=Ralph
 19	Ogunbufunmi	Ogunbufunmi	PROPN	_	Definite=Cons|Number=Plur	18	flat:name	_	Gloss=Ogunbufunmi
 20	"	"	PUNCT	_	_	17	punct	_	Gloss=PUNCT|SpaceAfter=No
 21	,	,	PUNCT	_	_	10	punct	_	Gloss=PUNCT
@@ -259,7 +259,7 @@
 38	cèː	cêː	VERB	_	Gender=Fem	25	advcl	_	Gloss=be.Fem
 39	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	40	aux	_	Gloss=3Plur.Perf
 40	tattàunà	tattaun-	VERB	_	_	38	ccomp	_	Gloss=discuss
-41	hakàn	hakàn	PRON	_	_	40	obl	_	Gloss=this
+41	hakàn	hakàn	PRON	_	_	40	obl:mod	_	Gloss=this
 42	dà	dà	ADP	_	_	43	case	_	Gloss=with
 43	ministàn	ministàː	NOUN	_	Definite=Cons|Gender=Masc	40	obl:arg	_	Gloss=minister.Masc.Cons
 44	wàːsànniː	wàːsaː	NOUN	_	Number=Plur	43	nmod	_	Gloss=game.Plur
@@ -322,8 +322,8 @@
 19	à	à	ADP	_	_	20	case	_	Gloss=at
 20	talàbijìn	talàbijìː	NOUN	_	Definite=Def|Gender=Masc	18	obl:arg	_	Gloss=television.Masc
 21	à	à	ADP	_	_	22	case	_	Gloss=at
-22	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	18	obl	_	Gloss=city.Masc.Cons
-23	Ìkko	Ìkko	PROPN	_	_	22	nmod	_	Gloss=Lagos
+22	bir̃nin	bir̃niː	NOUN	_	Definite=Cons|Gender=Masc	18	obl:mod	_	Gloss=city.Masc.Cons
+23	Ìkko	Ìkko	PROPN	_	_	22	nmod:appos	_	Gloss=Lagos
 24	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	25	aux	_	Gloss=3Masc.Prog
 25	ƙaryàtà	ƙaryat-	VERB	_	_	18	parataxis	_	Gloss=contradict
 26	shùːgàban	shùːgàbaː	NOUN	_	Definite=Cons|Gender=Masc	25	obj	_	Gloss=leader.Masc.Cons
@@ -406,7 +406,7 @@
 8	shà'awàr̃	shà'awàr̃	NOUN	_	Definite=Cons|Gender=Fem	7	compound	_	Gloss=interest.Fem.Cons
 9	wàːsànniː	wàːsaː	NOUN	_	Number=Plur	8	nmod	_	Gloss=game.Plur
 10	dà	dà	ADP	_	_	11	case	_	Gloss=with
-11	daːmaː	daːmaː	NOUN	_	Gender=Fem	7	obl	_	Gloss=opportunity.Fem
+11	daːmaː	daːmaː	NOUN	_	Gender=Fem	7	obl:mod	_	Gloss=opportunity.Fem
 12	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	13	aux	_	Gloss=3Plur.Prog
 13	tsoːmà	tsoːm-	VERB	_	_	6	ccomp	_	Gloss=soak
 14	bàːkiː	bàːkiː	NOUN	_	Gender=Masc	13	compound	_	Gloss=mouth.Masc
@@ -495,7 +495,7 @@
 # text_ortho = Ƙungìyar̃ 'Bizerte' ta Tùːniːsiyà taː laːshè ƙungìyar̃ Al-Merrekh' ta Sudân dà cîː ɗaya dà bâː koː ɗaya à Tùːniːsiyà.
 1	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Fem	8	nsubj	_	Gloss=association.Fem.Cons
 2	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-3	Bizerte	Bizerte	PROPN	_	_	1	nmod	_	Gloss=Bizerte|wordform='Bizerte
+3	Bizerte	Bizerte	PROPN	_	_	1	nmod:appos	_	Gloss=Bizerte|wordform='Bizerte
 4	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform='
 5	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	6	case	_	Gloss=Gen.Fem
 6	Tùːniːsiyà	Tùːniːsiyà	PROPN	_	_	1	nmod	_	Gloss=Tunisia
@@ -503,19 +503,19 @@
 8	laːshè	laːs-	VERB	_	_	0	root	_	Gloss=beat
 9	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Fem	8	obj	_	Gloss=association.Fem.Cons
 10	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT
-11	Al-Merrekh	Al-Merrekh	PROPN	_	_	9	nmod	_	Gloss=Al-Merrekh
+11	Al-Merrekh	Al-Merrekh	PROPN	_	_	9	nmod:appos	_	Gloss=Al-Merrekh
 12	"	"	PUNCT	_	_	11	punct	_	Gloss=PUNCT|wordform='
 13	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	14	case	_	Gloss=Gen.Fem
 14	Sudân	Sudân	PROPN	_	Definite=Cons|Number=Plur	9	nmod	_	Gloss=Sudan
 15	dà	dà	CCONJ	_	_	16	case	_	Gloss=and
-16	cîː	cîː	NOUN	_	Gender=Masc	8	obl	_	Gloss=score.Masc
+16	cîː	cîː	NOUN	_	Gender=Masc	8	obl:mod	_	Gloss=score.Masc
 17	ɗaya	ɗaya	NUM	_	_	16	nummod	_	Gloss=one
 18	dà	dà	CCONJ	_	_	19	cc	_	Gloss=and
 19	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	17	conj	_	Gloss=there_is.Neg
 20	koː	koː	ADV	_	_	21	advmod	_	Gloss=even
 21	ɗaya	ɗaya	NUM	_	_	19	nsubj	_	Gloss=one
 22	à	à	ADP	_	_	23	case	_	Gloss=at
-23	Tùːniːsiyà	Tùːniːsiyà	PROPN	_	_	8	obl	_	Gloss=Tunisia|SpaceAfter=No
+23	Tùːniːsiyà	Tùːniːsiyà	PROPN	_	_	8	obl:mod	_	Gloss=Tunisia|SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 
 # sent_id = 07_Wasanni_a_Afirka_15
@@ -524,7 +524,7 @@
 # text_ortho = Ƙungìyar̃ 'Asi Abengourou' ta Aːbir̃u Kwâs taː laːshè ƙungìyar̃ 'Patronage' ta Làːbeːr̃iyà dà cîː ukù dà ɗaya.
 1	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Fem	10	nsubj	_	Gloss=association.Fem.Cons
 2	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT
-3	Asi	Asi	PROPN	_	_	1	nmod	_	Gloss=Asi
+3	Asi	Asi	PROPN	_	_	1	nmod:appos	_	Gloss=Asi
 4	Abengourou	Abengourou	PROPN	_	Gender=Masc	3	flat:name	_	Gloss=Abengourou
 5	"	"	PUNCT	_	_	3	punct	_	Gloss=PUNCT|wordform='
 6	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	7	case	_	Gloss=Gen.Fem
@@ -534,7 +534,7 @@
 10	laːshè	laːs-	VERB	_	_	0	root	_	Gloss=beat
 11	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Masc	10	obj	_	Gloss=association.Fem.Cons
 12	"	"	PUNCT	_	_	13	punct	_	Gloss=PUNCT
-13	Patronage	Patronage	PROPN	_	_	11	nmod	_	Gloss=Patronage|wordform='Patronage
+13	Patronage	Patronage	PROPN	_	_	11	nmod:appos	_	Gloss=Patronage|wordform='Patronage
 14	"	"	PUNCT	_	_	13	punct	_	Gloss=PUNCT|wordform='
 15	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	16	case	_	Gloss=Gen.Fem
 16	Làːbeːr̃iyà	Làːbeːr̃iyà	PROPN	_	_	11	nmod	_	Gloss=Liberia
@@ -550,22 +550,22 @@
 # text = à Bàmaːkò kuma, ƙungìyar̃ " Stade Malien " ta ƙasar̃ Màːli taː laːshè ƙungìyar̃ " USKA " ta Àljeːr̃iyà dà cîː ɗaya dà bâː koː ɗaya.
 # text_ortho = À Bàmaːkò kuma, ƙungìyar̃ 'Stade Malien' ta ƙasar̃ Màːli taː laːshè ƙungìyar̃ 'USKA' ta Àljeːr̃iyà dà cîː ɗaya dà bâː koː ɗaya.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	Bàmaːkò	Bàmaːkò	PROPN	_	_	14	obl	_	Gloss=Bamako
+2	Bàmaːkò	Bàmaːkò	PROPN	_	_	14	obl:mod	_	Gloss=Bamako
 3	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 5	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Fem	14	nsubj	_	Gloss=association.Fem.Cons
 6	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT
-7	Stade	Stade	PROPN	_	_	5	nmod	_	Gloss=Stade
+7	Stade	Stade	PROPN	_	_	5	nmod:appos	_	Gloss=Stade
 8	Malien	Malien	PROPN	_	_	7	flat:name	_	Gloss=Malien
 9	"	"	PUNCT	_	_	7	punct	_	Gloss=PUNCT|wordform='
 10	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	11	case	_	Gloss=Gen.Fem
 11	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	5	nmod	_	Gloss=country.Fem.Cons
-12	Màːli	Màːli	PROPN	_	_	11	nmod	_	Gloss=Mali
+12	Màːli	Màːli	PROPN	_	_	11	nmod:appos	_	Gloss=Mali
 13	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	14	aux	_	Gloss=3Fem.Perf
 14	laːshè	laːs-	VERB	_	_	0	root	_	Gloss=beat
 15	ƙungìyar̃	ƙungìyaː	NOUN	_	Definite=Cons|Gender=Fem	14	obj	_	Gloss=association.Fem.Cons
 16	"	"	PUNCT	_	_	17	punct	_	Gloss=PUNCT
-17	USKA	USKA	PROPN	_	_	15	nmod	_	Gloss=USKA
+17	USKA	USKA	PROPN	_	_	15	nmod:appos	_	Gloss=USKA
 18	"	"	PUNCT	_	_	17	punct	_	Gloss=PUNCT|wordform='
 19	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	20	case	_	Gloss=Gen.Fem
 20	Àljeːr̃iyà	Àljeːr̃iyà	PROPN	_	_	15	nmod	_	Gloss=Algeria

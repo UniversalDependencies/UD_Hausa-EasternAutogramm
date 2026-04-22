@@ -35,7 +35,7 @@
 9	dàgà	dàgà	ADP	_	_	10	case	_	Gloss=from
 10	ƙasâr̃	ƙasaː	NOUN	_	Definite=Def|Gender=Fem	7	obl:arg	_	Gloss=country.Fem.Def
 11	baːyan	baːyan	ADP	_	_	12	case	_	Gloss=after
-12	juːyìn	juːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	obl	_	Gloss=change.Vnoun.Masc.Cons
+12	juːyìn	juːy-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	7	obl:mod	_	Gloss=change.Vnoun.Masc.Cons
 13	mulkìn	mulkìː	NOUN	_	Definite=Def|Gender=Masc	12	obj	_	Gloss=rule.Masc.Def
 14	dà	dà	SCONJ	_	_	17	mark	_	Gloss=COMP
 15	soːjà	soːjà	NOUN	_	Number=Plur	17	nsubj	_	Gloss=soldiers.Plur
@@ -43,10 +43,10 @@
 17	yi	yi	VERB	_	_	12	acl:relcl	_	Gloss=do
 18	à	à	ADP	_	_	19	case	_	Gloss=at
 19	watan	wataː	NOUN	_	Definite=Cons|Gender=Masc	17	obl:arg	_	Gloss=month.Masc.Cons
-20	disambàː	disambàː	NOUN	_	Gender=Fem	19	nmod	_	Gloss=december.Fem
+20	disambàː	disambàː	NOUN	_	Gender=Fem	19	nmod:appos	_	Gloss=december.Fem
 21	na	na	PART	_	Case=Gen|PartType=Case	22	case	_	Gloss=Gen
 22	shèːkararàr̃	shèːkararàː	NOUN	_	Definite=Cons|Gender=Fem	20	nmod	_	Gloss=year.Fem.Cons
-23	alìf	alìf	NUM	_	_	22	nmod	_	Gloss=one_thousand
+23	alìf	alìf	NUM	_	_	22	nmod:appos	_	Gloss=one_thousand
 24	dà	da	CCONJ	_	_	25	cc	_	Gloss=and|wordform=da
 25	ɗàriː	ɗàriː	NUM	_	Gender=Fem	23	conj	_	Gloss=hundred
 26	tar̃à	tar̃à	NUM	_	_	25	flat	_	Gloss=nine
@@ -63,7 +63,7 @@
 37	farar̃-hùːlaː	farar̃-hùːlaː	NOUN	_	Number=Plur	36	nmod	_	Gloss=civilian.Plur
 38	ta	na	PART	_	Case=Gen|Gender=Fem|PartType=Case	39	case	_	Gloss=Gen.Fem
 39	Shùːgàbaː	shùːgàbaː	NOUN	_	Gender=Masc	36	nmod	_	Gloss=president.Masc
-40	Sheːhù	Sheːhù	PROPN	_	_	39	nmod	_	Gloss=Sheːhù
+40	Sheːhù	Sheːhù	PROPN	_	_	39	nmod:appos	_	Gloss=Sheːhù
 41	Shàːgàːri	Shàːgàːri	PROPN	_	_	40	flat:name	_	Gloss=Shàːgàːri|SpaceAfter=No
 42	.	.	PUNCT	_	_	7	punct	_	Gloss=PUNCT
 
@@ -83,14 +83,14 @@
 10	shìga	shig-	VERB	_	_	6	parataxis	_	Gloss=enter
 11	cikin	cikin	ADP	_	_	12	case	_	Gloss=inside
 12	ƙasar̃	ƙasaː	NOUN	_	Definite=Cons|Gender=Fem	10	obl:arg	_	Gloss=country.Fem.Cons
-13	Bìːni	Bìːni	PROPN	_	_	12	nmod	_	Gloss=Benin_Republic|SpaceAfter=No
+13	Bìːni	Bìːni	PROPN	_	_	12	nmod:appos	_	Gloss=Benin_Republic|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 15	ƙiːlà	ƙiːlà	ADV	_	_	18	advmod	_	Gloss=maybe
 16	baːyan	baːyan	SCONJ	_	_	18	mark	_	Gloss=after
 17	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	18	aux	_	Gloss=3Masc.Perf
 18	ɓad	ɓat-	VERB	_	Voice=Cau	10	advcl	_	Gloss=dispose_of.Cau
 19	dà	dà	ADP	_	_	20	case	_	Gloss=with
-20	kàmaː	kàmaː	NOUN	_	Gender=Fem	18	obl	_	Gloss=appearance.Fem
+20	kàmaː	kàmaː	NOUN	_	Gender=Fem	18	obl:mod	_	Gloss=appearance.Fem
 21	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	22	aux	_	Gloss=3Masc.Perf
 22	yi	yi	VERB	_	_	18	parataxis	_	Gloss=do
 23	shìgaː	shig-	VERB	_	ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	22	xcomp	_	Gloss=enter.VNoun.Fem
@@ -116,7 +116,7 @@
 11	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	10	obl	_	Gloss=ProxS
 12	Landàn	Landàn	PROPN	_	Definite=Def|Gender=Masc	11	appos	_	Gloss=London
 13	à	à	ADP	_	_	14	case	_	Gloss=at
-14	jirgin	jirgiː	NOUN	_	Definite=Cons|Gender=Masc	10	obl	_	Gloss=vehicle.Masc.Cons
+14	jirgin	jirgiː	NOUN	_	Definite=Cons|Gender=Masc	10	obl:mod	_	Gloss=vehicle.Masc.Cons
 15	samà	samà	ADV	_	_	14	compound	_	Gloss=above|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
@@ -125,7 +125,7 @@
 # text = baːyan shèːkaràː gùdaː nèː kuma àlꞌamàr̃in na Ùmar̃ù Dikkò ya kai gà wani saːbon matsayiː baːyân dà akà yi ƙòːƙarin saːcèː shi à Ingìlà.
 # text_ortho = Baːyan shèːkaràː  gùdaː nèː kuma àlꞌamàr̃in na Ùmar̃ù Dikkò ya kai gà wani saːbon matsayiː baːyân dà akà yi ƙòːƙarin saːcèː shi à Ingìlà.
 1	baːyan	baːyan	ADP	_	_	2	case	_	Gloss=after
-2	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	11	obl	_	Gloss=year.Fem
+2	shèːkaràː	shèːkaràː	NOUN	_	Gender=Fem	11	obl:mod	_	Gloss=year.Fem
 3	gùdaː	gùdaː	NOUN	_	Gender=Masc	2	nummod	_	Gloss=unit/one.Masc
 4	nèː	neː	PART	_	PartType=Foc	2	discourse	_	Gloss=Emph
 5	kuma	kuma	PART	_	PartType=Top	2	discourse	_	Gloss=also
@@ -147,7 +147,7 @@
 21	saːcèː	saːt-	VERB	_	Gender=Fem	20	ccomp	_	Gloss=kidnap
 22	shi	shi	PRON	_	Case=Acc|Gender=Masc|Person=3|PronType=Prs	21	obj	_	Gloss=3Masc.Acc
 23	à	à	ADP	_	_	24	case	_	Gloss=at
-24	Ingìlà	Ingìlà	PROPN	_	_	21	obl	_	Gloss=England|SpaceAfter=No
+24	Ingìlà	Ingìlà	PROPN	_	_	21	obl:mod	_	Gloss=England|SpaceAfter=No
 25	.	.	PUNCT	_	_	11	punct	_	Gloss=PUNCT
 
 # sent_id = 01_Umaru_Dikko_7
@@ -194,7 +194,7 @@
 38	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	39	aux	_	Gloss=3Plur.Perf.Rel|Relative=Yes
 39	rufèː	ruf-	VERB	_	_	36	parataxis	_	Gloss=close
 40	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	39	obj	_	Gloss=box.Masc.Def
-41	gam	gam	X	_	_	39	obl	_	Gloss=tight|Ideophon=Yes|SpaceAfter=No
+41	gam	gam	X	_	_	39	obl:mod	_	Gloss=tight|Ideophon=Yes|SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	Gloss=PUNCT
 43	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	44	aux	_	Gloss=3Plur.Prog
 44	shirin	shiry-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	39	parataxis	_	Gloss=prepare.Vnoun.Masc.Cons
@@ -209,7 +209,7 @@
 # text_ortho = À jìkin àkwàːtìn sai akà r̃ubùːtaː ‘Zuwàː gà Maꞌaikatar̃ Har̃koːkin Wàje, Gwamnatìn Tàːr̃ayyàr̃ Nàjeːr̃iyàː, Ìkko’, wàːtòː indà zaː à kai shì kèːnan.
 1	à	à	ADP	_	_	3	case	_	Gloss=at
 2	jìkin	jìkin	ADP	_	_	3	case	_	Gloss=on
-3	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	6	obl	_	Gloss=box.Masc.Def
+3	àkwàːtìn	àkwàːtì	NOUN	_	Definite=Def|Gender=Masc	6	obl:mod	_	Gloss=box.Masc.Def
 4	sai	sai	ADV	_	_	6	advmod	_	Gloss=then
 5	akà	yaː	AUX	_	Aspect=Perf|Person=4	6	aux	_	Gloss=4.Perf.Rel|Relative=Yes
 6	r̃ubùːtaː	r̃ubuːt-	NOUN	_	_	0	root	_	Gloss=write
@@ -222,7 +222,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	Gloss=PUNCT
 14	gwamnatìn	gwamnatì	NOUN	_	Definite=Cons|Gender=Fem	10	nmod	_	Gloss=government.Fem.Cons
 15	tàːr̃ayyàr̃	tàːr̃ayyàː	NOUN	_	Definite=Cons|Gender=Fem|Number=Plur	14	nmod	_	Gloss=federation.Fem.Cons
-16	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	15	nmod	_	Gloss=Nigeria|SpaceAfter=No
+16	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	15	nmod:appos	_	Gloss=Nigeria|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	Gloss=PUNCT
 18	Ìkko	Ìkko	PROPN	_	_	14	nmod	_	Gloss=Lagos|SpaceAfter=No
 19	"	"	PUNCT	_	_	10	punct	_	Gloss=PUNCT|SpaceAfter=No
@@ -298,8 +298,8 @@
 # text = à shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː kuma wasu ꞌyan ƙasar̃ Ìsr̃aːꞌiːlà suː ukù, dà wani ɗan lèːƙen àsiːr̃ì mùtumìn Nàjeːr̃iyàː, sukà amsà lâifin ƙòːƙarin saːcè Ùːmar̃ù Dikkò.
 # text_ortho = À shèːkaràr̃ alìf dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː kuma wasu ꞌyan ƙasar̃ Ìsr̃aːꞌiːlà suː ukù, dà wani ɗan lèːƙen àsiːr̃ì mùtumìn Nàjeːr̃iyàː, sukà amsà lâifin ƙòːƙarin saːcè Ùːmar̃ù Dikkò.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	29	obl	_	Gloss=year.Fem.Cons
-3	alìf	alìf	NUM	_	_	2	nmod	_	Gloss=one_thousand
+2	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	29	obl:mod	_	Gloss=year.Fem.Cons
+3	alìf	alìf	NUM	_	_	2	nmod:appos	_	Gloss=one_thousand
 4	dà	dà	CCONJ	_	_	5	cc	_	Gloss=and
 5	ɗàriː	ɗàriː	NUM	_	Gender=Fem	3	conj	_	Gloss=hundred
 6	tar̃à	tar̃à	NUM	_	_	5	flat	_	Gloss=nine
@@ -312,7 +312,7 @@
 13	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	14	det	_	Gloss=some.Plur.Spec
 14	ꞌyan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	29	nsubj	_	Gloss=child.Plur.Cons
 15	ƙasar̃	ƙasaː	VERB	_	Definite=Cons|Gender=Fem	14	compound	_	Gloss=country.Fem.Cons
-16	Ìsr̃aːꞌiːlà	Ìsr̃aːꞌiːlà	PROPN	_	_	15	obl	_	Gloss=Israel
+16	Ìsr̃aːꞌiːlà	Ìsr̃aːꞌiːlà	PROPN	_	_	15	obl:mod	_	Gloss=Israel
 17	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	appos	_	Gloss=3Plur.Nom
 18	ukù	ukù	NUM	_	_	17	nummod	_	Gloss=three|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	Gloss=PUNCT
@@ -346,7 +346,7 @@
 7	mài	mài	PART	_	Number=Sing|PartType=Der	5	advmod	_	Gloss=owner_of.Sing
 8	tsawoː	tsawoː	NOUN	_	Gender=Masc	7	compound	_	Gloss=length.Masc
 9	à	à	ADP	_	_	10	case	_	Gloss=at
-10	kûr̃kukùː	kûr̃kukùː	NOUN	_	Gender=Masc	3	obl	_	Gloss=prison.Masc|SpaceAfter=No
+10	kûr̃kukùː	kûr̃kukùː	NOUN	_	Gender=Masc	3	obl:mod	_	Gloss=prison.Masc|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	Gloss=PUNCT
 
 # sent_id = 01_Umaru_Dikko_13a
@@ -354,7 +354,7 @@
 # text = à loːkàcin shàr̃iꞌàr̃, mài shàr̃iꞌàː yaː cêː an bayyànà Ùːmar̃ù Dikkò dà cêːwaː: “ wani ƙàːsur̃gumin ɓàraːwòː neː dà bà'à taɓà yîn irìnsàba à duːniyàː. ".
 # text_ortho = À loːkàcin shàr̃iꞌàr̃, Mài Shàr̃iꞌàː yaː cêː an bayyànà Ùːmar̃ù Dikkò dà cêwaː: “Wani ƙàːsur̃gumin ɓàraːwòː neː dà bà à taɓà yîn irìnsà ba à duːniyàː.” Sai à watàn Jànair̃u na shekaràr̃ alif dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː Gwamnatìn Nàjeːr̃iyàː ta bùkàːci Bìr̃taːniyà tà miːƙàː matà shiː don à gur̃faːnar̃ dà shiː à gàban shàr̃iꞌàː kân lâifin cîn hancìː dà kàrɓar̃ r̃ashawaː ta fâm miliyàn bàr̃kàtài.
 1	à	à	ADP	_	_	2	case	_	Gloss=at
-2	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	obl	_	Gloss=time.Masc.Cons
+2	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	8	obl:mod	_	Gloss=time.Masc.Cons
 3	shàr̃iꞌàr̃	shàr̃iꞌàː	NOUN	_	Definite=Def|Gender=Fem	2	nmod	_	Gloss=court.Fem.Def|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 5	mài	mài	PART	_	Number=Sing|PartType=Der	8	dep	_	Gloss=owner_of.Sing
@@ -380,7 +380,7 @@
 25	irìnsà	irìː	NOUN	_	Definite=Cons|Gender=Masc	24	xcomp	_	CaseAf=Gen|GenderAf=Masc|Gloss=kind.Masc.Cons-3MascGen|MSeg=irìn-sà|PersonAf=3|Poss=Yes|SpaceAfter=No
 26	ba	ba	PART	_	PartType=Neg|Polarity=Neg	23	advmod	_	Gloss=Neg
 27	à	à	ADP	_	_	28	case	_	Gloss=at
-28	duːniyàː	duːniyàː	NOUN	_	Gender=Fem	23	obl	_	Gloss=world.Fem|SpaceAfter=No
+28	duːniyàː	duːniyàː	NOUN	_	Gender=Fem	23	obl:mod	_	Gloss=world.Fem|SpaceAfter=No
 29	.	.	PUNCT	_	_	19	punct	_	Gloss=PUNCT
 30	"	"	PUNCT	_	_	19	punct	_	Gloss=PUNCT|SpaceAfter=No
 31	.	.	PUNCT	_	_	8	punct	_	Gloss=PUNCT
@@ -391,11 +391,11 @@
 # text_ortho = Sai à watàn Jànair̃u na shekaràr̃ alif dà ɗàriː tar̃à dà tàmàːnin dà bìyar̃ nèː Gwamnatìn Nàjeːr̃iyàː ta bùkàːci Bìr̃taːniyà tà miːƙàː matà shiː don à gur̃faːnar̃ dà shiː à gàban shàr̃iꞌàː kân lâifin cîn hancìː dà kàrɓar̃ r̃ashawaː ta fâm miliyàn bàr̃kàtài.
 1	sai	sai	ADV	_	_	19	advmod	_	Gloss=then
 2	à	à	ADP	_	_	3	case	_	Gloss=at
-3	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	19	obl	_	Gloss=month.Masc.Cons
-4	Jànair̃u	Jànair̃u	NOUN	_	Gender=Masc	3	nmod	_	Gloss=january.Masc
+3	watàn	watàː	NOUN	_	Definite=Cons|Gender=Masc	19	obl:mod	_	Gloss=month.Masc.Cons
+4	Jànair̃u	Jànair̃u	NOUN	_	Gender=Masc	3	nmod:appos	_	Gloss=january.Masc
 5	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	6	case	_	Gloss=Gen
 6	shèːkaràr̃	shèːkaràː	NOUN	_	Definite=Cons|Gender=Fem	3	nmod	_	Gloss=year.Fem.Cons
-7	alif	àlif	NUM	_	_	6	nmod	_	Gloss=one_thousand
+7	alif	àlif	NUM	_	_	6	nmod:appos	_	Gloss=one_thousand
 8	dà	dà	CCONJ	_	_	9	cc	_	Gloss=and
 9	ɗàriː	ɗàriː	NUM	_	Gender=Fem	7	conj	_	Gloss=hundred
 10	tar̃à	tar̃à	NUM	_	_	9	flat	_	Gloss=nine
@@ -441,7 +441,7 @@
 1	tôː	tòː	INTJ	_	_	14	discourse	_	Gloss=well
 2	à	à	ADP	_	_	4	case	_	Gloss=at
 3	duk	dukà	DET	_	PronType=Tot	4	det	_	Gloss=all
-4	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	14	obl	_	Gloss=time.Masc.Cons
+4	loːkàcin	loːkàciː	NOUN	_	Definite=Cons|Gender=Masc	14	obl:mod	_	Gloss=time.Masc.Cons
 5	zamansà	zama	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Fem|VerbForm=Vnoun	4	nmod	_	CaseAf=Gen|GenderAf=Masc|Gloss=stay.Vnoun.Masc.Cons-3MascGen|MSeg=zaman-sà|PersonAf=3|Poss=Yes|SpaceAfter=No
 6	à	à	ADP	_	_	7	case	_	Gloss=at
 7	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	5	advmod	_	Gloss=ProxS
@@ -464,7 +464,7 @@
 24	adàdin	X	X	_	_	23	dep	_	Gloss=number
 25	ba	ba	PART	_	PartType=Neg|Polarity=Neg	19	advmod	_	Gloss=Neg
 26	ta	ta	ADP	_	_	27	case	_	Gloss=via
-27	hanyàr̃	hanyàː	NOUN	_	Definite=Cons|Gender=Fem	19	obl	_	Gloss=way.Fem.Cons
+27	hanyàr̃	hanyàː	NOUN	_	Definite=Cons|Gender=Fem	19	obl:mod	_	Gloss=way.Fem.Cons
 28	gàdàː-gadar̃	gàdàː-gadaː	NOUN	_	Definite=Cons|Gender=Fem	27	nmod	_	Gloss=traficking.Fem.Cons
 29	shìnkaːfaː	shìnkaːfaː	NOUN	_	Gender=Fem	28	nmod	_	Gloss=rice.Fem
 30	dà	dà	CCONJ	_	_	33	cc	_	Gloss=and
@@ -608,14 +608,14 @@
 # text_en = The Nigerian Ambassador here in London, Mr George Dove-Edwin said last year that the reason that Umaru Dikko was giving was a blatant lie, that if he went back to Nigeria, he would be killed.
 # text = jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďaː à bàːra cêːwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêːwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː'à yi.
 # text_ortho = Jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďa à bàːra cêwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː à yi.# text = Jàkaːdàn Nàjeːr̃iyàː à nân Landàn, Mr George Dove-Edwin, yaː fàďa à bàːra cêwaː zuːƙì-ta-Màlle cèː kawài dàliːlìn dà Ùːmar̃ù Dikkò kèː baːyâr̃waː cêwaː ìdan yaː koːmàː Nàjeːr̃iyàː kashèː shi zaː à yi.
-1	jàkaːdàn	jàkaːdàː	NOUN	_	Definite=Cons|Gender=Masc	12	obl	_	Gloss=ambassador.Masc.Cons
+1	jàkaːdàn	jàkaːdàː	NOUN	_	Definite=Cons|Gender=Masc	12	obl:mod	_	Gloss=ambassador.Masc.Cons
 2	Nàjeːr̃iyàː	Nàjeːr̃iyàː	PROPN	_	_	1	appos	_	Gloss=Nigeria
 3	à	à	ADP	_	_	4	case	_	Gloss=at
 4	nân	nân	ADV	_	Deixis=ProxS|PronType=Dem	1	advmod	_	Gloss=ProxS
 5	Landàn	Landàn	PROPN	_	_	4	appos	_	Gloss=London|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	Gloss=PUNCT
 7	Mr	Mr	PROPN	_	Definite=Cons|Gender=Fem	12	nsubj	_	Gloss=Mr
-8	George	George	PROPN	_	_	7	nmod	_	Gloss=George
+8	George	George	PROPN	_	_	7	nmod:appos	_	Gloss=George
 9	Dove-Edwin	Dove-Edwin	PROPN	_	_	8	flat:name	_	Gloss=Dove-Edwin|SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	Gloss=PUNCT
 11	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	12	aux	_	Gloss=3Masc.Perf
@@ -647,10 +647,10 @@
 # text_en = Likewise, this very last year, a lawyer of the British interior ministry told Umaru Dikko that "I think indeed that why you ran away from Nigeria is not because you fear that you will be persecuted, but merely because you fear that they will take you to court."
 # text = hakà nan à bàːr̃a ɗîn wani lauyàː na maꞌaikatar̃ har̃koːkin cikin gidan Bìr̃taːniyà yaː gayàː wà Ùːmar̃ù Dikkò cêːwaː, " inàː jîn dai kaː tseːroː dàgà Nàjeːr̃iyàː neː bàː wai don kanàː tsòːron zaː'à ƙuntàtaː makà ba, sai don kanàː tsòːron zaː'à gur̃faːnar̃ dà kai à gàban shàr̃iꞌàː kawài. ".
 # text_ortho = Hakà nan à bàːr̃a ɗîn wani lauyàː na Maꞌaikatar̃ Har̃koːkin Cikin Gidan Bìr̃taːniyà yaː gayàː wà Ùːmar̃ù Dikkò cêwaː, ‘Inàː jîn dai kaː tseːroː dàgà Nàjeːr̃iyàː neː bà wai don kanàː tsòːron zaː à ƙuntàtaː makà ba, sai don kanàː tsòːron zaː à gur̃faːnar̃ dà kai à gàban shàr̃iꞌàː kawài.’
-1	hakà	hakà	ADV	_	_	15	obl	_	Gloss=thus
+1	hakà	hakà	ADV	_	_	15	obl:mod	_	Gloss=thus
 2	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	1	det	_	Gloss=ProxH
 3	à	à	ADP	_	_	4	case	_	Gloss=at
-4	bàːr̃a	bàːr̃a	ADV	_	_	15	obl	_	Gloss=last_year
+4	bàːr̃a	bàːr̃a	ADV	_	_	15	obl:mod	_	Gloss=last_year
 5	ɗîn	ɗin	DET	_	Definite=Def|PronType=Dem	4	det	_	Gloss=Def
 6	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	7	det	_	Gloss=some.Masc.Spec
 7	lauyàː	lauyàː	NOUN	_	Gender=Masc	15	obj	_	Gloss=lawyer.Masc
