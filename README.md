@@ -17,6 +17,9 @@ The samples are extracts from (Jaggar 1992), a Hausa textbook published by SOAS.
 ## References
 Jaggar, Philip J. 1992. An advanced Hausa reader with grammatical notes and exercises. London: School of Oriental and African Studies, University of London.
 
+# Changelog
+* 2026-05-15 v2.18
+ * Initial release in Universal Dependencies.
 
 
 <pre>
@@ -25,7 +28,7 @@ Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: "news"
+Genre: news
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
