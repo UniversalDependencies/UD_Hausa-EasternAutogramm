@@ -4375,7 +4375,7 @@
 7	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	8	det	_	Gloss=some.Masc.Spec
 8	gàr̃gàɗiː	gàr̃gàɗiː	NOUN	_	Gender=Masc	6	xcomp	_	Gloss=recommendation.Masc
 9	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	8	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-10	dà	dà	ADP	_	_	9	obl:arg	_	Gloss=with|IndIdiom=Yes
+10	dà	dà	ADP	_	_	9	fixed	_	Gloss=with|InIdiom=Yes
 11	maːgungunàn	maːgàniː	NOUN	_	Definite=Cons|Number=Plur	9	obj	_	Gloss=medicine.Plur.Cons
 12	kashè	kas-	VERB	_	_	11	compound	_	Gloss=kill
 13	ƙwàːriː	ƙwàːroː	NOUN	_	Number=Plur	12	compound	_	Gloss=insect.Plur
@@ -6205,7 +6205,7 @@
 3	wata	wani	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	4	det	_	Gloss=some.Fem.Spec
 4	waːƙàː	waːƙàː	PRON	_	Gender=Fem	2	obj	_	Gloss=song.Fem
 5	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	2	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-6	dà	dà	ADP	_	_	5	obl:arg	_	Gloss=with|IndIdiom=Yes
+6	dà	dà	ADP	_	_	5	fixed	_	Gloss=with|InIdiom=Yes
 7	manufoːfin	manufaː	NOUN	_	Definite=Cons|Number=Plur	5	obj	_	Gloss=programme.Plur.Cons
 8	jàm'iyyàr̃	jàm'iyyàː	NOUN	_	Definite=Def|Gender=Fem	7	nmod	_	Gloss=party.Fem.Def
 9	taːsà	taːsà	PRON	_	Case=Gen|Gender=Fem|PronType=Prs	8	nmod:poss	_	CaseAf=Gen|GenderAf=Masc|Gloss=Gen.Fem-3MascGen|MSeg=taː-sà|PersonAf=3|Poss=Yes|SpaceAfter=No|wordform=taː
@@ -6341,7 +6341,7 @@
 11	nuːnà	nuːn-	VERB	_	_	10	obl	_	Gloss=show
 12	shàʼawàː	shàʼawàː	NOUN	_	Gender=Fem	11	obj	_	Gloss=interest.Fem
 13	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	12	advmod	_	Gloss=gather.Part|Idiom=Yes
-14	dà	dà	ADP	_	_	13	obl:arg	_	Gloss=with|IndIdiom=Yes
+14	dà	dà	ADP	_	_	13	fixed	_	Gloss=with|InIdiom=Yes
 15	Fela	Fela	PROPN	_	_	13	obj	_	Gloss=Fela|SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 17	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
@@ -6975,7 +6975,7 @@
 5	areːwacin	areːwacin	ADP	_	_	6	case	_	Gloss=north_of
 6	Nàːjeːr̃iyàː	Nàːjeːr̃iyàː	PROPN	_	Number=Plur	2	obl:mod	_	Gloss=Nigeria
 7	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	2	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-8	dà	dà	ADP	_	_	7	obl:arg	_	Gloss=with|IndIdiom=Yes
+8	dà	dà	ADP	_	_	7	fixed	_	Gloss=with|InIdiom=Yes
 9	rìkicin	rìkiciː	NOUN	_	Definite=Cons|Gender=Masc	7	obj	_	Gloss=crisis.Masc.Cons
 10	Tèːkun	tèːku	NOUN	_	Definite=Cons|Gender=Fem	9	nmod	_	Gloss=sea.Fem.Cons|wordform=tèːkun
 11	Paːshà	Paːshà	PROPN	_	_	10	nmod	_	Gloss=Paːshà
@@ -7021,7 +7021,7 @@
 35	wasu	wani	DET	_	Definite=Spec|Number=Plur|PronType=Ind	36	det	_	Gloss=some.Plur.Spec
 36	màtàːkai	mataːkiː	NOUN	_	Number=Plur	34	obj	_	Gloss=step.Plur
 37	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	34	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-38	dà	dà	ADP	_	_	37	obl:arg	_	Gloss=with|IndIdiom=Yes
+38	dà	dà	ADP	_	_	37	fixed	_	Gloss=with|InIdiom=Yes
 39	rìkicîn	rìkiciː	NOUN	_	Definite=Def|Gender=Masc	37	obj	_	Gloss=crisis.Masc.Def
 40	nan	nan	DET	_	Deixis=ProxH|PronType=Dem	39	det	_	Gloss=ProxH
 41	na	na	PART	_	Case=Gen|Gender=Masc|PartType=Case	42	case	_	Gloss=Gen
@@ -7186,9 +7186,9 @@
 34	sù	yà	AUX	_	Mood=Sub|Number=Plur|Person=3	35	aux	_	Gloss=3Plur.Sub
 35	bayyànà	bayyan-	VERB	_	_	32	parataxis	_	Gloss=explain
 36	r̃a'àyinsù	r̃a'àyin	NOUN	_	Definite=Cons|Gender=Masc	35	obj	_	CaseAf=Gen|Gloss=viewpoint.Masc.Cons-3PlurGen|MSeg=r̃a'àyin-sù|NumberAf=Plur|PersonAf=3|Poss=Yes|wordform=r̃a'àyin
-37	à	à	ADP	_	_	38	mark	_	Gloss=at
-38	gàme	gam-	VERB	_	VerbForm=Part	35	ccomp	_	Gloss=gather.Part|Idiom=Yes
-39	dà	dà	ADP	_	_	38	obl:arg	_	Gloss=with|IndIdiom=Yes
+37	à	à	ADP	_	_	38	case	_	Gloss=at
+38	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	35	obl:arg	_	Gloss=gather.Part|Idiom=Yes
+39	dà	dà	ADP	_	_	38	fixed	_	Gloss=with|InIdiom=Yes
 40	rìkicin	rìkiciː	NOUN	_	Definite=Cons|Gender=Masc	38	obj	_	Gloss=crisis.Masc.Cons
 41	Tèːkun	tèːku	NOUN	_	Definite=Cons|Gender=Fem	40	nmod	_	Gloss=sea.Fem.Cons
 42	Paːshà	Paːshà	PROPN	_	_	41	nmod	_	Gloss=Persia
@@ -10455,7 +10455,7 @@
 7	koːmeː	koːmeː	PRON	_	Gender=Masc|PronType=Ind	6	obj	_	Gloss=anything.Masc
 8	ba	ba	PART	_	PartType=Neg|Polarity=Neg	6	advmod	_	Gloss=Neg
 9	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	6	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-10	dà	dà	ADP	_	_	9	obl:arg	_	Gloss=with|IndIdiom=Yes
+10	dà	dà	ADP	_	_	9	fixed	_	Gloss=with|InIdiom=Yes
 11	r̃àhoːtòn	r̃àhoːtòː	NOUN	_	Definite=Def|Gender=Masc	9	obj	_	Gloss=report.Masc.Defː|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	Gloss=PUNCT
 

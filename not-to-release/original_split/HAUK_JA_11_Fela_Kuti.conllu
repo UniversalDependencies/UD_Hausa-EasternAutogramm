@@ -732,7 +732,7 @@
 3	wata	wani	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	4	det	_	Gloss=some.Fem.Spec
 4	waːƙàː	waːƙàː	PRON	_	Gender=Fem	2	obj	_	Gloss=song.Fem
 5	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	2	obl:arg	_	Gloss=gather.Part|Idiom=Yes
-6	dà	dà	ADP	_	_	5	obl:arg	_	Gloss=with|IndIdiom=Yes
+6	dà	dà	ADP	_	_	5	fixed	_	Gloss=with|InIdiom=Yes
 7	manufoːfin	manufaː	NOUN	_	Definite=Cons|Number=Plur	5	obj	_	Gloss=programme.Plur.Cons
 8	jàm'iyyàr̃	jàm'iyyàː	NOUN	_	Definite=Def|Gender=Fem	7	nmod	_	Gloss=party.Fem.Def
 9	taːsà	taːsà	PRON	_	Case=Gen|Gender=Fem|PronType=Prs	8	nmod:poss	_	CaseAf=Gen|GenderAf=Masc|Gloss=Gen.Fem-3MascGen|MSeg=taː-sà|PersonAf=3|Poss=Yes|SpaceAfter=No|wordform=taː
@@ -868,7 +868,7 @@
 11	nuːnà	nuːn-	VERB	_	_	10	obl	_	Gloss=show
 12	shàʼawàː	shàʼawàː	NOUN	_	Gender=Fem	11	obj	_	Gloss=interest.Fem
 13	gàme	gam-	VERB	_	ExtPos=ADV|VerbForm=Part	12	advmod	_	Gloss=gather.Part|Idiom=Yes
-14	dà	dà	ADP	_	_	13	obl:arg	_	Gloss=with|IndIdiom=Yes
+14	dà	dà	ADP	_	_	13	fixed	_	Gloss=with|InIdiom=Yes
 15	Fela	Fela	PROPN	_	_	13	obj	_	Gloss=Fela|SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	Gloss=PUNCT
 17	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	Gloss=3Masc.Nom
