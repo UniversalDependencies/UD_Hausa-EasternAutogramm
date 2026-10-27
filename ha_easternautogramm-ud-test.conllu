@@ -852,7 +852,7 @@
 1	gidân	gidaː	NOUN	_	Definite=Def|Gender=Masc	5	nsubj	_	Gloss=house.Masc.Def
 2	nàː	nàː	AUX	_	Aspect=Prog	5	aux	_	Copula=Yes|Gloss=Prog
 3	gab	gab	ADP	_	_	5	case	_	Gloss=close|Ideophon=Yes|Idiom=Yes
-4	dà	dà	ADP	_	_	5	compound	_	Gloss=with|InIdiom=Yes
+4	dà	dà	ADP	_	_	3	compound	_	Gloss=with|InIdiom=Yes
 5	bàːkin	bàːkiː	NOUN	_	Definite=Cons|Gender=Masc	0	root	_	Gloss=shore.Masc.Cons
 6	tèːku	tèːku	NOUN	_	Gender=Fem	5	compound	_	Gloss=sea.Fem
 7	kuma	kuma	CCONJ	_	_	12	cc	_	Gloss=also
