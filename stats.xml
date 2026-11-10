@@ -50,7 +50,7 @@
     <feat name="Deixis" value="ProxS" upos="ADV,DET,PRON">92</feat><!-- wannàn, waɗànnân, nân, nàn -->
     <feat name="Deixis" value="Remt" upos="ADV,DET">10</feat><!-- can, wàccan, wàncan -->
     <feat name="Evident" value="Nfh" upos="PART,SCONJ">5</feat><!-- wai -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN">14</feat><!-- à, danganèː, dàgà, duk -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN">15</feat><!-- à, danganèː, dàgà, duk, gab -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,VERB">30</feat><!-- gàme, ɗàuke, har̃, duk, dà, hàɗe, jìm, koː, nan, nànnàɗe -->
     <feat name="ExtPos" value="NOUN" upos="VERB">330</feat><!-- yîn, cêːwaː, rashìn, yîː, ganin, jîn, neːman, saːmùn, sôn, cîː -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,NOUN,SCONJ">17</feat><!-- koː, baːyân, danganèː, baːya, duk, dà, tun -->
@@ -100,7 +100,7 @@
     <dep name="cc">261</dep>
     <dep name="cc:preconj">2</dep>
     <dep name="ccomp">302</dep>
-    <dep name="compound">235</dep>
+    <dep name="compound">234</dep>
     <dep name="compound:prt">5</dep>
     <dep name="conj">258</dep>
     <dep name="cop">55</dep>
@@ -109,7 +109,7 @@
     <dep name="det">275</dep>
     <dep name="discourse">360</dep>
     <dep name="dislocated">78</dep>
-    <dep name="fixed">52</dep>
+    <dep name="fixed">53</dep>
     <dep name="flat">30</dep>
     <dep name="flat:foreign">11</dep>
     <dep name="flat:name">66</dep>
