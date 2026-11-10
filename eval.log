@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Hausa-EasternAutogramm:
-commit 5611865950f2019277c10a27cca1ad365243b573
+commit 62554b05edf60fa85050aee0a52ba4df4f10b12b
+Merge: 10aea33 83dcb07
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 09:28:44 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ha_easternautogramm'
 Language code (from CoNLL-U file name) = 'ha'
@@ -19,7 +19,7 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 5185 out of 9485 total words have one or more features.
+Features: 5186 out of 9485 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
